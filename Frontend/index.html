@@ -1,0 +1,71 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Randomiser Settings</title>
+    <script src="logic.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <!-- <header>
+      <table>
+        <tr>
+          <td class="dropdown">
+            <label>About</label>
+          </td>
+          <td class="dropdown">
+            <label>Install/Patch Files</label>
+          </td>
+        </tr>
+      </table>
+    </header> -->
+    <h1>Ocarina of Time Randomiser (in Minecraft)</h1>
+    <div class="line"></div>
+    <h2>Randomisation Options</h2>
+    <div id="logic">
+      <label>Logic: </label>
+      <select name="logic">
+        <option value="first">No Logic</option>
+      </select>
+    </div>
+    <div id="items">
+      <label>Major Items (Boomerang, Slingshot, etc.): </label>
+      <input type="checkbox" id="major" value="true"><br>
+      <label>Minor Items (Rupees, Hearts, etc): </label>
+      <input type="checkbox" id="minor" value="true"><br>
+      <label>Grotto Chests:</label>
+      <input type="checkbox" id="grotto" value="true"><br>
+      <label class="unused">Randomised Kokiri Sword: </label>
+      <input type="checkbox" id="sword"><br>
+      <label>Randomised Heart Containers: </label>
+      <input type="checkbox" id="heartC"><br>
+      <label>Randomised Compasses: </label>
+      <input type="checkbox" id="compass"><br>
+      <label>Randomised Ruto's Letter: </label>
+      <input type="checkbox" id="Ruto">
+    </div>
+    <div id="Kirite">
+      <h3>Kirite's Stupid Trash</h3>
+      <label>All of these are stupid garbage that Kirite and Lemon thought of while in vc and they suck :)</label><br><br>
+      <div>
+        <label>Moronic Checks (dont use this lmao its so bad)</label>
+        <label>Randomises unimportant containers, like the ones in grass or in the castle stealth section.</label>
+        <input type="checkbox" id="3head" value="true"><br>
+      </div>
+      <div>
+        <label>Literally not even a stupid check (idk anymore Kirite came up with this blame him, also literal hell)</label><br>
+        <label>This one randomises empty barrels and hoppers and stuff, its toxic.</label>
+        <input type="checkbox" id="2head" value="true"><br>
+      </div>
+      <div>
+        <label>Armor stands holding items</label><br>
+        <label>bad idea</label>
+        <input type="checkbox" id="1head" value="true"><br>
+      </div>
+      <div>
+        <label>Random items in signs</label><br>
+        <label>no</label>
+        <input type="checkbox" id="0head" value="true"><br>
+      </div>
+    </div>
+  </body>
+</html>

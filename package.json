@@ -1,0 +1,19 @@
+{
+  "name": "item-rando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoppleOpple/MC_OoT_Item_Rando.git"
+  },
+  "author": "BoppleOpple (Liam Hillery)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoppleOpple/MC_OoT_Item_Rando/issues"
+  },
+  "homepage": "https://github.com/BoppleOpple/MC_OoT_Item_Rando#readme"
+}

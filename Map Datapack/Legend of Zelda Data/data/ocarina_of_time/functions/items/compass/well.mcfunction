@@ -1,0 +1,16 @@
+summon minecraft:marker -15 53 1346 {Tags:["CompassChest","CompassChest1"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker 33 59 1363 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker -12 55 1356 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker -12 55 1363 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker -25 59 1349 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker 2 59 1349 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker -3 59 1343 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker -21 59 1344 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker -53 52 1341 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker -53 52 1334 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker -44 59 1312 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker 21 59 1330 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker 18 59 1334 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker 11 36 1358 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker 25 59 1363 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:marker 30 52 1363 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
