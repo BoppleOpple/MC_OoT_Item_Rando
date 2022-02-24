@@ -1,9 +1,11 @@
 <!doctype HTML>
 <html>
   <head>
-    <title>Randomiser Settings</title>
+    <title>Randomizer Settings</title>
     <script src="logic.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+    <title>JS Bin</title>
   </head>
   <body>
     <!-- <header>
@@ -27,24 +29,53 @@
         <option value="first">No Logic</option>
       </select>
     </div>
-    <div id="items">
-      <label>Major Items (Boomerang, Slingshot, etc.): </label>
-      <input type="checkbox" id="major" value="true"><br>
-      <label>Minor Items (Rupees, Hearts, etc): </label>
-      <input type="checkbox" id="minor" value="true"><br>
-      <label>Grotto Chests:</label>
-      <input type="checkbox" id="grotto" value="true"><br>
-      <label class="unused">Randomised Kokiri Sword: </label>
-      <input type="checkbox" id="sword"><br>
-      <label>Randomised Heart Containers: </label>
-      <input type="checkbox" id="heartC"><br>
-      <label>Randomised Compasses: </label>
-      <input type="checkbox" id="compass"><br>
-      <label>Randomised Ruto's Letter: </label>
-      <input type="checkbox" id="Ruto">
-    </div>
+	<div>
+		<dl>
+			<dt><label>Major Items </label><input type="checkbox" id="major" value="true"><br></dt>
+				<dd>Randomizes Boomerang, Slingshot, Bow, and other main dungeon items</dd>
+			<dt><label>Minor Items (Rupees, Hearts, etc): </label><input type="checkbox" id="minor" value="true"><br></dt>
+				<dd>Randomizes Hearts, Rupees, and other common items found in small chests</dd>
+			<dt><label>Grotto Chests:</label><input type="checkbox" id="grotto" value="true"><br></dt>
+				<dd>Makes it possible to find any item in the holes scattered around Hyrule</dd>
+			<dt><label class="unused">Randomised Kokiri Sword: </label><input type="checkbox" id="sword"><br></dt>
+				<dd>The Kokiri Sword can be found anywhere</dd>
+			<dt><label>Randomised Heart Containers: </label><input type="checkbox" id="heartC"><br></dt>
+				<dd>Heart Containers chests are included</dd>
+			<dt><label>Randomised Compasses: </label><input type="checkbox" id="compass"><br></dt>
+				<dd>Compass chests are now randomized</dd>
+			<dt><label>Randomised Ruto's Letter: </label><input type="checkbox" id="Ruto"></dt>
+				<dd>Ruto drops a random item at the bottom of the lake instead of a letter</dd>
+		</dl>
+	</div>
+	<br><label>Individual Locations:</label><br>
+    <div id="Location">
+		<nav>
+            <ul>
+                <li><label>Inside Mido's House: </label><input type="checkbox" id="midoHouseInterior"><br> </li>
+                <li><label>Inside Saria's House: </label><input type="checkbox" id="sariaHouseInterior"><br> </li>
+				<li><label>Ontop of Saria's House: </label><input type="checkbox" id="sariaHouseTop"><br> </li>
+                <li><label>Kokiri Shop Chest:</label><input type="checkbox" id="kokiriShopChest"><br></li>
+                <li><label>Kokiri Sword Chest: </label><input type="checkbox" id="kokiriSwordChest"><br></li>
+                <li><label>Kokiri Forest Grass Chests: </label><input type="checkbox" id="kokiriGrassChest"><br></li> 
+            </ul>
+		</nav>
+	</div>
+	<br><label>Skips:</label><br>
+    <div id="Skips">
+		<nav>
+            <ul>
+                <li><label>Forest Temple Vine OOB Key: </label><input type="checkbox" id="major"><br> </li>
+                <li><label>Fire Temple Chest OOB Key: </label><input type="checkbox" id="minor"><br> </li>
+                <li><label>Water Temple OOB Boss Key:</label><input type="checkbox" id="grotto"><br></li>
+                <li><label>Bomb Jumping: </label><input type="checkbox" id="heartC"><br></li>
+                <li><label>Spirit Temple OOB: </label><input type="checkbox" id="compass"><br></li> 
+                <li><label>Timewarping Items: </label><input type="checkbox" id="Ruto"></li> 
+            </ul>
+		</nav>
+	</div>
     <div id="Kirite">
-      <h3>Kirite's Stupid Trash</h3>
+	<details>
+	  <summary>Kirite's Stupid Settings</summary>
       <label>All of these are stupid garbage that Kirite and Lemon thought of while in vc and they suck :)</label><br><br>
       <div>
         <label>Moronic Checks (dont use this lmao its so bad)</label>
@@ -66,6 +97,7 @@
         <label>no</label>
         <input type="checkbox" id="0head" value="true"><br>
       </div>
+	</details>
     </div>
   </body>
 </html>

@@ -18,6 +18,14 @@ label {
   font-size: 14pt;
   font-family:'Times New Roman', Times, serif;
 }
+dd {
+  color: white;
+  font-size: 12pt;
+  font-family:'Times New Roman', Times, serif;
+}
+
+nav ul{height:100px; width:25%;}
+nav ul{overflow:hidden; overflow-y:scroll;}
 
 h1 {
   color: white;
@@ -28,6 +36,10 @@ h2 {
   font-family:'Times New Roman', Times, serif;
 }
 h3 {
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+}
+summary {
   color: white;
   font-family:'Times New Roman', Times, serif;
 }
