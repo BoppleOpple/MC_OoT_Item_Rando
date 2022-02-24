@@ -31,6 +31,7 @@ with open("blockentitiesraw.json", 'r') as rawBEData:
         if (blockEntity['y'] in range(min(area['p1'][1], area['p2'][1]), max(area['p1'][1], area['p2'][1]))):
           if (blockEntity['z'] in range(min(area['p1'][2], area['p2'][2]), max(area['p1'][2], area['p2'][2]))):
             blockEntity["region"] = area["region"]
+            blockEntity["tp"] = "/tp " + str(blockEntity['x']) + ' ' + str(blockEntity['y']) + ' ' + str(blockEntity['z'])
             usedBlockEntities.append(blockEntity)
             used = True
             break

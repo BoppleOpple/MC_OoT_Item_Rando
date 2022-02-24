@@ -4,2742 +4,3134 @@
   "z": 1363,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Lens of Truth\\\"}\"}, LensOfTruth1: 1b, LensOfTruth: 1b, Damage: 23}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp 30 52 1363"
 }, {
   "x": -53,
   "y": 52,
   "z": 1341,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -53 52 1341"
 }, {
   "x": -44,
   "y": 59,
   "z": 1312,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, HideFlags: 63, PickupItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Deku Nuts\\\"}\"}, NutPickup: 1b, Damage: 17}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -44 59 1312"
 }, {
   "x": 38,
   "y": 59,
   "z": 1363,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:yellow_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Huge Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp 38 59 1363"
 }, {
   "x": -14,
   "y": 42,
   "z": 1333,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -14 42 1333"
 }, {
   "x": -13,
   "y": 42,
   "z": 1330,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -13 42 1330"
 }, {
   "x": -11,
   "y": 42,
   "z": 1333,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -11 42 1333"
 }, {
   "x": -10,
   "y": 42,
   "z": 1337,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -10 42 1337"
 }, {
   "x": -8,
   "y": 42,
   "z": 1334,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -8 42 1334"
 }, {
   "x": -3,
   "y": 59,
   "z": 1343,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, HideFlags: 63, PickupItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Deku Nuts\\\"}\"}, NutPickup: 1b, Damage: 17}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -3 59 1343"
 }, {
   "x": -21,
   "y": 59,
   "z": 1344,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -21 59 1344"
 }, {
   "x": -25,
   "y": 59,
   "z": 1349,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Well)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -25 59 1349"
 }, {
   "x": -15,
   "y": 53,
   "z": 1346,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, BombchuPickup10: 1b, Unbreakable: 1b, HideFlags: 63, BombchuPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bombchu (10)\\\"}\"}, PickupItem: 1b, Damage: 0}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -15 53 1346"
 }, {
   "x": -12,
   "y": 55,
   "z": 1356,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 1b, tag: {Item: 1b, BombPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bomb\\\"}\"}, PickupItem: 1b}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -12 55 1356"
 }, {
   "x": 18,
   "y": 59,
   "z": 1334,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shield\", Count: 1b, tag: {Unbreakable: 1b, Damage: 2, display: {Name: \"\\\"Hylian Shield\\\"\"}}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp 18 59 1334"
 }, {
   "x": 21,
   "y": 59,
   "z": 1330,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shield\", Count: 1b, tag: {Wooden: 1b, Unbreakable: 1b, Damage: 1, display: {Name: \"\\\"Deku Shield\\\"\"}}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp 21 59 1330"
 }, {
   "x": -50,
   "y": 58,
   "z": 1311,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, HideFlags: 63, PickupItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Deku Nuts\\\"}\"}, NutPickup: 1b, Damage: 17}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp -50 58 1311"
 }, {
   "x": 2,
   "y": 59,
   "z": 1349,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Well)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp 2 59 1349"
 }, {
   "x": 11,
   "y": 36,
   "z": 1358,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 1b, tag: {Item: 1b, BombPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bomb\\\"}\"}, PickupItem: 1b}}], keepPacked: 0b}}",
-  "region": "BOTW"
+  "region": "BOTW",
+  "tp": "/tp 11 36 1358"
 }, {
   "x": 858,
   "y": 50,
   "z": 1415,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 858 50 1415"
 }, {
   "x": 858,
   "y": 50,
   "z": 1416,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 858 50 1416"
 }, {
   "x": 858,
   "y": 50,
   "z": 1411,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNkZGVkOTQzZDY5YjIxNGViMjNmMjQ3ZWZmMjQ5M2JiMjgxZjI5NTFkOWJjMTFjNzY4YjI4YzNhZDVkNDgifX19\"}]}, Id: [I;700688272, 1686914626, -1290363546, 1694982698]}, SecretMask: 1b, display: {Name: \"{\\\"text\\\":\\\"Curious Dog Guy\\\"}\"}}}], keepPacked: 0b, Lock: \"Small Key (Treasure Shop)\"}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 858 50 1411"
 }, {
   "x": 858,
   "y": 50,
   "z": 1412,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 858 50 1412"
 }, {
   "x": 858,
   "y": 51,
   "z": 1411,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 858 51 1411"
 }, {
   "x": 893,
   "y": 53,
   "z": 1386,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 893 53 1386"
 }, {
   "x": 872,
   "y": 74,
   "z": 1419,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 872 74 1419"
 }, {
   "x": 872,
   "y": 74,
   "z": 1421,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 872 74 1421"
 }, {
   "x": 872,
   "y": 74,
   "z": 1423,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 872 74 1423"
 }, {
   "x": 861,
   "y": 47,
   "z": 1456,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:purple_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Purple Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 861 47 1456"
 }, {
   "x": 895,
   "y": 40,
   "z": 1431,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 895 40 1431"
 }, {
   "x": 891,
   "y": 40,
   "z": 1431,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 891 40 1431"
 }, {
   "x": 892,
   "y": 40,
   "z": 1430,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 892 40 1430"
 }, {
   "x": 893,
   "y": 40,
   "z": 1431,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 893 40 1431"
 }, {
   "x": 872,
   "y": 74,
   "z": 1425,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 872 74 1425"
 }, {
   "x": 872,
   "y": 74,
   "z": 1427,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 872 74 1427"
 }, {
   "x": 862,
   "y": 51,
   "z": 1502,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 862 51 1502"
 }, {
   "x": 927,
   "y": 70,
   "z": 1421,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmM5Mzc3M2JkOTU4OTg4YTNjYjkyZGQ0YzRhZjViMzhhNjQ4M2I0ZDViNzc2NGIzZTNkMTYxZjQ0Yzk4ZiJ9fX0=\"}]}, Id: [I;-1328688008, 1867794353, -1991886815, 1668628911]}, SecretMask: 1b, display: {Name: \"{\\\"text\\\":\\\"Items Shop Owner\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 927 70 1421"
 }, {
   "x": 896,
   "y": 40,
   "z": 1431,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 896 40 1431"
 }, {
   "x": 899,
   "y": 40,
   "z": 1428,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 899 40 1428"
 }, {
   "x": 899,
   "y": 40,
   "z": 1430,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "Castle_Town/ToT/Sacred_Realm"
+  "region": "Castle_Town/ToT/Sacred_Realm",
+  "tp": "/tp 899 40 1430"
 }, {
   "x": 774,
   "y": 59,
   "z": 2707,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Child_Lake"
+  "region": "Child_Lake",
+  "tp": "/tp 774 59 2707"
 }, {
   "x": 775,
   "y": 58,
   "z": 2709,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Child_Lake"
+  "region": "Child_Lake",
+  "tp": "/tp 775 58 2709"
 }, {
   "x": 778,
   "y": 56,
   "z": 2713,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Child_Lake"
+  "region": "Child_Lake",
+  "tp": "/tp 778 56 2713"
 }, {
   "x": 738,
   "y": 44,
   "z": 2665,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "Child_Lake"
+  "region": "Child_Lake",
+  "tp": "/tp 738 44 2665"
 }, {
   "x": 743,
   "y": 44,
   "z": 2668,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "Child_Lake"
+  "region": "Child_Lake",
+  "tp": "/tp 743 44 2668"
 }, {
   "x": 740,
   "y": 44,
   "z": 2672,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "Child_Lake"
+  "region": "Child_Lake",
+  "tp": "/tp 740 44 2672"
 }, {
   "x": 747,
   "y": 56,
   "z": 2672,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Child_Lake"
+  "region": "Child_Lake",
+  "tp": "/tp 747 56 2672"
 }, {
   "x": 748,
   "y": 56,
   "z": 2672,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Child_Lake"
+  "region": "Child_Lake",
+  "tp": "/tp 748 56 2672"
 }, {
   "x": 740,
   "y": 93,
   "z": 2701,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Child_Lake"
+  "region": "Child_Lake",
+  "tp": "/tp 740 93 2701"
 }, {
   "x": 2717,
   "y": 44,
   "z": 1940,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DM"
+  "region": "DM",
+  "tp": "/tp 2717 44 1940"
 }, {
   "x": 2692,
   "y": 55,
   "z": 1958,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DM"
+  "region": "DM",
+  "tp": "/tp 2692 55 1958"
 }, {
   "x": 2729,
   "y": 19,
   "z": 1933,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 1b, tag: {Item: 1b, BombPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bomb\\\"}\"}, PickupItem: 1b}}], keepPacked: 0b}}",
-  "region": "DM"
+  "region": "DM",
+  "tp": "/tp 2729 19 1933"
 }, {
   "x": 2679,
   "y": 33,
   "z": 1911,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 0b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 2b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 3b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 6b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 8b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "DM"
+  "region": "DM",
+  "tp": "/tp 2679 33 1911"
 }, {
   "x": 2679,
   "y": 35,
   "z": 1911,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 0b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 2b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 3b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 6b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 8b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "DM"
+  "region": "DM",
+  "tp": "/tp 2679 35 1911"
 }, {
   "x": 2668,
   "y": 33,
   "z": 1924,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DM"
+  "region": "DM",
+  "tp": "/tp 2668 33 1924"
 }, {
   "x": 2668,
   "y": 37,
   "z": 1924,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DM"
+  "region": "DM",
+  "tp": "/tp 2668 37 1924"
 }, {
   "x": 2697,
   "y": 33,
   "z": 1910,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 0b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 2b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 3b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 6b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 8b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "DM"
+  "region": "DM",
+  "tp": "/tp 2697 33 1910"
 }, {
   "x": 2010,
   "y": 101,
   "z": 1442,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2010 101 1442"
 }, {
   "x": 2019,
   "y": 66,
   "z": 1468,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2019 66 1468"
 }, {
   "x": 2021,
   "y": 66,
   "z": 1465,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2021 66 1465"
 }, {
   "x": 2025,
   "y": 66,
   "z": 1468,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2025 66 1468"
 }, {
   "x": 2029,
   "y": 111,
   "z": 1464,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:purple_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Purple Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2029 111 1464"
 }, {
   "x": 2020,
   "y": 112,
   "z": 1469,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2020 112 1469"
 }, {
   "x": 2030,
   "y": 115,
   "z": 1469,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2030 115 1469"
 }, {
   "x": 2022,
   "y": 64,
   "z": 1476,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 0b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 2b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 3b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 6b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 8b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2022 64 1476"
 }, {
   "x": 2022,
   "y": 65,
   "z": 1476,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 0b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 2b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 3b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 6b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 8b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2022 65 1476"
 }, {
   "x": 2020,
   "y": 67,
   "z": 1436,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:yellow_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Huge Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DMT"
+  "region": "DMT",
+  "tp": "/tp 2020 67 1436"
 }, {
   "x": 1371,
   "y": 9,
   "z": -643,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1371 9 -643"
 }, {
   "x": 1374,
   "y": 47,
   "z": -634,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1374 47 -634"
 }, {
   "x": 1373,
   "y": 71,
   "z": -639,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1373 71 -639"
 }, {
   "x": 1360,
   "y": 74,
   "z": -627,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, HideFlags: 63, PickupItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Deku Nuts\\\"}\"}, NutPickup: 1b, Damage: 17}}], keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1360 74 -627"
 }, {
   "x": 1358,
   "y": 77,
   "z": -689,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Slingshot: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Fairy Slingshot\\\"}\"}, Damage: 9, MainHandItem: 1b}}], keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1358 77 -689"
 }, {
   "x": 1347,
   "y": 81,
   "z": -687,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1347 81 -687"
 }, {
   "x": 1427,
   "y": 4,
   "z": -659,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_apple\", Count: 1b, tag: {InventoryItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Container\\\"}\"}, HeartContainer: 1b}}], keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1427 4 -659"
 }, {
   "x": 1368,
   "y": 89,
   "z": -679,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1368 89 -679"
 }, {
   "x": 1368,
   "y": 9,
   "z": -657,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1368 9 -657"
 }, {
   "x": 1371,
   "y": 9,
   "z": -660,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1371 9 -660"
 }, {
   "x": 1360,
   "y": 89,
   "z": -668,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Deku_Tree"
+  "region": "Deku_Tree",
+  "tp": "/tp 1360 89 -668"
 }, {
   "x": 3123,
   "y": 160,
   "z": 1948,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:yellow_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Huge Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3123 160 1948"
 }, {
   "x": 3106,
   "y": 109,
   "z": 1952,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, ArrowPickup10: 1b, Unbreakable: 1b, ArrowPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (10)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3106 109 1952"
 }, {
   "x": 3014,
   "y": 39,
   "z": 1953,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_apple\", Count: 1b, tag: {InventoryItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Container\\\"}\"}, HeartContainer: 1b}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3014 39 1953"
 }, {
   "x": 3021,
   "y": 158,
   "z": 1965,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:iron_axe\", Count: 1b, tag: {Hammer: 1b, Unbreakable: 1, HideFlags: 63, display: {Name: \"\\\"Megaton Hammer\\\"\"}, Enchantments: [{lvl: 11, id: \"sharpness\"}], MainHandItem: 1b, Damage: 0, CanDestroy: [\"minecraft:grass\", \"minecraft:oak_sign\", \"minecraft:fern\", \"minecraft:flower_pot\", \"polished_granite\", \"dead_horn_coral_block\", \"heavy_weighted_pressure_plate\", \"minecraft:azalea_leaves\"], AttributeModifiers: [{UUIDMost: 1, UUIDLeast: 1, Amount: -2, Slot: \"mainhand\", AttributeName: \"generic.attackDamage\", Operation: 0, Name: \"generic.attackDamage\"}]}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3021 158 1965"
 }, {
   "x": 3121,
   "y": 109,
   "z": 1954,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3121 109 1954"
 }, {
   "x": 3121,
   "y": 109,
   "z": 1955,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3121 109 1955"
 }, {
   "x": 3121,
   "y": 109,
   "z": 1956,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3121 109 1956"
 }, {
   "x": 3157,
   "y": 60,
   "z": 1948,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3157 60 1948"
 }, {
   "x": 3157,
   "y": 60,
   "z": 1950,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3157 60 1950"
 }, {
   "x": 3159,
   "y": 60,
   "z": 1949,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3159 60 1949"
 }, {
   "x": 3130,
   "y": 109,
   "z": 1984,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Fire Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3130 109 1984"
 }, {
   "x": 3120,
   "y": 113,
   "z": 1986,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Fire Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3120 113 1986"
 }, {
   "x": 3035,
   "y": 109,
   "z": 1955,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Fire Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3035 109 1955"
 }, {
   "x": 3061,
   "y": 39,
   "z": 1915,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 10b, tag: {display: {Name: \"\\\"Bomb\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3061 39 1915"
 }, {
   "x": 3110,
   "y": 48,
   "z": 2008,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Fire Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3110 48 2008"
 }, {
   "x": 3136,
   "y": 89,
   "z": 1955,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Fire Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3136 89 1955"
 }, {
   "x": 3057,
   "y": 109,
   "z": 1920,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3057 109 1920"
 }, {
   "x": 3043,
   "y": 48,
   "z": 1979,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Fire Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3043 48 1979"
 }, {
   "x": 3093,
   "y": 112,
   "z": 1951,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3093 112 1951"
 }, {
   "x": 3098,
   "y": 112,
   "z": 1951,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3098 112 1951"
 }, {
   "x": 3108,
   "y": 109,
   "z": 1912,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Fire Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3108 109 1912"
 }, {
   "x": 3124,
   "y": 46,
   "z": 1912,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Fire Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3124 46 1912"
 }, {
   "x": 3110,
   "y": 109,
   "z": 1931,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Fire_Temple"
+  "region": "Fire_Temple",
+  "tp": "/tp 3110 109 1931"
 }, {
   "x": 891,
   "y": 70,
   "z": -1104,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Forest Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 891 70 -1104"
 }, {
   "x": 842,
   "y": 56,
   "z": -1171,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Forest Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 842 56 -1171"
 }, {
   "x": 948,
   "y": 59,
   "z": -1171,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, ArrowPickup10: 1b, Unbreakable: 1b, ArrowPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (10)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 948 59 -1171"
 }, {
   "x": 885,
   "y": 64,
   "z": -1206,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Forest Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 885 64 -1206"
 }, {
   "x": 864,
   "y": 61,
   "z": -1189,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 864 61 -1189"
 }, {
   "x": 864,
   "y": 61,
   "z": -1187,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 864 61 -1187"
 }, {
   "x": 862,
   "y": 73,
   "z": -1151,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, ArrowPickup: 1b, ArrowPickup30: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (30)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 862 73 -1151"
 }, {
   "x": 908,
   "y": 64,
   "z": -1206,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 908 64 -1206"
 }, {
   "x": 898,
   "y": 68,
   "z": -1211,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:bow\", Count: 1b, tag: {Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Fairy Bow\\\"}\"}, Damage: 0, FairyBow: 1b, ArrowBow: 1b}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 898 68 -1211"
 }, {
   "x": 900,
   "y": 21,
   "z": -1205,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_apple\", Count: 1b, tag: {InventoryItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Container\\\"}\"}, HeartContainer: 1b}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 900 21 -1205"
 }, {
   "x": 898,
   "y": 57,
   "z": -1202,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Forest Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 898 57 -1202"
 }, {
   "x": 868,
   "y": 41,
   "z": -1165,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Forest Temple)\\\"\"}}}], keepPacked: 0b, Lock: \"Intentional\"}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 868 41 -1165"
 }, {
   "x": 868,
   "y": 37,
   "z": -1165,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Forest Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 868 37 -1165"
 }, {
   "x": 870,
   "y": 37,
   "z": -1165,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 870 37 -1165"
 }, {
   "x": 898,
   "y": 66,
   "z": -1188,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 898 66 -1188"
 }, {
   "x": 884,
   "y": 22,
   "z": -1141,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, ArrowPickup10: 1b, Unbreakable: 1b, ArrowPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (10)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 884 22 -1141"
 }, {
   "x": 855,
   "y": 89,
   "z": -1228,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 855 89 -1228"
 }, {
   "x": 940,
   "y": 57,
   "z": -1182,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 940 57 -1182"
 }, {
   "x": 897,
   "y": 40,
   "z": -1166,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 897 40 -1166"
 }, {
   "x": 899,
   "y": 40,
   "z": -1166,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Forest_Temple"
+  "region": "Forest_Temple",
+  "tp": "/tp 899 40 -1166"
 }, {
   "x": 538,
   "y": 38,
   "z": 852,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Training Ground)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 538 38 852"
 }, {
   "x": 452,
   "y": 43,
   "z": 819,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 452 43 819"
 }, {
   "x": 495,
   "y": 37,
   "z": 913,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 495 37 913"
 }, {
   "x": 469,
   "y": 43,
   "z": 825,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:yellow_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Huge Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 469 43 825"
 }, {
   "x": 505,
   "y": 37,
   "z": 913,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, ArrowPickup10: 1b, Unbreakable: 1b, ArrowPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (10)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 505 37 913"
 }, {
   "x": 557,
   "y": 42,
   "z": 878,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Training Ground)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 557 42 878"
 }, {
   "x": 468,
   "y": 40,
   "z": 848,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, ArrowPickup: 1b, ArrowPickup30: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (30)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 468 40 848"
 }, {
   "x": 538,
   "y": 34,
   "z": 918,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Training Ground)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 538 34 918"
 }, {
   "x": 548,
   "y": 39,
   "z": 918,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 548 39 918"
 }, {
   "x": 538,
   "y": 39,
   "z": 928,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 538 39 928"
 }, {
   "x": 502,
   "y": 31,
   "z": 851,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Training Ground)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 502 31 851"
 }, {
   "x": 459,
   "y": 33,
   "z": 907,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Training Ground)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 459 33 907"
 }, {
   "x": 495,
   "y": 38,
   "z": 871,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, ArrowPickup: 1b, ArrowPickup30: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (30)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 495 38 871"
 }, {
   "x": 491,
   "y": 38,
   "z": 871,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 491 38 871"
 }, {
   "x": 510,
   "y": 38,
   "z": 879,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, ArrowPickup: 1b, ArrowPickup30: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (30)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 510 38 879"
 }, {
   "x": 486,
   "y": 38,
   "z": 883,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:purple_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Purple Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 486 38 883"
 }, {
   "x": 501,
   "y": 45,
   "z": 890,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Training Ground)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 501 45 890"
 }, {
   "x": 506,
   "y": 38,
   "z": 883,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, BombchuPickup10: 1b, Unbreakable: 1b, HideFlags: 63, BombchuPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bombchu (10)\\\"}\"}, PickupItem: 1b, Damage: 0}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 506 38 883"
 }, {
   "x": 500,
   "y": 38,
   "z": 881,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tipped_arrow\", Count: 1b, tag: {Potion: \"night_vision\", HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Ice Arrow\\\"}\"}, MainHandItem: 1b, IceArrow: 1b, ArrowBow: 1b}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 500 38 881"
 }, {
   "x": 500,
   "y": 45,
   "z": 881,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Training Ground)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 500 45 881"
 }, {
   "x": 538,
   "y": 33,
   "z": 844,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, ArrowPickup10: 1b, Unbreakable: 1b, ArrowPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (10)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 538 33 844"
 }, {
   "x": 457,
   "y": 46,
   "z": 813,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 457 46 813"
 }, {
   "x": 465,
   "y": 44,
   "z": 810,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Training Ground)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "GTG"
+  "region": "GTG",
+  "tp": "/tp 465 44 810"
 }, {
   "x": -543,
   "y": 28,
   "z": 2007,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, BombchuPickup10: 1b, Unbreakable: 1b, HideFlags: 63, BombchuPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bombchu (10)\\\"}\"}, PickupItem: 1b, Damage: 0}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -543 28 2007"
 }, {
   "x": -429,
   "y": 30,
   "z": 1879,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -429 30 1879"
 }, {
   "x": -429,
   "y": 30,
   "z": 1881,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -429 30 1881"
 }, {
   "x": -428,
   "y": 30,
   "z": 1885,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -428 30 1885"
 }, {
   "x": -506,
   "y": 30,
   "z": 2012,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -506 30 2012"
 }, {
   "x": -432,
   "y": 28,
   "z": 1896,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {GoldenGauntlets: 1b, Unbreakable: 1b, Damage: 43, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Golden Gauntlets\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -432 28 1896"
 }, {
   "x": -439,
   "y": 20,
   "z": 1967,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -439 20 1967"
 }, {
   "x": -550,
   "y": 18,
   "z": 1970,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Ganon's Castle)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -550 18 1970"
 }, {
   "x": -439,
   "y": 20,
   "z": 1981,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -439 20 1981"
 }, {
   "x": -461,
   "y": 27,
   "z": 2014,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -461 27 2014"
 }, {
   "x": -473,
   "y": 31,
   "z": 1927,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -473 31 1927"
 }, {
   "x": -531,
   "y": 20,
   "z": 1970,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -531 20 1970"
 }, {
   "x": -531,
   "y": 20,
   "z": 1978,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -531 20 1978"
 }, {
   "x": -539,
   "y": 20,
   "z": 1970,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -539 20 1970"
 }, {
   "x": -539,
   "y": 20,
   "z": 1978,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -539 20 1978"
 }, {
   "x": -535,
   "y": 17,
   "z": 1974,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Ganon's Castle)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -535 17 1974"
 }, {
   "x": -535,
   "y": 20,
   "z": 1980,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -535 20 1980"
 }, {
   "x": -535,
   "y": 20,
   "z": 1968,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, ArrowPickup: 1b, ArrowPickup30: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (30)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -535 20 1968"
 }, {
   "x": -556,
   "y": 32,
   "z": 2019,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, ArrowPickup10: 1b, Unbreakable: 1b, ArrowPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (10)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Ganon_Castle"
+  "region": "Ganon_Castle",
+  "tp": "/tp -556 32 2019"
 }, {
   "x": 958,
   "y": 38,
   "z": 2178,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Hyrule_Field"
+  "region": "Hyrule_Field",
+  "tp": "/tp 958 38 2178"
 }, {
   "x": 853,
   "y": 28,
   "z": 1945,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Hyrule_Field"
+  "region": "Hyrule_Field",
+  "tp": "/tp 853 28 1945"
 }, {
   "x": 979,
   "y": 75,
   "z": 1908,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/red_rupee\", keepPacked: 0b}}",
-  "region": "Hyrule_Field"
+  "region": "Hyrule_Field",
+  "tp": "/tp 979 75 1908"
 }, {
   "x": 933,
   "y": 43,
   "z": 1914,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Hyrule_Field"
+  "region": "Hyrule_Field",
+  "tp": "/tp 933 43 1914"
 }, {
   "x": 968,
   "y": 75,
   "z": 1908,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/2_red_rupee\", keepPacked: 0b}}",
-  "region": "Hyrule_Field"
+  "region": "Hyrule_Field",
+  "tp": "/tp 968 75 1908"
 }, {
   "x": 2078,
   "y": 25,
   "z": 2303,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Ice_Cavern"
+  "region": "Ice_Cavern",
+  "tp": "/tp 2078 25 2303"
 }, {
   "x": 2078,
   "y": 25,
   "z": 2318,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Ice_Cavern"
+  "region": "Ice_Cavern",
+  "tp": "/tp 2078 25 2318"
 }, {
   "x": 2047,
   "y": 25,
   "z": 2324,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Ice_Cavern"
+  "region": "Ice_Cavern",
+  "tp": "/tp 2047 25 2324"
 }, {
   "x": 2051,
   "y": 30,
   "z": 2241,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 1b, tag: {Item: 1b, BombPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bomb\\\"}\"}, PickupItem: 1b}}], keepPacked: 0b}}",
-  "region": "Ice_Cavern"
+  "region": "Ice_Cavern",
+  "tp": "/tp 2051 30 2241"
 }, {
   "x": 2075,
   "y": 29,
   "z": 2249,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Ice_Cavern"
+  "region": "Ice_Cavern",
+  "tp": "/tp 2075 29 2249"
 }, {
   "x": 2075,
   "y": 29,
   "z": 2251,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Ice_Cavern"
+  "region": "Ice_Cavern",
+  "tp": "/tp 2075 29 2251"
 }, {
   "x": 2076,
   "y": 29,
   "z": 2250,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Ice_Cavern"
+  "region": "Ice_Cavern",
+  "tp": "/tp 2076 29 2250"
 }, {
   "x": 2014,
   "y": 36,
   "z": 2289,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 1b, id: \"minecraft:red_dye\", Count: 1b, tag: {display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 3b, id: \"minecraft:red_dye\", Count: 1b, tag: {display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:red_dye\", Count: 1b, tag: {display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "Ice_Cavern"
+  "region": "Ice_Cavern",
+  "tp": "/tp 2014 36 2289"
 }, {
   "x": 2026,
   "y": 30,
   "z": 2326,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:iron_boots\", Count: 1b, tag: {IronBoots: 1b, Unbreakable: 1b, Damage: 0, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Iron Boots\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Ice_Cavern"
+  "region": "Ice_Cavern",
+  "tp": "/tp 2026 30 2326"
 }, {
   "x": 1737,
   "y": 45,
   "z": 1247,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Jabu_Jabu"
+  "region": "Jabu_Jabu",
+  "tp": "/tp 1737 45 1247"
 }, {
   "x": 1678,
   "y": 43,
   "z": 1333,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_apple\", Count: 1b, tag: {InventoryItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Container\\\"}\"}, HeartContainer: 1b}}], keepPacked: 0b}}",
-  "region": "Jabu_Jabu"
+  "region": "Jabu_Jabu",
+  "tp": "/tp 1678 43 1333"
 }, {
   "x": 1762,
   "y": 46,
   "z": 1275,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Jabu_Jabu"
+  "region": "Jabu_Jabu",
+  "tp": "/tp 1762 46 1275"
 }, {
   "x": 1737,
   "y": 46,
   "z": 1334,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 8, HideFlags: 63, Boomerang: 1b, display: {Name: \"{\\\"text\\\":\\\"Boomerang\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Jabu_Jabu"
+  "region": "Jabu_Jabu",
+  "tp": "/tp 1737 46 1334"
 }, {
   "x": 1518,
   "y": 78,
   "z": 1889,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 0b, id: \"minecraft:written_book\", Count: 16b, tag: {pages: [\"{\\\"text\\\":\\\"This is Link. He is under my orders to save Hyrule\\\"}\"], title: \"Zelda's Letter\", author: \"Rivero7462\"}}, {Slot: 1b, id: \"minecraft:written_book\", Count: 16b, tag: {pages: [\"{\\\"text\\\":\\\"This is Link. He is under my orders to save Hyrule\\\"}\"], title: \"Zelda's Letter\", author: \"Rivero7462\"}}, {Slot: 2b, id: \"minecraft:written_book\", Count: 15b, tag: {pages: [\"{\\\"text\\\":\\\"This is Link. He is under my orders to save Hyrule\\\"}\"], title: \"Zelda's Letter\", author: \"Rivero7462\"}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1518 78 1889"
 }, {
   "x": 1547,
   "y": 51,
   "z": 1891,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1547 51 1891"
 }, {
   "x": 1613,
   "y": 47,
   "z": 1950,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 1b, tag: {Item: 1b, BombPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bomb\\\"}\"}, PickupItem: 1b}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1613 47 1950"
 }, {
   "x": 1608,
   "y": 79,
   "z": 1942,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1608 79 1942"
 }, {
   "x": 1509,
   "y": 88,
   "z": 1904,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGIzZDQ5OTliM2ZiNmI4ZGRjZWU4MTc3YzVlOWRmMTcxZGFmM2Y0Mzk3ZTMyNWE4ZDM3ZTljOTQ4MjAxNWNjIn19fQ==\"}]}, Id: [I;-1663357672, -2086056546, -1378269074, 578021224]}, SecretMask: 1b, display: {Name: \"{\\\"text\\\":\\\"Mutoh\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1509 88 1904"
 }, {
   "x": 1590,
   "y": 34,
   "z": 1955,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1590 34 1955"
 }, {
   "x": 1598,
   "y": 34,
   "z": 1992,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1598 34 1992"
 }, {
   "x": 1534,
   "y": 60,
   "z": 1956,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1534 60 1956"
 }, {
   "x": 1562,
   "y": 48,
   "z": 1925,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1562 48 1925"
 }, {
   "x": 1569,
   "y": 52,
   "z": 1921,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1569 52 1921"
 }, {
   "x": 1501,
   "y": 35,
   "z": 1917,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:yellow_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Huge Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1501 35 1917"
 }, {
   "x": 1638,
   "y": 42,
   "z": 2004,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 11, HideFlags: 63, Hookshot: 1b, display: {Name: \"{\\\"text\\\":\\\"Hookshot\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kakariko/Graveyard"
+  "region": "Kakariko/Graveyard",
+  "tp": "/tp 1638 42 2004"
 }, {
   "x": -590,
   "y": 65,
   "z": -642,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -590 65 -642"
 }, {
   "x": -578,
   "y": 64,
   "z": -641,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/2_green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -578 64 -641"
 }, {
   "x": -549,
   "y": 67,
   "z": -684,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -549 67 -684"
 }, {
   "x": -548,
   "y": 67,
   "z": -684,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -548 67 -684"
 }, {
   "x": -547,
   "y": 67,
   "z": -686,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -547 67 -686"
 }, {
   "x": -547,
   "y": 67,
   "z": -684,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -547 67 -684"
 }, {
   "x": -547,
   "y": 67,
   "z": -682,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -547 67 -682"
 }, {
   "x": -546,
   "y": 67,
   "z": -685,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -546 67 -685"
 }, {
   "x": -546,
   "y": 67,
   "z": -683,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -546 67 -683"
 }, {
   "x": -545,
   "y": 67,
   "z": -684,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -545 67 -684"
 }, {
   "x": -578,
   "y": 74,
   "z": -768,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -578 74 -768"
 }, {
   "x": -588,
   "y": 55,
   "z": -638,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -588 55 -638"
 }, {
   "x": -588,
   "y": 55,
   "z": -635,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -588 55 -635"
 }, {
   "x": -592,
   "y": 55,
   "z": -638,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -592 55 -638"
 }, {
   "x": -592,
   "y": 55,
   "z": -635,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -592 55 -635"
 }, {
   "x": -563,
   "y": 69,
   "z": -663,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -563 69 -663"
 }, {
   "x": -576,
   "y": 41,
   "z": -658,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -576 41 -658"
 }, {
   "x": -589,
   "y": 64,
   "z": -618,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/2_green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -589 64 -618"
 }, {
   "x": -571,
   "y": 69,
   "z": -655,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -571 69 -655"
 }, {
   "x": -561,
   "y": 69,
   "z": -654,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -561 69 -654"
 }, {
   "x": -458,
   "y": 61,
   "z": -653,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIyOGVlZmU3YWVjZjFkYWUzM2E5Y2I2ZDcyYWYxYzRjZDI2YmQzNjM1N2QzMjkyZGJlOWNlOTIzNjhhOWM5NyJ9fX0=\"}]}, Id: [I;-477273199, -1722397882, -1455817788, 2100470143]}, SecretMask: 1b, display: {Name: \"{\\\"text\\\":\\\"Saria\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -458 61 -653"
 }, {
   "x": -596,
   "y": 39,
   "z": -728,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:purple_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Purple Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -596 39 -728"
 }, {
   "x": -553,
   "y": 52,
   "z": -643,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -553 52 -643"
 }, {
   "x": -545,
   "y": 69,
   "z": -643,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 3b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 11b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 15b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 21b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 23b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -545 69 -643"
 }, {
   "x": -580,
   "y": 74,
   "z": -734,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -580 74 -734"
 }, {
   "x": -567,
   "y": 74,
   "z": -766,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -567 74 -766"
 }, {
   "x": -596,
   "y": 69,
   "z": -586,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -596 69 -586"
 }, {
   "x": -590,
   "y": 69,
   "z": -580,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -590 69 -580"
 }, {
   "x": -588,
   "y": 68,
   "z": -583,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/2_green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -588 68 -583"
 }, {
   "x": -561,
   "y": 53,
   "z": -613,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -561 53 -613"
 }, {
   "x": -561,
   "y": 53,
   "z": -609,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -561 53 -609"
 }, {
   "x": -557,
   "y": 53,
   "z": -613,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -557 53 -613"
 }, {
   "x": -557,
   "y": 53,
   "z": -609,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -557 53 -609"
 }, {
   "x": -559,
   "y": 70,
   "z": -612,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -559 70 -612"
 }, {
   "x": -560,
   "y": 70,
   "z": -609,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -560 70 -609"
 }, {
   "x": -558,
   "y": 70,
   "z": -609,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -558 70 -609"
 }, {
   "x": -575,
   "y": 74,
   "z": -747,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -575 74 -747"
 }, {
   "x": -568,
   "y": 74,
   "z": -752,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -568 74 -752"
 }, {
   "x": -581,
   "y": 70,
   "z": -576,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:iron_sword\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, HideFlags: 63, CanDestroy: [\"minecraft:grass\", \"minecraft:oak_sign\", \"minecraft:fern\", \"minecraft:flower_pot\", \"minecraft:azalea_leaves\"], display: {Name: \"\\\"Kokiri Sword\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -581 70 -576"
 }, {
   "x": -556,
   "y": 74,
   "z": -719,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -556 74 -719"
 }, {
   "x": -570,
   "y": 47,
   "z": -689,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Kokiri_Forest/Lost_Woods"
+  "region": "Kokiri_Forest/Lost_Woods",
+  "tp": "/tp -570 47 -689"
 }, {
   "x": 1393,
   "y": 57,
   "z": 446,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA0MDU4ZDQ1NGU1OGMzMGNhZDU5NzIxZDNkOWRjODI5OWQ5OTNkMGNkYjE4N2RkYmJmNDQyZmE3NGQyYjQ2MSJ9fX0=\"}]}, Id: [I;1626903851, -1610135650, -1624482959, 1407199076]}, SecretMask: 1b, display: {Name: \"\\\"Phantom Ganon\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Outside_Ganon_Castle"
+  "region": "Outside_Ganon_Castle",
+  "tp": "/tp 1393 57 446"
 }, {
   "x": 1579,
   "y": 61,
   "z": 930,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1579 61 930"
 }, {
   "x": 1795,
   "y": 59,
   "z": 936,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, ArrowPickup10: 1b, Unbreakable: 1b, ArrowPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (10)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1795 59 936"
 }, {
   "x": 1593,
   "y": 87,
   "z": 925,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_boots\", Count: 1b, tag: {Unbreakable: 1b, Damage: 0, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Hover Boots\\\"}\"}, HoverBoots: 1b}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1593 87 925"
 }, {
   "x": 1542,
   "y": 58,
   "z": 879,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1542 58 879"
 }, {
   "x": 1795,
   "y": 71,
   "z": 970,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1795 71 970"
 }, {
   "x": 1796,
   "y": 71,
   "z": 971,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1796 71 971"
 }, {
   "x": 1657,
   "y": 62,
   "z": 1035,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1657 62 1035"
 }, {
   "x": 1803,
   "y": 63,
   "z": 982,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1803 63 982"
 }, {
   "x": 1650,
   "y": 86,
   "z": 910,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, BombchuPickup10: 1b, Unbreakable: 1b, HideFlags: 63, BombchuPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bombchu (10)\\\"}\"}, PickupItem: 1b, Damage: 0}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1650 86 910"
 }, {
   "x": 1764,
   "y": 66,
   "z": 903,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1764 66 903"
 }, {
   "x": 1764,
   "y": 66,
   "z": 907,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1764 66 907"
 }, {
   "x": 1766,
   "y": 77,
   "z": 922,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Shadow Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1766 77 922"
 }, {
   "x": 1726,
   "y": 53,
   "z": 964,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1726 53 964"
 }, {
   "x": 1684,
   "y": 62,
   "z": 1019,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Shadow Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1684 62 1019"
 }, {
   "x": 1550,
   "y": 54,
   "z": 939,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Shadow Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1550 54 939"
 }, {
   "x": 1666,
   "y": 58,
   "z": 1024,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, ArrowPickup10: 1b, Unbreakable: 1b, ArrowPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (10)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1666 58 1024"
 }, {
   "x": 1808,
   "y": 63,
   "z": 986,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, ArrowPickup: 1b, ArrowPickup30: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (30)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1808 63 986"
 }, {
   "x": 1571,
   "y": 70,
   "z": 921,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1571 70 921"
 }, {
   "x": 1571,
   "y": 70,
   "z": 923,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1571 70 923"
 }, {
   "x": 1749,
   "y": 74,
   "z": 958,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1749 74 958"
 }, {
   "x": 1785,
   "y": 59,
   "z": 918,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Shadow Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1785 59 918"
 }, {
   "x": 1776,
   "y": 54,
   "z": 915,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1776 54 915"
 }, {
   "x": 1654,
   "y": 14,
   "z": 962,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_apple\", Count: 1b, tag: {InventoryItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Container\\\"}\"}, HeartContainer: 1b}}], keepPacked: 0b}}",
-  "region": "Shadow_Temple"
+  "region": "Shadow_Temple",
+  "tp": "/tp 1654 14 962"
 }, {
   "x": -83,
   "y": 87,
   "z": 837,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shield\", Count: 1b, tag: {Wooden: 1b, Unbreakable: 1b, Damage: 1, display: {Name: \"\\\"Deku Shield\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -83 87 837"
 }, {
   "x": -10,
   "y": 134,
   "z": 888,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -10 134 888"
 }, {
   "x": -8,
   "y": 134,
   "z": 888,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -8 134 888"
 }, {
   "x": 25,
   "y": 111,
   "z": 860,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Spirit Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp 25 111 860"
 }, {
   "x": -34,
   "y": 116,
   "z": 769,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_apple\", Count: 1b, tag: {InventoryItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Container\\\"}\"}, HeartContainer: 1b}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -34 116 769"
 }, {
   "x": 11,
   "y": 96,
   "z": 855,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp 11 96 855"
 }, {
   "x": 11,
   "y": 96,
   "z": 860,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp 11 96 860"
 }, {
   "x": -50,
   "y": 96,
   "z": 847,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -50 96 847"
 }, {
   "x": -58,
   "y": 96,
   "z": 843,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, BombchuPickup10: 1b, Unbreakable: 1b, HideFlags: 63, BombchuPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bombchu (10)\\\"}\"}, PickupItem: 1b, Damage: 0}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -58 96 843"
 }, {
   "x": 18,
   "y": 114,
   "z": 903,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp 18 114 903"
 }, {
   "x": -41,
   "y": 83,
   "z": 842,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Spirit Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -41 83 842"
 }, {
   "x": -38,
   "y": 93,
   "z": 846,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Spirit Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -38 93 846"
 }, {
   "x": -27,
   "y": 93,
   "z": 846,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Item: 1b, BombchuPickup10: 1b, Unbreakable: 1b, HideFlags: 63, BombchuPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bombchu (10)\\\"}\"}, PickupItem: 1b, Damage: 0}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -27 93 846"
 }, {
   "x": -19,
   "y": 87,
   "z": 836,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -19 87 836"
 }, {
   "x": -9,
   "y": 106,
   "z": 844,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -9 106 844"
 }, {
   "x": -65,
   "y": 107,
   "z": 893,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Spirit Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -65 107 893"
 }, {
   "x": -45,
   "y": 132,
   "z": 854,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 1b, tag: {Item: 1b, BombPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bomb\\\"}\"}, PickupItem: 1b}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp -45 132 854"
 }, {
   "x": 32,
   "y": 114,
   "z": 903,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp 32 114 903"
 }, {
   "x": 19,
   "y": 82,
   "z": 827,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Spirit Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Spirit_Temple"
+  "region": "Spirit_Temple",
+  "tp": "/tp 19 82 827"
 }, {
   "x": 1042,
   "y": 48,
   "z": 3002,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Water Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1042 48 3002"
 }, {
   "x": 1063,
   "y": 51,
   "z": 3089,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_apple\", Count: 1b, tag: {InventoryItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Container\\\"}\"}, HeartContainer: 1b}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1063 51 3089"
 }, {
   "x": 1041,
   "y": 30,
   "z": 3014,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Water Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1041 30 3014"
 }, {
   "x": 1016,
   "y": 36,
   "z": 3025,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Water Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1016 36 3025"
 }, {
   "x": 1016,
   "y": 48,
   "z": 3025,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Water Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1016 48 3025"
 }, {
   "x": 1016,
   "y": 57,
   "z": 3025,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Item: 1b, Unbreakable: 1b, ArrowPickup5: 1b, ArrowPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Arrows (5)\\\"}\"}, PickupItem: 1b, Damage: 20}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1016 57 3025"
 }, {
   "x": 1114,
   "y": 37,
   "z": 3075,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Water Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1114 37 3075"
 }, {
   "x": 1022,
   "y": 56,
   "z": 3047,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1022 56 3047"
 }, {
   "x": 1097,
   "y": 44,
   "z": 3094,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:lever\", Count: 1b, tag: {display: {Name: \"\\\"Small Key (Water Temple)\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1097 44 3094"
 }, {
   "x": 1110,
   "y": 40,
   "z": 3099,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1110 40 3099"
 }, {
   "x": 1119,
   "y": 40,
   "z": 3107,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1119 40 3107"
 }, {
   "x": 1122,
   "y": 40,
   "z": 3094,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1122 40 3094"
 }, {
   "x": 1128,
   "y": 41,
   "z": 3090,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1128 41 3090"
 }, {
   "x": 1134,
   "y": 66,
   "z": 3125,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, HideFlags: 63, Longshot: 1b, Hookshot: 1b, display: {Name: \"{\\\"text\\\":\\\"Longshot\\\"}\"}, Damage: 12}}], keepPacked: 0b}}",
-  "region": "Water_Temple"
+  "region": "Water_Temple",
+  "tp": "/tp 1134 66 3125"
 }, {
   "x": 1398,
   "y": 6,
   "z": 1309,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Zora_Fountain_Child"
+  "region": "Zora_Fountain_Child",
+  "tp": "/tp 1398 6 1309"
 }, {
   "x": 1425,
   "y": 11,
   "z": 1288,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Zora_Fountain_Child"
+  "region": "Zora_Fountain_Child",
+  "tp": "/tp 1425 11 1288"
 }, {
   "x": 1477,
   "y": 73,
   "z": 2331,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0YzkwODAxMDBjYzY0ZWU3YTQ3MjFkYmYyMjMyMGViNTA4YzIxZjNlNjJhOTcwZTUxMTRkMzRkYzMyYjJmNyJ9fX0=\"}]}, Id: [I;-109109453, -1193063545, -1229565814, -1086908713]}, display: {Name: \"\\\"Bean Man\\\"\"}}}], keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1477 73 2331"
 }, {
   "x": 1489,
   "y": 60,
   "z": 2331,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1489 60 2331"
 }, {
   "x": 1489,
   "y": 60,
   "z": 2335,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1489 60 2335"
 }, {
   "x": 1489,
   "y": 65,
   "z": 2324,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1489 65 2324"
 }, {
   "x": 1500,
   "y": 49,
   "z": 2328,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1500 49 2328"
 }, {
   "x": 1489,
   "y": 60,
   "z": 2340,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1489 60 2340"
 }, {
   "x": 1489,
   "y": 60,
   "z": 2345,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1489 60 2345"
 }, {
   "x": 1531,
   "y": 79,
   "z": 2293,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1531 79 2293"
 }, {
   "x": 1520,
   "y": 69,
   "z": 2295,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1520 69 2295"
 }, {
   "x": 1520,
   "y": 69,
   "z": 2300,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1520 69 2300"
 }, {
   "x": 1519,
   "y": 65,
   "z": 2306,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1519 65 2306"
 }, {
   "x": 1519,
   "y": 65,
   "z": 2311,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1519 65 2311"
 }, {
   "x": 1519,
   "y": 65,
   "z": 2315,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/red_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1519 65 2315"
 }, {
   "x": 1538,
   "y": 68,
   "z": 2319,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1538 68 2319"
 }, {
   "x": 1540,
   "y": 68,
   "z": 2317,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1540 68 2317"
 }, {
   "x": 1542,
   "y": 68,
   "z": 2316,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1542 68 2316"
 }, {
   "x": 1544,
   "y": 68,
   "z": 2314,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1544 68 2314"
 }, {
   "x": 1578,
   "y": 75,
   "z": 2287,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1578 75 2287"
 }, {
   "x": 1580,
   "y": 75,
   "z": 2284,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1580 75 2284"
 }, {
   "x": 1523,
   "y": 68,
   "z": 2320,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1523 68 2320"
 }, {
   "x": 1527,
   "y": 68,
   "z": 2320,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1527 68 2320"
 }, {
   "x": 1531,
   "y": 68,
   "z": 2320,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1531 68 2320"
 }, {
   "x": 1536,
   "y": 68,
   "z": 2320,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1536 68 2320"
 }, {
   "x": 1584,
   "y": 75,
   "z": 2284,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1584 75 2284"
 }, {
   "x": 1587,
   "y": 75,
   "z": 2284,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1587 75 2284"
 }, {
   "x": 1593,
   "y": 87,
   "z": 2281,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1593 87 2281"
 }, {
   "x": 1492,
   "y": 65,
   "z": 2319,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1492 65 2319"
 }, {
   "x": 1499,
   "y": 65,
   "z": 2319,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "Zora_River"
+  "region": "Zora_River",
+  "tp": "/tp 1499 65 2319"
 }, {
   "x": 1359,
   "y": 44,
   "z": 2665,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "adult_lake"
+  "region": "adult_lake",
+  "tp": "/tp 1359 44 2665"
 }, {
   "x": 1364,
   "y": 44,
   "z": 2668,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "adult_lake"
+  "region": "adult_lake",
+  "tp": "/tp 1364 44 2668"
 }, {
   "x": 1361,
   "y": 44,
   "z": 2672,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "adult_lake"
+  "region": "adult_lake",
+  "tp": "/tp 1361 44 2672"
 }, {
   "x": 1368,
   "y": 56,
   "z": 2672,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "adult_lake"
+  "region": "adult_lake",
+  "tp": "/tp 1368 56 2672"
 }, {
   "x": 1369,
   "y": 56,
   "z": 2672,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "adult_lake"
+  "region": "adult_lake",
+  "tp": "/tp 1369 56 2672"
 }, {
   "x": 1361,
   "y": 93,
   "z": 2701,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "adult_lake"
+  "region": "adult_lake",
+  "tp": "/tp 1361 93 2701"
 }, {
   "x": 904,
   "y": 81,
   "z": 955,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RkNmIwMzdjZThkN2UxYWMyMmI1ODMzYmMyNmU0MzNjNDFjODJlNmFmNTEwMzZjYjZiMTRkMzRkY2YwNmMifX19\"}]}, Id: [I;661865529, -2011935280, -2014285298, 87482361]}, SecretMask: 1b, display: {Name: \"{\\\"text\\\":\\\"Soldier\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 904 81 955"
 }, {
   "x": 886,
   "y": 83,
   "z": 898,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 886 83 898"
 }, {
   "x": 891,
   "y": 83,
   "z": 898,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 891 83 898"
 }, {
   "x": 917,
   "y": 83,
   "z": 874,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 917 83 874"
 }, {
   "x": 918,
   "y": 83,
   "z": 884,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 918 83 884"
 }, {
   "x": 918,
   "y": 83,
   "z": 888,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 918 83 888"
 }, {
   "x": 918,
   "y": 83,
   "z": 894,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 918 83 894"
 }, {
   "x": 897,
   "y": 83,
   "z": 898,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 897 83 898"
 }, {
   "x": 902,
   "y": 83,
   "z": 898,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 902 83 898"
 }, {
   "x": 908,
   "y": 83,
   "z": 898,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 908 83 898"
 }, {
   "x": 914,
   "y": 83,
   "z": 898,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
-  "region": "castle-field"
+  "region": "castle-field",
+  "tp": "/tp 914 83 898"
 }, {
   "x": 398,
   "y": 77,
   "z": 384,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Unbreakable: 1b, Damage: 38, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Silver Gauntlets\\\"}\"}, SilverGauntlets: 1b}}], keepPacked: 0b}}",
-  "region": "desert_colossus"
+  "region": "desert_colossus",
+  "tp": "/tp 398 77 384"
 }, {
   "x": 433,
   "y": 81,
   "z": 358,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVkYzI4ZWY2NWMwZGQ1YjFhYzEwMTZlZTQ3NTgwZDRmZWRjNTU2OGFlMjNkMWZhOGIwMTQzMDJmMWJhOWFlNSJ9fX0=\"}]}, Id: [I;520982161, -1933619678, -1249163423, -1521309110]}, SecretMask: 1b, display: {Name: \"{\\\"text\\\":\\\"Nabooru\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "desert_colossus"
+  "region": "desert_colossus",
+  "tp": "/tp 433 81 358"
 }, {
   "x": 421,
   "y": 77,
   "z": 382,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shield\", Count: 1b, tag: {Unbreakable: 1b, Damage: 3, MirrorShield: 1b, display: {Name: \"\\\"Mirror Shield\\\"\"}}}], keepPacked: 0b}}",
-  "region": "desert_colossus"
+  "region": "desert_colossus",
+  "tp": "/tp 421 77 382"
 }, {
   "x": 408,
   "y": 67,
   "z": 412,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "desert_colossus"
+  "region": "desert_colossus",
+  "tp": "/tp 408 67 412"
 }, {
   "x": 2236,
   "y": 44,
   "z": 1955,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2236 44 1955"
 }, {
   "x": 2230,
   "y": 49,
   "z": 1958,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2230 49 1958"
 }, {
   "x": 2170,
   "y": 50,
   "z": 1927,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shield\", Count: 1b, tag: {Wooden: 1b, Unbreakable: 1b, Damage: 1, display: {Name: \"\\\"Deku Shield\\\"\"}}}], keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2170 50 1927"
 }, {
   "x": 2287,
   "y": 37,
   "z": 1928,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2287 37 1928"
 }, {
   "x": 2170,
   "y": 35,
   "z": 1941,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:shears\", Count: 1b, tag: {Heart: 1b, Item: 1b, Unbreakable: 1b, HideFlags: 63, display: {Name: \"{\\\"text\\\":\\\"Heart\\\"}\"}, PickupItem: 1b, Damage: 11}}], keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2170 35 1941"
 }, {
   "x": 2146,
   "y": 35,
   "z": 1958,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:carrot_on_a_stick\", Count: 1b, tag: {Unbreakable: 1b, Damage: 21, HideFlags: 63, Compass: 1b, display: {Name: \"{\\\"text\\\":\\\"Compass\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2146 35 1958"
 }, {
   "x": 2268,
   "y": 50,
   "z": 1915,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2268 50 1915"
 }, {
   "x": 2270,
   "y": 50,
   "z": 1913,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/heart\", keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2270 50 1913"
 }, {
   "x": 2226,
   "y": 52,
   "z": 1935,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 20b, tag: {display: {Name: \"\\\"Bomb\\\"\"}}}], keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2226 52 1935"
 }, {
   "x": 2165,
   "y": 4,
   "z": 1897,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_apple\", Count: 1b, tag: {InventoryItem: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Container\\\"}\"}, HeartContainer: 1b}}], keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2165 4 1897"
 }, {
   "x": 2167,
   "y": 36,
   "z": 1897,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 1b, tag: {Item: 1b, BombPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bomb\\\"}\"}, PickupItem: 1b}}], keepPacked: 0b}}",
-  "region": "dodongo_cavern"
+  "region": "dodongo_cavern",
+  "tp": "/tp 2167 36 1897"
 }, {
   "x": 376,
   "y": 73,
   "z": 2684,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk5MWY2NzM1NmIxNmE3ZGY3OTk5NWJkMjQ5OWY3ZDRkNmJiNTk2NGRjMGRiNGFmODE5ODczNDA1OTk4NzU4NyJ9fX0=\"}]}, Id: [I;1968250747, 873679941, -1873839302, 273597716]}, SecretMask: 1b, display: {Name: \"\\\"Fisherman\\\"\"}}}], keepPacked: 0b}}",
-  "region": "fishing_pond"
+  "region": "fishing_pond",
+  "tp": "/tp 376 73 2684"
 }, {
   "x": -96,
   "y": 92,
   "z": 1974,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "gerudo_training_grounds"
+  "region": "gerudo_training_grounds",
+  "tp": "/tp -96 92 1974"
 }, {
   "x": 333,
   "y": 36,
   "z": 2041,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 333 36 2041"
 }, {
   "x": 333,
   "y": 36,
   "z": 2044,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 333 36 2044"
 }, {
   "x": 333,
   "y": 36,
   "z": 2046,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 333 36 2046"
 }, {
   "x": 333,
   "y": 37,
   "z": 2041,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 333 37 2041"
 }, {
   "x": 333,
   "y": 37,
   "z": 2044,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 333 37 2044"
 }, {
   "x": 333,
   "y": 37,
   "z": 2046,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 333 37 2046"
 }, {
   "x": 335,
   "y": 36,
   "z": 2043,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 335 36 2043"
 }, {
   "x": 335,
   "y": 37,
   "z": 2043,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 335 37 2043"
 }, {
   "x": 378,
   "y": 45,
   "z": 1982,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 378 45 1982"
 }, {
   "x": 336,
   "y": 36,
   "z": 2041,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 336 36 2041"
 }, {
   "x": 336,
   "y": 36,
   "z": 2045,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 336 36 2045"
 }, {
   "x": 336,
   "y": 37,
   "z": 2041,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 336 37 2041"
 }, {
   "x": 336,
   "y": 37,
   "z": 2045,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 336 37 2045"
 }, {
   "x": 337,
   "y": 36,
   "z": 2040,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 337 36 2040"
 }, {
   "x": 337,
   "y": 36,
   "z": 2046,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 337 36 2046"
 }, {
   "x": 337,
   "y": 37,
   "z": 2040,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 337 37 2040"
 }, {
   "x": 337,
   "y": 37,
   "z": 2046,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 4b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 337 37 2046"
 }, {
   "x": 342,
   "y": 76,
   "z": 2065,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:purple_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Purple Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 342 76 2065"
 }, {
   "x": 367,
   "y": 63,
   "z": 2071,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "gerudo_valley"
+  "region": "gerudo_valley",
+  "tp": "/tp 367 63 2071"
 }, {
   "x": 2146,
   "y": 74,
   "z": 1793,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:purple_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Purple Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "goron_city"
+  "region": "goron_city",
+  "tp": "/tp 2146 74 1793"
 }, {
   "x": 2154,
   "y": 69,
   "z": 1860,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNiYTk3NDcwNTg4NmMwYzFhY2FhNzk0MTY5NmE0ZTRiMjI0MDk1NGIzZWI3Nzk2OGVmNmJmZDdiOWFiZWI0NCJ9fX0=\"}]}, Id: [I;1088939652, 90785587, -1485951281, -1895189175]}, SecretMask: 1b, display: {Name: \"{\\\"text\\\":\\\"Darunia\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "goron_city"
+  "region": "goron_city",
+  "tp": "/tp 2154 69 1860"
 }, {
   "x": 2138,
   "y": 74,
   "z": 1792,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:yellow_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Huge Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "goron_city"
+  "region": "goron_city",
+  "tp": "/tp 2138 74 1792"
 }, {
   "x": 2142,
   "y": 74,
   "z": 1793,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:purple_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Purple Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "goron_city"
+  "region": "goron_city",
+  "tp": "/tp 2142 74 1793"
 }, {
   "x": 2003,
   "y": 38,
   "z": 244,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:purple_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Purple Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "haunted_wasteland"
+  "region": "haunted_wasteland",
+  "tp": "/tp 2003 38 244"
 }, {
   "x": 1996,
   "y": 47,
   "z": 168,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMjljN2RjZTNhMjg4YzllNjAxOGRjN2E5YzI1YjYwZjBiMWRlNTcwNzk2YmJhZDc5Y2JmOTc1ZTFiN2VkNSJ9fX0=\"}]}, Id: [I;-1994816702, 260722669, -1592205432, 255614934]}, SecretMask: 1b, display: {Name: \"\\\"Carpet Master\\\"\"}}}], keepPacked: 0b}}",
-  "region": "haunted_wasteland"
+  "region": "haunted_wasteland",
+  "tp": "/tp 1996 47 168"
 }, {
   "x": 486,
   "y": 34,
   "z": 1299,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 486 34 1299"
 }, {
   "x": 488,
   "y": 34,
   "z": 1299,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 488 34 1299"
 }, {
   "x": 489,
   "y": 34,
   "z": 1296,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 489 34 1296"
 }, {
   "x": 489,
   "y": 34,
   "z": 1298,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: -1, Lock: \"\"}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 489 34 1298"
 }, {
   "x": 489,
   "y": 34,
   "z": 1299,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 489 34 1299"
 }, {
   "x": 426,
   "y": 10,
   "z": 1396,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 426 10 1396"
 }, {
   "x": 427,
   "y": 10,
   "z": 1396,
   "id": "universal_minecraft:barrel",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 427 10 1396"
 }, {
   "x": 410,
   "y": 9,
   "z": 1394,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 410 9 1394"
 }, {
   "x": 426,
   "y": 10,
   "z": 1350,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 426 10 1350"
 }, {
   "x": 427,
   "y": 10,
   "z": 1350,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 427 10 1350"
 }, {
   "x": 426,
   "y": 7,
   "z": 1364,
   "id": "universal_minecraft:hopper",
   "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
-  "region": "lon_lon_ranch"
+  "region": "lon_lon_ranch",
+  "tp": "/tp 426 7 1364"
 }, {
   "x": 1755,
   "y": 29,
   "z": 2300,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "zoras_domain"
+  "region": "zoras_domain",
+  "tp": "/tp 1755 29 2300"
 }]
