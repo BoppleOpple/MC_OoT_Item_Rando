@@ -1,8 +1,14 @@
-/* 
-
-Check names:
-region_item
-
+/*
 Spoiler Log > name conversion > Plug coords/name in somehow (???) to block entities json (return block id) > JS magic to syntactically match nbt of that container type / ??? > mcfunction (in some capacity) > Profit
 
+Contents: 
+
 */
+{
+
+  "Water_Temple": {
+    "name": "water_temple_longshot",
+    "coords": "",
+    "contents": ""
+  }
+}
