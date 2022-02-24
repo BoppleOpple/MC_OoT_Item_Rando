@@ -12,7 +12,7 @@ with open("areaboundaries.txt", 'r') as boundsString:
     bounds[i] = {
       "p1": [int(float(bounds[i][6])),  int(float(bounds[i][7])),  int(float(bounds[i][8]))],
       "p2": [int(float(bounds[i][17])), int(float(bounds[i][18])), int(float(bounds[i][19]))],
-      "region": bounds[i][22]
+      "region": bounds[i][22][slice(0,-1)]
     }
 removeArr = []
 for elmt in bounds:
@@ -30,6 +30,7 @@ with open("blockentitiesraw.json", 'r') as rawBEData:
       if (blockEntity['x'] in range(min(area['p1'][0], area['p2'][0]), max(area['p1'][0], area['p2'][0]))):
         if (blockEntity['y'] in range(min(area['p1'][1], area['p2'][1]), max(area['p1'][1], area['p2'][1]))):
           if (blockEntity['z'] in range(min(area['p1'][2], area['p2'][2]), max(area['p1'][2], area['p2'][2]))):
+            blockEntity["region"] = area["region"]
             usedBlockEntities.append(blockEntity)
             used = True
             break
