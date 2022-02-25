@@ -1,7 +1,6 @@
 /*
 Spoiler Log > name conversion > Plug coords/name in somehow (???) to block entities json (return block id) > JS magic to syntactically match nbt of that container type / ??? > mcfunction (in some capacity) > Profit
-Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb_bag, (dungeon)_compass, deku_shield, mirror_shield, silver_gauntlets, longshot, (location)_small_key, arrow, bombchu, freeze, arrows (#), bombchu (#)
-          hover_boots, (head)_head, kokiri_sword, hookshot, (#) zeldas letter, boomerang, iron_boots, ice_arrow, bow, megaton_hammer, slingshot, nut
+Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb_bag, (dungeon)_compass, deku_shield, mirror_shield, silver_gauntlets, longshot, (location)_small_key, arrow, bombchu, freeze, arrows (#), bombchu (#), hover_boots, (head)_head, kokiri_sword, hookshot, (#) zeldas letter, boomerang, iron_boots, ice_arrow, bow, megaton_hammer, slingshot, nut
   {
     "name": "",
     "coords": "",
@@ -75,7 +74,6 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
     }
   ],
   "Haunted Wasteland": [
-
     {
       "name": "secret",
       "coords": "1996 47 168",
@@ -616,7 +614,12 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
     {
       "name": "two_way_push_blocks",
       "coords": "1042 48 3002",
-      "contents": "water_temple_small_key"
+      "contents": "water_boss_key"
+    },
+    {
+      "name": "two_way_push_blocks",
+      "coords": "1089 39 3097",
+      "contents": "water_temple_boss_key"
     }
   ],
   "Spirit_Temple": [
@@ -714,6 +717,11 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "name": "boomerang_bridge_chest",
       "coords": "-83 87 837",
       "contents": "deku_shield"
+    },
+    {
+      "name": "spirit_boss_key",
+      "coords": "-9 133 838",
+      "contents": "spirit_temple_boss_key"
     }
   ],
   "Shadow_Temple": [
@@ -831,6 +839,11 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "name": "before_boss_pillar_dispenser",
       "coords": "1579 61 930",
       "contents": "heart"
+    },
+    {
+      "name": "shadow_boss_key",
+      "coords": "1560 58 879",
+      "contents": "shadow_temple_boss_key"
     }
   ],
   "Outside_Ganon_Castle": [
@@ -1176,6 +1189,11 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "name": "skulltula_blue_fire_room_left_chest",
       "coords": "2078 25 2303",
       "contents": "poh"
+    },
+    {
+      "name": "fire_boss_key",
+      "coords": "3068 42 1943",
+      "contents": "fire_temple_boss_key"
     }
   ],
   "Hyrule Field": [
@@ -1300,6 +1318,11 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "name": "spirit_trial_crystal_chest",
       "coords": "-543 28 2007",
       "contents": "bombchu (10)"
+    },
+    {
+      "name": "ganon_boss_key",
+      "coords": "-500 46 1616",
+      "contents": "ganon_castle_boss_key"
     }
   ],
   "GTG": [
@@ -1678,6 +1701,11 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "name": "underwater_dispenser_3",
       "coords": "1371 9 -643",
       "contents": "heart"
+    },
+    {
+      "name": "forest_boss_key",
+      "coords": "853 79 -1212",
+      "contents": "forest_temple_boss_key"
     }
   ],
   "Death Mountain Trail": [
