@@ -46,18 +46,6 @@ fill 984 66 1903 984 66 1903 minecraft:flower_pot
 data merge entity @e[type=marker,tag=Pots,limit=1] {Tags:["Pots"]}
 data merge entity @e[type=marker,tag=Pots2,limit=1] {Tags:["Pots"]}
 
-#Extra Rupees
-data remove block 872 74 1419 Items
-execute positioned 872 74 1419 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 872 74 1421 Items
-execute positioned 872 74 1421 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 872 74 1423 Items
-execute positioned 872 74 1423 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 872 74 1425 Items
-execute positioned 872 74 1425 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 872 74 1427 Items
-execute positioned 872 74 1427 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-
 #Dogs
 execute if entity @a[scores={time=13001..23000}] unless entity @e[type=wolf,tag=FakeDog1] run summon wolf 917 72 1394 {Tags:["FakeDog","Dog","PickupDog","FakeDog1"],Owner:"1",CollarColor:16,Invulnerable:1b,Silent:1b}
 execute if entity @a[scores={time=13001..23000}] unless entity @e[type=wolf,tag=FakeDog2] run summon wolf 915 72 1408 {Tags:["FakeDog","Dog","PickupDog","FakeDog2"],Owner:"1",CollarColor:12,Invulnerable:1b,Silent:1b}

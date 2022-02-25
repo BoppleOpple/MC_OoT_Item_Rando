@@ -1,6 +1,5 @@
 /*
 Spoiler Log > name conversion > Plug coords/name in somehow (???) to block entities json (return block id) > JS magic to syntactically match nbt of that container type / ??? > mcfunction (in some capacity) > Profit
-
 Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb_bag, (dungeon)_compass, deku_shield, mirror_shield, silver_gauntlets, longshot, (location)_small_key, arrow, bombchu, freeze, arrows (#), bombchu (#)
           hover_boots, (head)_head, kokiri_sword, hookshot, (#) zeldas letter, boomerang, iron_boots, ice_arrow, bow, megaton_hammer, slingshot, nut
   {
@@ -1801,7 +1800,191 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "coords": "774 59 2707",
       "contents": "grupee"
     }
+  ],
+  "BOTW":
+  [
+    {
+      "name": "Lens_Chest",
+      "coords": "30 52 1363",
+      "contents": "LensOfTruth"
+    },
+    {
+      "name": "Underwater_Heart_Chest",
+      "coords": "-53 52 1341",
+      "contents": "Heart"
+    },
+    {
+      "name": "Pit_Trap_Dirt_Mound",
+      "coords": "-44 59 1312",
+      "contents": "Nut"
+    },
+    {
+      "name": "Huge_Rupee_Chest",
+      "coords": "38 59 1363",
+      "contents": "Yupee"
+    },
+    {
+      "name": "Center_Pit_Blupee_Dispenser_1",
+      "coords": "-14 42 1333",
+      "contents": "Blupee"
+    },
+    {
+      "name": "Center_Pit_Blupee_Dispenser_2",
+      "coords": "-13 42 1330",
+      "contents": "Blupee"
+    },
+    {
+      "name": "Center_Pit_Blupee_Dispenser_3",
+      "coords": "-11 42 1333",
+      "contents": "Blupee"
+    },
+    {
+      "name": "Center_Pit_Blupee_Dispenser_4",
+      "coords": "-10 42 1337",
+      "contents": "Blupee"
+    },
+    {
+      "name": "Center_Pit_Blupee_Dispenser_5",
+      "coords": "-8 42 1334",
+      "contents": "Blupee"
+    },
+    {
+      "name": "Compass_Chest",
+      "coords": "-21 59 1344",
+      "contents": "Compass"
+    },
+    {
+      "name": "Left_Hidden_Key_Chest",
+      "coords": "-25 59 1349",
+      "contents": "Small_Key"
+    },
+    {
+      "name": "Entrance_Dirt_Pile_Bombchu_Refill",
+      "coords": "-15 53 1346",
+      "contents": "Bombchu (10)"
+    },
+    {
+      "name": "Entrance_Underwater_Bomb_Chest",
+      "coords": "-12 55 1356",
+      "contents": "Bomb"
+    },
+    {
+      "name": "Hylian_Shield_Chest",
+      "coords": "18 59 1334",
+      "contents": "Hylian_Shield"
+    },
+    {
+      "name": "Deku_Shield_Chest",
+      "coords": "21 59 1330",
+      "contents": "Deku_Shield"
+    },
+    {
+      "name": "Right_Hidden_Key_Chest",
+      "coords": "2 59 1349",
+      "contents": "Small_Key"
+    },
+    {
+      "name": "Underwater_Heart_Chest",
+      "coords": "-53 52 1341",
+      "contents": "Heart"
+    },
+    {
+      "name": "Underwater_Heart_Chest",
+      "coords": "-53 52 1341",
+      "contents": "Heart"
+    },
+    {
+      "name": "Bottom_Cavern_Bomb_Refill",
+      "coords": "11 36 1358",
+      "contents": "Bomb"
+    }
+  ],
+  "Castle_Town/ToT/Sacred_Realm": 
+  [
+    {
+      "name": "Treasure_Box_Minigame_Secret",
+      "coords": "858 50 1411",
+      "contents": "Curious Dog Guy"
+    },
+    {
+      "name": "OoB_Mask_Shop",
+      "coords": "893 53 1386",
+      "contents": ""
+    },
+    {
+      "name": "Balcony_Dispenser_1",
+      "coords": "872 74 1419",
+      "contents": ""
+    },
+    {
+      "name": "Balcony_Dispenser_2",
+      "coords": "872 74 1421",
+      "contents": ""
+    },
+    {
+      "name": "Balcony_Dispenser_3",
+      "coords": "872 74 1423",
+      "contents": ""
+    },
+    {
+      "name": "Balcony_Dispenser_4",
+      "coords": "872 74 1425",
+      "contents": ""
+    },
+    {
+      "name": "Balcony_Dispenser_5",
+      "coords": "872 74 1427",
+      "contents": ""
+    },
+    {
+      "name": "Alternate_Chest_Minigame_Reward",
+      "coords": "-53 52 1341",
+      "contents": "pupee"
+    },
+    {
+      "name": "Bomb_Shob_OoB_Back_Hopper_1",
+      "coords": "895 40 1431",
+      "contents": ""
+    },
+    {
+      "name": "Bomb_Shob_OoB_Back_Hopper_2",
+      "coords": "896 40 1431",
+      "contents": ""
+    },
+    {
+      "name": "Bomb_Shob_OoB_Back_Barrel_1",
+      "coords": "891 40 1431",
+      "contents": ""
+    },
+    {
+      "name": "Bomb_Shob_OoB_Back_Barrel_2",
+      "coords": "892 40 1430",
+      "contents": ""
+    },
+    {
+      "name": "Bomb_Shob_OoB_Back_Barrel_3",
+      "coords": "893 40 1431",
+      "contents": ""
+    },
+    {
+      "name": "Bomb_Shob_OoB_Side_Hopper_1",
+      "coords": "899 40 1428",
+      "contents": ""
+    },
+    {
+      "name": "Bomb_Shob_OoB_Side_Hopper_2",
+      "coords": "899 40 1430",
+      "contents": ""
+    },
+    {
+      "name": "Chest_Minigame_Reward",
+      "coords": "862 51 1502",
+      "contents": "PoH"
+    },
+    {
+      "name": "Fence_Secret_Chest",
+      "coords": "927 70 1421",
+      "contents": "Items Shop Owner"
+    }
   ]
 }
-
-
