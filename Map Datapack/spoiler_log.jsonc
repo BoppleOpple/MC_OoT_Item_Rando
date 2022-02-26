@@ -73,7 +73,7 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "contents": ""
     }
   ],
-  "Haunted Wasteland": [
+  "Haunted_Wasteland": [
     {
       "name": "secret",
       "coords": "1996 47 168",
@@ -85,7 +85,7 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "contents": "pupee"
     }
   ],
-  "Goron City": [
+  "Goron_City": [
     {
       "name": "boulder_double_left_chest",
       "coords": "2142 74 1793",
@@ -204,7 +204,7 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "contents": "grupee"
     }
   ],
-  "Gerudo": [
+  "Gerudo_Fortress": [
     {
       "name": "chest_atop_fortress",
       "coords": "-96 92 1974",
@@ -545,7 +545,7 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "contents": "poh"
     }
   ],
-  "Water Temple": [
+  "Water_Temple": [
     {
       "name": "longshot_chest",
       "coords": "1134 66 3125",
@@ -614,10 +614,10 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
     {
       "name": "two_way_push_blocks",
       "coords": "1042 48 3002",
-      "contents": "water_boss_key"
+      "contents": "water_small_key"
     },
     {
-      "name": "two_way_push_blocks",
+      "name": "water_temple_boss_key_chest",
       "coords": "1089 39 3097",
       "contents": "water_temple_boss_key"
     }
@@ -1144,7 +1144,7 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "contents": "heart"
     }
   ],
-  "Ice Cavern": [
+  "Ice_Cavern": [
     {
       "name": "iron_boots_chest",
       "coords": "2026 30 2326",
@@ -1196,7 +1196,7 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "contents": "fire_temple_boss_key"
     }
   ],
-  "Hyrule Field": [
+  "Hyrule_Field": [
     {
       "name": "gate_left_dispenser",
       "coords": "968 75 1908",
@@ -1708,7 +1708,7 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "contents": "forest_temple_boss_key"
     }
   ],
-  "Death Mountain Trail": [
+  "Death_Mountain_Trail": [
     {
       "name": "song_of_storms_grotto",
       "coords": "2020 67 1436",
@@ -1755,16 +1755,26 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "contents": "poh"
     }
   ],
-  "Death Mountain Crater": [
+  "Death_Mountain_Crater": [
     {
       "name": "chest_by_fire_temple_entrance",
       "coords": "2668 37 1924",
       "contents": "repee"
     },
     {
-      "name": "dispenser_by_fire_temple_entrance",
+      "name": "child_dispenser_by_fire_temple_entrance",
       "coords": "2679 35 1911",
       "contents": "6 blupee, repee"
+    },
+    {
+      "name": "adult_dispenser_by_fire_temple_entrance",
+      "coords": "2679 33 1911",
+      "contents": "6 blupee, repee"
+    },
+    {
+      "name": "adult_pierre_dispenser",
+      "coords": "2679 33 1911",
+      "contents": "6 gruupee, repee"
     },
     {
       "name": "rock_grotto_chest",
@@ -1782,7 +1792,7 @@ Contents: pupee, grupee, blupee, yupee, poh, repee, bombs, heart_container, bomb
       "contents": "poh"
     }
   ],
-  "Child Lake": [
+  "Child_Lake": [
     {
       "name": "poh_atop_lab",
       "coords": "740 93 2701",
