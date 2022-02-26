@@ -1,6 +1,6 @@
 
 function loaded () {
-  fetch("../Map Datapack/spoiler_log.json").then((data)=>{
+  fetch("spoiler_log.json").then((data)=>{
     saveDatapack(data);
   })
 }
