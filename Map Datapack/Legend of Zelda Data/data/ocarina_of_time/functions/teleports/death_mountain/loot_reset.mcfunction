@@ -37,12 +37,6 @@ execute unless entity @e[type=armor_stand,tag=GossipStone17] run summon minecraf
 #Grottos
 fill 2022 67 1468 2022 67 1468 minecraft:grass
 fill 2023 67 1466 2023 67 1466 minecraft:grass
-data remove block 2019 66 1468 Items
-execute positioned 2019 66 1468 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 2021 66 1465 Items
-execute positioned 2021 66 1465 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 2025 66 1468 Items
-execute positioned 2025 66 1468 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
 fill 2029 109 1432 2029 109 1432 minecraft:smooth_red_sandstone
 execute unless entity @e[type=armor_stand,tag=GossipStone30] run summon minecraft:armor_stand 2018 67 1443 {Tags:["GossipStone30","GossipStone","GrottoGossipStone","Npc"],Rotation:[0f],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"cobblestone",Count:1b,tag:{CustomModelData:106}}],DisabledSlots:4144959}
 fill 2019 67 1442 2019 67 1442 minecraft:grass

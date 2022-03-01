@@ -10,14 +10,6 @@ fill 2017 32 2319 2017 32 2319 minecraft:flower_pot
 
 data merge entity @e[type=marker,tag=Pots,limit=1] {Tags:["Pots"]}
 
-#Hearts
-data remove block 2075 29 2249 Items
-execute positioned 2075 29 2249 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 2075 29 2251 Items
-execute positioned 2075 29 2251 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 2076 29 2250 Items
-execute positioned 2076 29 2250 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-
 #Compass
 tag @a remove Compass
 execute if block 2078 26 2322 minecraft:gold_block unless entity @a[tag=Compass] unless entity @a[nbt={Inventory:[{tag:{Compass:1b}}]}] unless entity @a[tag=Compass] run give @a minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Compass\"}"},Unbreakable:1b,Damage:21,HideFlags:63,Compass:1b}

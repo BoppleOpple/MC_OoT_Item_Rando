@@ -2,28 +2,6 @@
 fill 926 87 905 926 87 905 minecraft:grass
 fill 925 87 906 925 87 906 minecraft:grass
 
-#Moat
-data remove block 886 83 898 Items
-execute positioned 886 83 898 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 891 83 898 Items
-execute positioned 891 83 898 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 897 83 898 Items
-execute positioned 897 83 898 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 902 83 898 Items
-execute positioned 902 83 898 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 908 83 898 Items
-execute positioned 908 83 898 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 914 83 898 Items
-execute positioned 914 83 898 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 918 83 894 Items
-execute positioned 918 83 894 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 918 83 888 Items
-execute positioned 918 83 888 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 918 83 884 Items
-execute positioned 918 83 884 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 917 83 874 Items
-execute positioned 917 83 874 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/blue_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/blue_rupee"} destroy
-
 #Signs
 execute unless block 939 75 938 minecraft:oak_sign run clone 939 71 938 939 71 938 939 75 938
 

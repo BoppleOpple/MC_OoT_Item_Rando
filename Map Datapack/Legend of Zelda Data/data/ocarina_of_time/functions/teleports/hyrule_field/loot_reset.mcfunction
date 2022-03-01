@@ -56,9 +56,3 @@ fill 934 43 1913 934 43 1913 minecraft:grass
 fill 932 43 1913 932 43 1913 minecraft:grass
 fill 932 43 1915 932 43 1915 minecraft:grass
 fill 848 57 1944 848 57 1944 minecraft:grass_block
-
-#Bridge Rupees
-data remove block 968 75 1908 Items
-execute positioned 968 75 1908 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/2_red_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/2_red_rupee"} destroy
-data remove block 979 75 1908 Items
-execute positioned 979 75 1908 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/red_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/red_rupee"} destroy

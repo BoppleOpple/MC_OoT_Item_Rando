@@ -29,22 +29,6 @@ clone 1682 54 1035 1682 54 1035 1682 58 1035
 clone 1687 90 951 1691 94 957 1688 91 937
 fill 1685 90 945 1696 90 935 minecraft:stone_bricks replace minecraft:air
 
-#Hearts
-data remove block 1795 71 970 Items
-execute positioned 1795 71 970 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=down]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 1796 71 971 Items
-execute positioned 1796 71 971 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=down]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 1764 66 907 Items
-execute positioned 1764 66 907 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 1764 66 903 Items
-execute positioned 1764 66 903 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 1579 61 930 Items
-execute positioned 1579 61 930 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 1571 70 923 Items
-execute positioned 1571 70 923 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 1571 70 921 Items
-execute positioned 1571 70 921 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-
 fill 1650 53 964 1652 53 962 minecraft:air
 
 #Compass

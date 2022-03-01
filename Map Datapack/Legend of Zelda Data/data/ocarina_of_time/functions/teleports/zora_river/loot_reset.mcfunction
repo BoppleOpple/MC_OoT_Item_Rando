@@ -28,65 +28,6 @@ fill 1485 67 2338 1481 67 2339 minecraft:grass
 fill 1481 66 2340 1485 66 2340 minecraft:grass
 fill 1484 66 2341 1482 66 2341 minecraft:grass
 
-#River
-data remove block 1587 75 2284 Items
-execute unless entity @a[tag=Adult] positioned 1587 75 2284 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1584 75 2284 Items
-execute unless entity @a[tag=Adult] positioned 1584 75 2284 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1580 75 2284 Items
-execute unless entity @a[tag=Adult] positioned 1580 75 2284 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1578 75 2287 Items
-execute unless entity @a[tag=Adult] positioned 1578 75 2287 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1544 68 2314 Items
-execute unless entity @a[tag=Adult] positioned 1544 68 2314 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1542 68 2316 Items
-execute unless entity @a[tag=Adult] positioned 1542 68 2316 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1540 68 2317 Items
-execute unless entity @a[tag=Adult] positioned 1540 68 2317 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/blue_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/blue_rupee"} destroy
-data remove block 1538 68 2319 Items
-execute unless entity @a[tag=Adult] positioned 1538 68 2319 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1536 68 2320 Items
-execute unless entity @a[tag=Adult] positioned 1536 68 2320 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1531 68 2320 Items
-execute unless entity @a[tag=Adult] positioned 1531 68 2320 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1527 68 2320 Items
-execute unless entity @a[tag=Adult] positioned 1527 68 2320 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1523 68 2320 Items
-execute unless entity @a[tag=Adult] positioned 1523 68 2320 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1520 69 2295 Items
-execute unless entity @a[tag=Adult] positioned 1520 69 2295 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1520 69 2300 Items
-execute unless entity @a[tag=Adult] positioned 1520 69 2300 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1519 65 2306 Items
-execute unless entity @a[tag=Adult] positioned 1519 65 2306 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1519 65 2311 Items
-execute unless entity @a[tag=Adult] positioned 1519 65 2311 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1519 65 2315 Items
-execute unless entity @a[tag=Adult] positioned 1519 65 2315 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/red_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/red_rupee"} destroy
-data remove block 1499 65 2319 Items
-execute unless entity @a[tag=Adult] positioned 1499 65 2319 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1492 65 2319 Items
-execute unless entity @a[tag=Adult] positioned 1492 65 2319 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1489 65 2324 Items
-execute unless entity @a[tag=Adult] positioned 1489 65 2324 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1489 60 2331 Items
-execute unless entity @a[tag=Adult] positioned 1489 60 2331 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1489 60 2335 Items
-execute unless entity @a[tag=Adult] positioned 1489 60 2335 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1489 60 2340 Items
-execute unless entity @a[tag=Adult] positioned 1489 60 2340 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block 1489 60 2345 Items
-execute unless entity @a[tag=Adult] positioned 1489 60 2345 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-
-data remove block 1609 76 2285 Items
-execute if entity @a[tag=Adult] positioned 1609 76 2285 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/red_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/red_rupee"} destroy
-data remove block 1607 76 2285 Items
-execute if entity @a[tag=Adult] positioned 1607 76 2285 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/red_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/red_rupee"} destroy
-data remove block 1609 76 2287 Items
-execute if entity @a[tag=Adult] positioned 1609 76 2287 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/red_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/red_rupee"} destroy
-data remove block 1607 76 2287 Items
-execute if entity @a[tag=Adult] positioned 1607 76 2287 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/red_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/red_rupee"} destroy
-
 #Bean Spots
 execute if entity @a[tag=Adult] if entity @e[type=marker,tag=BeanSpot,tag=PlantBean10] run clone 1533 74 2310 1535 74 2312 1506 69 2314
 execute unless entity @a[tag=Adult] if entity @e[type=marker,tag=BeanSpot,tag=PlantBean10] run fill 1507 69 2315 1507 69 2315 minecraft:pumpkin_stem[age=6]

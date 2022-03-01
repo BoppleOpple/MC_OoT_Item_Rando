@@ -1,3 +1,5 @@
 .DS_Store
 Client
 logs
+cache
+braindump.txt

@@ -29,14 +29,6 @@ fill 2193 40 1873 2193 40 1873 minecraft:flower_pot
 fill 2192 40 1874 2192 40 1874 minecraft:flower_pot
 data merge entity @e[type=marker,tag=Pots,limit=1] {Tags:["Pots"]}
 
-#Hearts
-data remove block 2236 44 1955 Items
-execute positioned 2236 44 1955 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 2268 50 1915 Items
-execute positioned 2268 50 1915 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block 2270 50 1913 Items
-execute positioned 2270 50 1913 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-
 #Destroy
 execute positioned 2287 37 1928 if block ~ ~ ~ minecraft:chest{Items:[]} run fill ~ ~ ~ ~ ~ ~ minecraft:air
 

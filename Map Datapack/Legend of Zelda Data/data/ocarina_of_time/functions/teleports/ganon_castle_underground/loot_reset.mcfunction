@@ -16,13 +16,3 @@ fill -537 31 2041 -537 31 2041 minecraft:flower_pot
 fill -424 30 2054 -424 30 2054 minecraft:flower_pot
 fill -421 30 2051 -421 30 2051 minecraft:flower_pot
 data merge entity @e[type=marker,tag=Pots,limit=1] {Tags:["Pots"]}
-
-#Hearts
-data remove block -428 30 1885 Items
-execute positioned -428 30 1885 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block -429 30 1881 Items
-execute positioned -429 30 1881 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block -429 30 1879 Items
-execute positioned -429 30 1879 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-data remove block -506 30 2012 Items
-execute positioned -506 30 2012 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/heart"} destroy

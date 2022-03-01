@@ -54,29 +54,6 @@ execute unless block -563 65 -631 minecraft:oak_sign run clone -563 62 -631 -563
 execute unless block -611 65 -629 minecraft:oak_sign run clone -611 62 -629 -611 62 -629 -611 65 -629
 execute unless block -596 58 -700 minecraft:oak_sign run clone -596 55 -700 -596 55 -700 -596 58 -700
 
-#Bushes
-data remove block -589 64 -618 Items
-execute positioned -589 64 -618 unless entity @a[tag=Adult] unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/2_green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=south]{LootTable:"ocarina_of_time:chests/general/2_green_rupee"} destroy
-execute positioned -589 64 -618 if entity @a[tag=Adult] run fill -589 64 -618 -589 64 -618 minecraft:grass_block
-execute positioned -589 64 -618 if entity @a[tag=Adult] run fill -589 65 -618 -589 65 -618 minecraft:large_fern
-kill @e[type=item,x=-589,y=64,z=-618,dx=0,dz=0]
-data remove block -578 64 -641 Items
-execute positioned -578 64 -641 unless entity @a[tag=Adult] unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/2_green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=south]{LootTable:"ocarina_of_time:chests/general/2_green_rupee"} destroy
-execute positioned -578 64 -641 if entity @a[tag=Adult] run fill -578 64 -641 -578 64 -641 minecraft:grass_block
-execute positioned -578 64 -641 if entity @a[tag=Adult] run fill -578 65 -641 -578 65 -641 minecraft:large_fern
-data remove block -588 68 -583 Items
-execute positioned -588 68 -583 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/2_green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=east]{LootTable:"ocarina_of_time:chests/general/2_green_rupee"} destroy
-
-#Saria's Hearts
-data remove block -557 53 -613 Items
-data remove block -557 53 -609 Items
-data remove block -561 53 -613 Items
-data remove block -561 53 -609 Items
-execute positioned -557 53 -613 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=west]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-execute positioned -557 53 -609 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=west]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-execute positioned -561 53 -613 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=west]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-execute positioned -561 53 -609 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/heart"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=west]{LootTable:"ocarina_of_time:chests/general/heart"} destroy
-
 #Pots
 fill -576 51 -598 -576 51 -598 minecraft:flower_pot
 fill -541 54 -613 -541 54 -613 minecraft:flower_pot
@@ -86,43 +63,6 @@ fill -608 57 -615 -608 57 -615 minecraft:flower_pot
 
 data merge entity @e[type=marker,tag=Pots,limit=1] {Tags:["Pots"]}
 
-#Lost Woods Bushes
-data remove block -563 69 -663 Items
-execute positioned -563 69 -663 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=north]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -561 69 -654 Items
-execute positioned -561 69 -654 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/blue_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=north]{LootTable:"ocarina_of_time:chests/general/blue_rupee"} destroy
-data remove block -571 69 -655 Items
-execute positioned -571 69 -655 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=east]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-
-#Pond
-data remove block -549 67 -684 Items
-execute positioned -549 67 -684 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -548 67 -684 Items
-execute positioned -548 67 -684 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -547 67 -684 Items
-execute positioned -547 67 -684 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -547 67 -686 Items
-execute positioned -547 67 -686 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -546 67 -685 Items
-execute positioned -546 67 -685 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -545 67 -684 Items
-execute positioned -545 67 -684 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -546 67 -683 Items
-execute positioned -546 67 -683 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -547 67 -682 Items
-execute positioned -547 67 -682 unless block ~ ~ ~ minecraft:dispenser{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-
-#Meadow Rupees
-data remove block -580 74 -734 Items
-execute positioned -580 74 -734 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/blue_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=east]{LootTable:"ocarina_of_time:chests/general/blue_rupee"} destroy
-data remove block -568 74 -752 Items
-execute positioned -568 74 -752 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/blue_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=south]{LootTable:"ocarina_of_time:chests/general/blue_rupee"} destroy
-data remove block -575 74 -747 Items
-execute positioned -575 74 -747 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=north]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -567 74 -766 Items
-execute positioned -567 74 -766 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/green_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=east]{LootTable:"ocarina_of_time:chests/general/green_rupee"} destroy
-data remove block -578 74 -768 Items
-execute positioned -578 74 -768 unless block ~ ~ ~ minecraft:chest{LootTable:"ocarina_of_time:chests/general/blue_rupee"} run fill ~ ~ ~ ~ ~ ~ minecraft:chest[facing=west]{LootTable:"ocarina_of_time:chests/general/blue_rupee"} destroy
 
 #Destroy
 execute positioned -559 70 -612 if block ~ ~ ~ minecraft:chest{Items:[]} run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log
