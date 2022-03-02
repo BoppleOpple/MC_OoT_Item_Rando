@@ -1970,12 +1970,12 @@
       "contents": "pupee"
     },
     {
-      "name": "Bomb_Shob_OoB_Back_Hopper_1",
+      "name": "Bomb_Shop_OoB_Back_Hopper_1",
       "coords": "895 40 1431",
       "contents": ""
     },
     {
-      "name": "Bomb_Shob_OoB_Back_Hopper_2",
+      "name": "Bomb_Shop_OoB_Back_Hopper_2",
       "coords": "896 40 1431",
       "contents": ""
     },
@@ -1985,22 +1985,22 @@
       "contents": ""
     },
     {
-      "name": "Bomb_Shob_OoB_Back_Barrel_2",
+      "name": "Bomb_Shop_OoB_Back_Barrel_2",
       "coords": "892 40 1430",
       "contents": ""
     },
     {
-      "name": "Bomb_Shob_OoB_Back_Barrel_3",
+      "name": "Bomb_Shop_OoB_Back_Barrel_3",
       "coords": "893 40 1431",
       "contents": ""
     },
     {
-      "name": "Bomb_Shob_OoB_Side_Hopper_1",
+      "name": "Bomb_Shop_OoB_Side_Hopper_1",
       "coords": "899 40 1428",
       "contents": ""
     },
     {
-      "name": "Bomb_Shob_OoB_Side_Hopper_2",
+      "name": "Bomb_Shop_OoB_Side_Hopper_2",
       "coords": "899 40 1430",
       "contents": ""
     },

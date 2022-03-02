@@ -1,7 +1,11 @@
 import { saveDatapack } from "./spoiler_log_to_datapack.js"
+import {  randomise   } from "./randomisation.js"
 
+// move this to an <input type="submit"> later, for testing it will be onload
 async function loaded () {
-  await saveDatapack(await loadJSON("data/spoiler_log.json"), await loadJSON("data/OoT_data.json"));
+  let settings = {}; // Read Inputs
+  let spoiler = await randomise(settings, await loadJSON("data/reference_spoiler_log.json")); // generate spoiler JSON
+  await saveDatapack(spoiler, await loadJSON("data/OoT_data.json"));
 }
 
 async function loadJSON(path) {
