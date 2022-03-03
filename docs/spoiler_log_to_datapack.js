@@ -2,7 +2,7 @@ import { downloadZip } from "https://cdn.jsdelivr.net/npm/client-zip/index.js"
 
 // Lots of code from https://github.com/Touffy/client-zip (Unless LDA knows about exporting ZIPs in JS)
 
-export async function saveDatapack(spoilerLog, datapackJSON) {
+export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
   let placementFunctions = [];
   let functionNumber = 0;
   let loadMcfunction = `
@@ -32,14 +32,26 @@ export async function saveDatapack(spoilerLog, datapackJSON) {
       numChecks++;
     }
   }
+  console.log(numChecks)
   for (let region in spoilerLog){
     for (let container of spoilerLog[region]){
       functionNumber++;
       let coords = container.coords.split(' ');
-      // console.log(coords)
+      let referenceCoords = container.referenceCoords.split(' ');
+      referenceCoords.forEach(parseInt);
+      let nbt = {};
+      let NBTIndex = 0;
+
+      for (let data of NBTData){
+        NBTIndex++;
+        if (data.x == referenceCoords[0] && data.y == referenceCoords[1] && data.z == referenceCoords[2]){
+          nbt = data.nbt.slice(8, data.nbt.length-1);
+        }
+      }
+
       let fileBody = "";
       fileBody += "forceload add " + coords[0] + ' ' + coords[2] + '\n';
-      fileBody += "data modify block " + container.coords + " Items set value [{Slot:0b, id:\"minecraft:dirt\", Count:1b}]\n";
+      fileBody += "data merge block " + container.coords + ' ' + nbt.toString() + "\n";
       fileBody += "forceload remove " + coords[0] + ' ' + coords[2] + '\n';
       if (functionNumber < numChecks){
         fileBody += "setblock ~ ~ ~1 air\n"
@@ -47,16 +59,17 @@ export async function saveDatapack(spoilerLog, datapackJSON) {
         fileBody += "data modify block ~ ~ ~ Command set value \"function rando:replacecontainers/replacecontainer" + (functionNumber + 1).toString() + "\"";
       }else{
         fileBody += "fill ~ ~ ~ ~ ~ ~4 air"
-        fileBody += "datapack enable \"file/Legend Of Zelda Data\""
+        fileBody += "datapack enable \"file/Legend Of Zelda Data\"\n"
         fileBody += "datapack disable \"file/Randomizer\""
       }
       placementFunctions.push({
         name: "datapacks/Randomizer/data/rando/functions/replacecontainers/replacecontainer" + functionNumber.toString() + ".mcfunction",
         lastModified: new Date(),
         input: fileBody
-      })
+      });
     }
   }
+  console.log(functionNumber)
   // console.log(datapackJSON[0])
   for (let file of datapackJSON){
     // console.log(file)

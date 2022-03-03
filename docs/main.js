@@ -5,7 +5,9 @@ import {  randomise   } from "./randomisation.js"
 async function loaded () {
   let settings = {}; // Read Inputs
   let spoiler = await randomise(settings, await loadJSON("data/reference_spoiler_log.json")); // generate spoiler JSON
-  await saveDatapack(spoiler, await loadJSON("data/OoT_data.json"));
+
+  console.log(spoiler)
+  await saveDatapack(await loadJSON("data/OoT_data.json"), await loadJSON("data/blockentitiespruned.json"), spoiler);
 }
 
 async function loadJSON(path) {

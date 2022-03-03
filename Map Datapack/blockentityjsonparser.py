@@ -1,7 +1,8 @@
 import json
+from sys import argv
 bounds = []
 usedBlockEntities = []
-kiriteForgotSomethingPutItInThisFile = "containersincastle.json" # In case one specific hooligan decides to name a file an obnoxiously long name, and I need to compensate for their mistakes
+kiriteForgotSomethingPutItInThisFile = "" if len(argv) <= 1 else str(argv[1]) # In case one specific hooligan decides to name a file an obnoxiously long name, and I need to compensate for their mistakes
 if kiriteForgotSomethingPutItInThisFile == "":
   with open("areaboundaries.txt", 'r') as boundsString:
     bounds = boundsString.readlines()

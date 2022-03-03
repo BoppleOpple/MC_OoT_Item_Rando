@@ -1,1 +1,529 @@
-[]
+[{
+  "x": 825,
+  "y": 90,
+  "z": 408,
+  "id": "universal_minecraft:flower_pot",
+  "nbt": "{utags: {isMovable: 1b}}",
+  "region": "inside_castle",
+  "tp": "/tp 825 90 408"
+}, {
+  "x": 825,
+  "y": 90,
+  "z": 412,
+  "id": "universal_minecraft:flower_pot",
+  "nbt": "{utags: {isMovable: 1b}}",
+  "region": "inside_castle",
+  "tp": "/tp 825 90 412"
+}, {
+  "x": 826,
+  "y": 90,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 90 403"
+}, {
+  "x": 826,
+  "y": 91,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 91 403"
+}, {
+  "x": 826,
+  "y": 92,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 92 403"
+}, {
+  "x": 826,
+  "y": 93,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 93 403"
+}, {
+  "x": 826,
+  "y": 94,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 94 403"
+}, {
+  "x": 826,
+  "y": 95,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 95 403"
+}, {
+  "x": 826,
+  "y": 96,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 96 403"
+}, {
+  "x": 826,
+  "y": 97,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 97 403"
+}, {
+  "x": 826,
+  "y": 98,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 98 403"
+}, {
+  "x": 826,
+  "y": 99,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 99 403"
+}, {
+  "x": 826,
+  "y": 100,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 100 403"
+}, {
+  "x": 824,
+  "y": 87,
+  "z": 401,
+  "id": "universal_minecraft:command_block",
+  "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"/give @p player_head{display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Zelda\\\\\\\"}\\\"},SkullOwner:{Id:\\\"d2ebc8be-33df-487f-9654-9df26603f111\\\",Properties:{textures:[{Value:\\\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNhMGRjOTc2ZTY3NTYzYzQ1ZGMzYWE5OWM1MjE5ZjFmZGFlMWVlMzYxZmMxNGZlYTExNmQ2NWFmNmU4MCJ9fX0=\\\"}]}},SecretMask:1b}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 218189070L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.give.success.single\\\",\\\"with\\\":[\\\"1\\\",{\\\"color\\\":\\\"yellow\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_item\\\",\\\"contents\\\":{\\\"id\\\":\\\"minecraft:player_head\\\",\\\"tag\\\":\\\"{SecretMask:1b,SkullOwner:{Id:\\\\\\\"d2ebc8be-33df-487f-9654-9df26603f111\\\\\\\",Properties:{textures:[{Value:\\\\\\\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNhMGRjOTc2ZTY3NTYzYzQ1ZGMzYWE5OWM1MjE5ZjFmZGFlMWVlMzYxZmMxNGZlYTExNmQ2NWFmNmU4MCJ9fX0=\\\\\\\"}]}},display:{Name:'{\\\\\\\"text\\\\\\\":\\\\\\\"Zelda\\\\\\\"}'}}\\\"}},\\\"extra\\\":[{\\\"italic\\\":true,\\\"extra\\\":[{\\\"text\\\":\\\"Zelda\\\"}],\\\"text\\\":\\\"\\\"},{\\\"text\\\":\\\"]\\\"}],\\\"text\\\":\\\"[\\\"},{\\\"insertion\\\":\\\"Rivero7462\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"suggest_command\\\",\\\"value\\\":\\\"/tell Rivero7462 \\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:player\\\",\\\"id\\\":\\\"fbbd1ee0-33e3-43ff-8b31-8c956f021c99\\\",\\\"name\\\":{\\\"text\\\":\\\"Rivero7462\\\"}}},\\\"text\\\":\\\"Rivero7462\\\"}]}],\\\"text\\\":\\\"[18:46:46] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 1, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 824 87 401"
+}, {
+  "x": 824,
+  "y": 90,
+  "z": 403,
+  "id": "universal_minecraft:sign",
+  "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"way.\\\"}\", Text3: \"{\\\"text\\\":\\\"to swim all this\\\"}\", Text2: \"{\\\"text\\\":\\\"feel bad you had\\\"}\", Text1: \"{\\\"text\\\":\\\"I just straight up\\\"}\"}, Color: \"black\"}",
+  "region": "inside_castle",
+  "tp": "/tp 824 90 403"
+}, {
+  "x": 816,
+  "y": 84,
+  "z": 410,
+  "id": "universal_minecraft:chest",
+  "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 0b, id: \"minecraft:written_book\", Count: 16b, tag: {pages: [\"{\\\"text\\\":\\\"This is Link. He is under my orders to save Hyrule\\\"}\"], title: \"Zelda's Letter\", author: \"Rivero7462\"}}], keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 816 84 410"
+}, {
+  "x": 829,
+  "y": 90,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 90 400"
+}, {
+  "x": 829,
+  "y": 91,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 91 400"
+}, {
+  "x": 829,
+  "y": 92,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 92 400"
+}, {
+  "x": 829,
+  "y": 93,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 93 400"
+}, {
+  "x": 829,
+  "y": 94,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 94 400"
+}, {
+  "x": 829,
+  "y": 95,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 95 400"
+}, {
+  "x": 829,
+  "y": 96,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 96 400"
+}, {
+  "x": 829,
+  "y": 97,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 97 400"
+}, {
+  "x": 829,
+  "y": 98,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 98 400"
+}, {
+  "x": 829,
+  "y": 99,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 99 400"
+}, {
+  "x": 829,
+  "y": 100,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 100 400"
+}, {
+  "x": 824,
+  "y": 89,
+  "z": 403,
+  "id": "universal_minecraft:chest",
+  "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNhMGRjOTc2ZTY3NTYzYzQ1ZGMzYWE5OWM1MjE5ZjFmZGFlMWVlMzYxZmMxNGZlYTExNmQ2NWFmNmU4MCJ9fX0=\"}]}, Id: [I;-756299586, 870271103, -1772839438, 1711534353]}, SecretMask: 1b, display: {Name: \"{\\\"text\\\":\\\"Zelda\\\"}\"}}}], keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 824 89 403"
+}, {
+  "x": 826,
+  "y": 90,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 90 417"
+}, {
+  "x": 826,
+  "y": 91,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 91 417"
+}, {
+  "x": 826,
+  "y": 92,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 92 417"
+}, {
+  "x": 826,
+  "y": 93,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 93 417"
+}, {
+  "x": 826,
+  "y": 94,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 94 417"
+}, {
+  "x": 826,
+  "y": 95,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 95 417"
+}, {
+  "x": 826,
+  "y": 96,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 96 417"
+}, {
+  "x": 826,
+  "y": 97,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 97 417"
+}, {
+  "x": 826,
+  "y": 98,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 98 417"
+}, {
+  "x": 826,
+  "y": 99,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 99 417"
+}, {
+  "x": 826,
+  "y": 100,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 826 100 417"
+}, {
+  "x": 829,
+  "y": 90,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 90 420"
+}, {
+  "x": 829,
+  "y": 91,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 91 420"
+}, {
+  "x": 829,
+  "y": 92,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 92 420"
+}, {
+  "x": 829,
+  "y": 93,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 93 420"
+}, {
+  "x": 829,
+  "y": 94,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 94 420"
+}, {
+  "x": 829,
+  "y": 95,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 95 420"
+}, {
+  "x": 829,
+  "y": 96,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 96 420"
+}, {
+  "x": 829,
+  "y": 97,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 97 420"
+}, {
+  "x": 829,
+  "y": 98,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 98 420"
+}, {
+  "x": 829,
+  "y": 99,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 99 420"
+}, {
+  "x": 829,
+  "y": 100,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "inside_castle",
+  "tp": "/tp 829 100 420"
+}, {
+  "x": 898,
+  "y": 87,
+  "z": 428,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 898 87 428"
+}, {
+  "x": 898,
+  "y": 87,
+  "z": 430,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 898 87 430"
+}, {
+  "x": 900,
+  "y": 87,
+  "z": 428,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/red_rupee\", keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 900 87 428"
+}, {
+  "x": 902,
+  "y": 87,
+  "z": 428,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 902 87 428"
+}, {
+  "x": 902,
+  "y": 87,
+  "z": 430,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 902 87 430"
+}, {
+  "x": 898,
+  "y": 87,
+  "z": 432,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 898 87 432"
+}, {
+  "x": 900,
+  "y": 87,
+  "z": 432,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 900 87 432"
+}, {
+  "x": 902,
+  "y": 87,
+  "z": 432,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 902 87 432"
+}, {
+  "x": 943,
+  "y": 85,
+  "z": 433,
+  "id": "universal_minecraft:sign",
+  "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Check Guards\\\"}\"}, Color: \"black\"}",
+  "region": "inside_castle",
+  "tp": "/tp 943 85 433"
+}, {
+  "x": 834,
+  "y": 91,
+  "z": 425,
+  "id": "universal_minecraft:flower_pot",
+  "nbt": "{utags: {isMovable: 1b}}",
+  "region": "inside_castle",
+  "tp": "/tp 834 91 425"
+}, {
+  "x": 834,
+  "y": 90,
+  "z": 425,
+  "id": "universal_minecraft:hopper",
+  "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 834 90 425"
+}, {
+  "x": 950,
+  "y": 84,
+  "z": 433,
+  "id": "universal_minecraft:command_block",
+  "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"/summon minecraft:armor_stand ~ ~ ~ {Rotation:[0f],NoGravity:1b,Small:0b,ShowArms:1b,Invisible:1b,CustomName:\\\"\\\\\\\"Guard15\\\\\\\"\\\",CustomNameVisible:0,ArmorItems:[{id:\\\"leather_boots\\\",Count:1,tag:{display:{color:8224125}}},{id:\\\"leather_leggings\\\",Count:1,tag:{display:{color:15319922}}},{id:\\\"leather_chestplate\\\",Count:1,tag:{display:{color:16777215}}},{id:\\\"player_head\\\",Count:1,tag:{SkullOwner:{Name:\\\"Guard\\\",Id:\\\"27734439-8814-4dd0-87f0-720e0536dff9\\\",Properties:{textures:[{Value:\\\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RkNmIwMzdjZThkN2UxYWMyMmI1ODMzYmMyNmU0MzNjNDFjODJlNmFmNTEwMzZjYjZiMTRkMzRkY2YwNmMifX19\\\"}]}}}}],HandItems:[{id:wooden_hoe,Count:1b},{}],DisabledSlots:7936,Pose:{Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 77078605L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"6e2dfa98-a800-4d08-a910-4e0805a558dd\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:armor_stand\\\",\\\"id\\\":\\\"6e2dfa98-a800-4d08-a910-4e0805a558dd\\\",\\\"name\\\":{\\\"text\\\":\\\"Guard15\\\"}}},\\\"text\\\":\\\"Guard15\\\"}]}],\\\"text\\\":\\\"[14:50:18] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 0, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 950 84 433"
+}, {
+  "x": 951,
+  "y": 84,
+  "z": 435,
+  "id": "universal_minecraft:command_block",
+  "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"/summon minecraft:armor_stand ~ ~ ~ {Rotation:[0f],NoGravity:1b,Small:0b,ShowArms:1b,Invisible:1b,CustomName:\\\"\\\\\\\"Guard16\\\\\\\"\\\",CustomNameVisible:0,ArmorItems:[{id:\\\"leather_boots\\\",Count:1,tag:{display:{color:8224125}}},{id:\\\"leather_leggings\\\",Count:1,tag:{display:{color:15319922}}},{id:\\\"leather_chestplate\\\",Count:1,tag:{display:{color:16777215}}},{id:\\\"player_head\\\",Count:1,tag:{SkullOwner:{Name:\\\"Guard\\\",Id:\\\"27734439-8814-4dd0-87f0-720e0536dff9\\\",Properties:{textures:[{Value:\\\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RkNmIwMzdjZThkN2UxYWMyMmI1ODMzYmMyNmU0MzNjNDFjODJlNmFmNTEwMzZjYjZiMTRkMzRkY2YwNmMifX19\\\"}]}}}}],HandItems:[{id:wooden_hoe,Count:1b},{}],DisabledSlots:7936,Pose:{Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 77078621L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"4093e48a-19ab-4d57-938d-1583f7f8acee\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:armor_stand\\\",\\\"id\\\":\\\"4093e48a-19ab-4d57-938d-1583f7f8acee\\\",\\\"name\\\":{\\\"text\\\":\\\"Guard16\\\"}}},\\\"text\\\":\\\"Guard16\\\"}]}],\\\"text\\\":\\\"[14:50:19] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 0, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 951 84 435"
+}, {
+  "x": 880,
+  "y": 82,
+  "z": 418,
+  "id": "universal_minecraft:command_block",
+  "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"834 88 410\", conditionMet: 0b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 0L, LastOutput: \"\", LastOutputParams: [], powered: 0b, SuccessCount: 0, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
+  "region": "inside_castle",
+  "tp": "/tp 880 82 418"
+}, {
+  "x": 880,
+  "y": 83,
+  "z": 419,
+  "id": "universal_minecraft:sign",
+  "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Caslte Field\\\"}\"}, Color: \"black\"}",
+  "region": "inside_castle",
+  "tp": "/tp 880 83 419"
+}, {
+  "x": 878,
+  "y": 83,
+  "z": 419,
+  "id": "universal_minecraft:sign",
+  "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Respawn\\\"}\"}, Color: \"black\"}",
+  "region": "inside_castle",
+  "tp": "/tp 878 83 419"
+}]
