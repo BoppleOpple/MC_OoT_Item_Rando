@@ -5,6 +5,7 @@ import { downloadZip } from "https://cdn.jsdelivr.net/npm/client-zip/index.js"
 export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
   let placementFunctions = [];
   let functionNumber = 0;
+  let readableLog = [];
   let loadMcfunction = `
   datapack disable "file/Legend Of Zelda Data"
   execute as @e[type=minecraft:falling_block] run kill
@@ -48,7 +49,16 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
           nbt = data.nbt.slice(8, data.nbt.length-1);
         }
       }
-
+      if(nbt.includes("Slot:")){
+        nbt = nbt.split("Slot: ");
+        nbt.forEach((str, i)=>{
+          if (str[0] != '{') {
+            nbt[i] = '0' + str.slice(str.indexOf('b'), str.length);
+          }
+        })
+        nbt = nbt.join("Slot: ");
+      }
+      console.log(nbt);
       let fileBody = "";
       fileBody += "forceload add " + coords[0] + ' ' + coords[2] + '\n';
       fileBody += "data merge block " + container.coords + ' ' + nbt.toString() + "\n";
@@ -69,10 +79,7 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
       });
     }
   }
-  console.log(functionNumber)
-  // console.log(datapackJSON[0])
   for (let file of datapackJSON){
-    // console.log(file)
     placementFunctions.push({
       name: "datapacks/Legend Of Zelda Data/" + file.path,
       lastModified: new Date(),
