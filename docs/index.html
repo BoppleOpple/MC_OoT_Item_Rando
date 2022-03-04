@@ -47,28 +47,45 @@
 				<dd>Ruto drops a random item at the bottom of the lake instead of a letter</dd>
 		</dl>
 	</div>
-	<br><label>Individual Locations:</label><br>
-    <div id="Location">
+	<br><label>Individual Check Locations:</label><br>
+    <div>
 		<nav>
-            <ul>
-                <li><label>Inside Mido's House: </label><input type="checkbox" id="midoHouseInterior"><br> </li>
-                <li><label>Inside Saria's House: </label><input type="checkbox" id="sariaHouseInterior"><br> </li>
-				<li><label>Ontop of Saria's House: </label><input type="checkbox" id="sariaHouseTop"><br> </li>
-                <li><label>Kokiri Shop Chest:</label><input type="checkbox" id="kokiriShopChest"><br></li>
-                <li><label>Kokiri Sword Chest: </label><input type="checkbox" id="kokiriSwordChest"><br></li>
-                <li><label>Kokiri Forest Grass Chests: </label><input type="checkbox" id="kokiriGrassChest"><br></li> 
+		<input type="text" id="myInput" onkeyup="searchBoxLocation()" placeholder="Search for location" title="Type in check">
+            <ul id = "Location">
+				<li><label>---Kokiri Forest (KF)---<label><input type="checkbox" id="kokiriForest"> </li>
+					<ol>
+						<li><label>Inside Mido's House: </label><input type="checkbox" id="midoHouseInterior"><br> </li>
+						<li><label>Inside Saria's House: </label><input type="checkbox" id="sariaHouseInterior"><br> </li>
+						<li><label>Ontop of Saria's House: </label><input type="checkbox" id="sariaHouseTop"><br> </li>
+						<li><label>Kokiri Shop Chest:</label><input type="checkbox" id="kokiriShopChest"><br></li>
+						<li><label>Kokiri Sword Chest: </label><input type="checkbox" id="kokiriSwordChest"><br></li>
+						<li><label>Kokiri Forest Grass Chests: </label><input type="checkbox" id="kokiriGrassChest"><br></li> 
+					</ol>
             </ul>
 		</nav>
 	</div>
-	<br><label>Skips:</label><br>
-    <div id="Skips">
+	<br><label>Tricks:</label><br>
+    <div>
 		<nav>
-            <ul>
-                <li><label>Forest Temple Vine OOB Key: </label><input type="checkbox" id="major"><br> </li>
-                <li><label>Fire Temple Chest OOB Key: </label><input type="checkbox" id="minor"><br> </li>
-                <li><label>Water Temple OOB Boss Key:</label><input type="checkbox" id="grotto"><br></li>
+		<input type="text" id="myInput2" onkeyup="searchBoxSkip()" placeholder="Search for skip" title="Type in skip">
+            <ul id = "Skip">
+				<li><label>Forest Temple: </label><input type="checkbox" id="major"><br> </li>
+					<ol>
+						<li><label>Forest Temple Vine OOB Key: </label><input type="checkbox" id="major"><br> </li>
+					</ol>
+				<li><label>Fire Temple: </label><input type="checkbox" id="major"><br> </li>
+					<ol>
+						<li><label>Fire Temple Chest OOB Key: </label><input type="checkbox" id="minor"><br> </li>
+					</ol>
+				<li><label>Water Temple: </label><input type="checkbox" id="major"><br> </li>	
+					<ol>
+						<li><label>Water Temple OOB Boss Key:</label><input type="checkbox" id="grotto"><br></li>
+					</ol>
+				<li><label>Spirit Temple: </label><input type="checkbox" id="major"><br> </li>	
+					<ol>
+					    <li><label>Spirit Temple OOB: </label><input type="checkbox" id="compass"><br></li> 
+					</ol>
                 <li><label>Bomb Jumping: </label><input type="checkbox" id="heartC"><br></li>
-                <li><label>Spirit Temple OOB: </label><input type="checkbox" id="compass"><br></li> 
                 <li><label>Timewarping Items: </label><input type="checkbox" id="Ruto"></li> 
             </ul>
 		</nav>
@@ -99,5 +116,41 @@
       </div>
 	</details>
     </div>
+    <script>
+        function searchBoxLocation() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("Location");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("label")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+	<script>
+        function searchBoxSkip() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput2");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("Skip");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("label")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
   </body>
 </html>
