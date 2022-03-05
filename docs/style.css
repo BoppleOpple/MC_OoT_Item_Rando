@@ -24,8 +24,12 @@ dd {
   font-family:'Times New Roman', Times, serif;
 }
 
-nav ul{height:100px; width:25%;}
-nav ul{overflow:hidden; overflow-y:scroll;}
+nav ul{
+  height:100px;
+  width:25%;
+  overflow:hidden;
+  overflow-y:scroll;
+}
 
 h1 {
   color: white;

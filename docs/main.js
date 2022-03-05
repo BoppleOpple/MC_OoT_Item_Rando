@@ -16,4 +16,25 @@ async function loadJSON(path) {
   return data;
 }
 
+// Frontend functions
+
+function searchBox(_) {
+  // in functions called by elements, that element is used as the caller, so no need for IDs
+  let filter = this.value.toUpperCase();
+  let listElements = this.parentNode.getElementsByTagName("li");
+  for (let li of listElements) {
+    let listElementLabel = li.getElementsByTagName("label")[0];
+    let txtValue = listElementLabel.textContent || listElementLabel.innerText;
+    if (txtValue.toUpperCase().includes(filter)) {
+      li.style.display = "";
+    } else {
+      li.style.display = "none";
+    }
+  }
+}
+
+
 window.addEventListener("load", loaded);
+for (let input of document.getElementsByClassName("searchbar")){
+  input.addEventListener("keyup", searchBox);
+}

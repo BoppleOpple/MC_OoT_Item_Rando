@@ -5,7 +5,6 @@ import { downloadZip } from "https://cdn.jsdelivr.net/npm/client-zip/index.js"
 export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
   let placementFunctions = [];
   let functionNumber = 0;
-  let readableLog = [];
   let loadMcfunction = `
   datapack disable "file/Legend Of Zelda Data"
   execute as @e[type=minecraft:falling_block] run kill
@@ -15,6 +14,8 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
   execute at @e[type=marker, tag=spawnpoint] run setblock ~10 ~ ~4 chain_command_block[facing=south]{Command:"setblock ~ ~ ~-3 redstone_block", auto:1b}
   execute at @e[type=marker, tag=spawnpoint] run setblock ~10 ~ ~2 redstone_block
   kill @e[type=marker, tag=spawnpoint]
+  forceload add 920 -635
+  data modify block 920 4 -635 Book.tag.pages set value []
   `
   placementFunctions.push({
     name: "datapacks/Randomizer/data/rando/functions/load.mcfunction",
@@ -43,6 +44,16 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
       let nbt = {};
       let NBTIndex = 0;
 
+
+      referenceLoop : for (let refRegion in spoilerLog){
+        for (let refCheck of spoilerLog[refRegion]){
+          if (refCheck.coords == container.referenceCoords){
+            container.contents = refCheck.contents;
+            break referenceLoop
+          }
+        }
+      }
+
       for (let data of NBTData){
         NBTIndex++;
         if (data.x == referenceCoords[0] && data.y == referenceCoords[1] && data.z == referenceCoords[2]){
@@ -52,7 +63,7 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
       if(nbt.includes("Slot:")){
         nbt = nbt.split("Slot: ");
         nbt.forEach((str, i)=>{
-          if (str[0] != '{') {
+          if (str[0] != '{' && str[0] != '"') {
             nbt[i] = '0' + str.slice(str.indexOf('b'), str.length);
           }
         })
@@ -63,14 +74,16 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
       fileBody += "forceload add " + coords[0] + ' ' + coords[2] + '\n';
       fileBody += "data merge block " + container.coords + ' ' + nbt.toString() + "\n";
       fileBody += "forceload remove " + coords[0] + ' ' + coords[2] + '\n';
+      fileBody += "data modify block 920 4 -635 Book.tag.pages append value \"" + container.name + ": " + container.contents + "\"\n";
       if (functionNumber < numChecks){
-        fileBody += "setblock ~ ~ ~1 air\n"
-        fileBody += "setblock ~ ~ ~2 redstone_block\n"
+        fileBody += "setblock ~ ~ ~1 air\n";
+        fileBody += "setblock ~ ~ ~2 redstone_block\n";
         fileBody += "data modify block ~ ~ ~ Command set value \"function rando:replacecontainers/replacecontainer" + (functionNumber + 1).toString() + "\"";
       }else{
-        fileBody += "fill ~ ~ ~ ~ ~ ~4 air"
-        fileBody += "datapack enable \"file/Legend Of Zelda Data\"\n"
-        fileBody += "datapack disable \"file/Randomizer\""
+        fileBody += "fill ~ ~ ~ ~ ~ ~4 air\n"
+        fileBody += "forceload remove 920 -635\n";
+        fileBody += "datapack enable \"file/Legend Of Zelda Data\"\n";
+        fileBody += "datapack disable \"file/Randomizer\"\n";
       }
       placementFunctions.push({
         name: "datapacks/Randomizer/data/rando/functions/replacecontainers/replacecontainer" + functionNumber.toString() + ".mcfunction",
