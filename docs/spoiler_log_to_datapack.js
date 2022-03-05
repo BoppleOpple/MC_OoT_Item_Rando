@@ -44,11 +44,14 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
       let nbt = {};
       let NBTIndex = 0;
 
+      let blockType;
+      let newContents;
 
       referenceLoop : for (let refRegion in spoilerLog){
         for (let refCheck of spoilerLog[refRegion]){
           if (refCheck.coords == container.referenceCoords){
-            container.contents = refCheck.contents;
+            console.log(refCheck.contents)
+            newContents = refCheck.contents;
             break referenceLoop
           }
         }
@@ -58,9 +61,14 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
         NBTIndex++;
         if (data.x == referenceCoords[0] && data.y == referenceCoords[1] && data.z == referenceCoords[2]){
           nbt = data.nbt.slice(8, data.nbt.length-1);
+          console.log(nbt)
+        }
+        if (data.x == coords[0] && data.y == coords[1] && data.z == coords[2]){
+          blockType = data.id.slice(10, data.id.length);
         }
       }
-      if(nbt.includes("Slot:")){
+
+      if(nbt.includes("Slot: ")){
         nbt = nbt.split("Slot: ");
         nbt.forEach((str, i)=>{
           if (str[0] != '{' && str[0] != '"') {
@@ -69,12 +77,12 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
         })
         nbt = nbt.join("Slot: ");
       }
-      console.log(nbt);
       let fileBody = "";
       fileBody += "forceload add " + coords[0] + ' ' + coords[2] + '\n';
-      fileBody += "data merge block " + container.coords + ' ' + nbt.toString() + "\n";
+      fileBody += "setblock " + container.coords + " air\n"
+      fileBody += "setblock " + container.coords + ' ' + blockType + nbt.toString() + "\n";
       fileBody += "forceload remove " + coords[0] + ' ' + coords[2] + '\n';
-      fileBody += "data modify block 920 4 -635 Book.tag.pages append value \"" + container.name + ": " + container.contents + "\"\n";
+      fileBody += "data modify block 920 4 -635 Book.tag.pages append value \"" + container.name + ": " + newContents + "\"\n";
       if (functionNumber < numChecks){
         fileBody += "setblock ~ ~ ~1 air\n";
         fileBody += "setblock ~ ~ ~2 redstone_block\n";
