@@ -3,8 +3,26 @@ import {  randomise   } from "./randomisation.js"
 
 // move this to an <input type="submit"> later, for testing it will be onload
 async function loaded () {
+  const ReferenceSpoiler = await loadJSON("data/reference_spoiler_log.json");
+
+  // for (let region in ReferenceSpoiler){
+  //   let regionNode = document.createElement("li")
+
+  //   document.getElementById("Locations")
+  //   spoiler[region] = [];
+  //   for (let check of ReferenceSpoiler[region]){
+  //     let selectedRef = possibleCheckCoords[Math.floor(Math.random() * possibleCheckCoords.length)]
+  //     spoiler[region].push({
+  //       name: check.name,
+  //       coords: check.coords,
+  //       contents: check.contents,
+  //       referenceCoords: selectedRef
+  //     });
+  //   }
+  // }
+
   let settings = {}; // Read Inputs
-  let spoiler = await randomise(settings, await loadJSON("data/reference_spoiler_log.json")); // generate spoiler JSON
+  let spoiler = await randomise(settings, ReferenceSpoiler); // generate spoiler JSON
 
   console.log(spoiler)
   await saveDatapack(await loadJSON("data/OoT_data.json"), await loadJSON("data/blockentitiespruned.json"), spoiler);
