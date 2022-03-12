@@ -34,7 +34,6 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
       numChecks++;
     }
   }
-  console.log(numChecks)
   for (let region in spoilerLog){
     for (let container of spoilerLog[region]){
       functionNumber++;
@@ -50,7 +49,6 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
       referenceLoop : for (let refRegion in spoilerLog){
         for (let refCheck of spoilerLog[refRegion]){
           if (refCheck.coords == container.referenceCoords){
-            console.log(refCheck.contents)
             newContents = refCheck.contents;
             break referenceLoop
           }
@@ -61,7 +59,6 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
         NBTIndex++;
         if (data.x == referenceCoords[0] && data.y == referenceCoords[1] && data.z == referenceCoords[2]){
           nbt = data.nbt.slice(8, data.nbt.length-1);
-          console.log(nbt)
         }
         if (data.x == coords[0] && data.y == coords[1] && data.z == coords[2]){
           blockType = data.id.slice(10, data.id.length);
@@ -110,7 +107,6 @@ export async function saveDatapack(datapackJSON, NBTData, spoilerLog) {
 
   const blob = await downloadZip(placementFunctions).blob()
 
-  console.log(spoilerLog);
   // I love saving files in js
   let saveElement = document.createElement('a');
   saveElement.setAttribute("download", "Randomizer.zip");

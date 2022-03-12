@@ -1,118 +1,100 @@
 <!doctype HTML>
 <html>
-  <head>
-    <title>Randomizer Settings</title>
-    <script type="module" src="main.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css">
-	<meta charset="utf-8">
-    <title>JS Bin</title>
-  </head>
-  <body>
-    <!-- <header>
-      <table>
-        <tr>
-          <td class="dropdown">
-            <label>About</label>
-          </td>
-          <td class="dropdown">
-            <label>Install/Patch Files</label>
-          </td>
-        </tr>
-      </table>
-    </header> -->
-    <h1>Ocarina of Time Randomiser (in Minecraft)</h1>
-    <div class="line"></div>
-    <h2>Randomisation Options</h2>
-    <div id="logic">
-      <label>Logic: </label>
-      <select name="logic">
-        <option value="first">No Logic</option>
-      </select>
-    </div>
-	<div>
-		<dl>
-			<dt><label>Major Items </label><input type="checkbox" id="major" value="true"><br></dt>
-				<dd>Randomizes Boomerang, Slingshot, Bow, and other main dungeon items</dd>
-			<dt><label>Minor Items (Rupees, Hearts, etc): </label><input type="checkbox" id="minor" value="true"><br></dt>
-				<dd>Randomizes Hearts, Rupees, and other common items found in small chests</dd>
-			<dt><label>Grotto Chests:</label><input type="checkbox" id="grotto" value="true"><br></dt>
-				<dd>Makes it possible to find any item in the holes scattered around Hyrule</dd>
-			<dt><label class="unused">Randomised Kokiri Sword: </label><input type="checkbox" id="sword"><br></dt>
-				<dd>The Kokiri Sword can be found anywhere</dd>
-			<dt><label>Randomised Heart Containers: </label><input type="checkbox" id="heartC"><br></dt>
-				<dd>Heart Containers chests are included</dd>
-			<dt><label>Randomised Compasses: </label><input type="checkbox" id="compass"><br></dt>
-				<dd>Compass chests are now randomized</dd>
-			<dt><label>Randomised Ruto's Letter: </label><input type="checkbox" id="Ruto"></dt>
-				<dd>Ruto drops a random item at the bottom of the lake instead of a letter</dd>
-		</dl>
-	</div>
-	<br><label>Individual Check Locations:</label><br>
-    <div>
-		<nav>
-		<input type="text" class="searchbar" placeholder="Search for location" title="Type in check">
-      <ul id = "Location">
-				<li><label>---Kokiri Forest (KF)---<label><input type="checkbox" id="kokiriForest"> </li>
-					<ol>
-						<li><label>Inside Mido's House: </label><input type="checkbox" id="midoHouseInterior"><br> </li>
-						<li><label>Inside Saria's House: </label><input type="checkbox" id="sariaHouseInterior"><br> </li>
-						<li><label>Ontop of Saria's House: </label><input type="checkbox" id="sariaHouseTop"><br> </li>
-						<li><label>Kokiri Shop Chest:</label><input type="checkbox" id="kokiriShopChest"><br></li>
-						<li><label>Kokiri Sword Chest: </label><input type="checkbox" id="kokiriSwordChest"><br></li>
-						<li><label>Kokiri Forest Grass Chests: </label><input type="checkbox" id="kokiriGrassChest"><br></li> 
-					</ol>
-      </ul>
-		</nav>
-	</div>
-	<br><label>Tricks:</label><br>
-    <div>
-		<nav>
-		<input type="text" class="searchbar" placeholder="Search for skip" title="Type in skip">
-      <ul id = "Skip">
-				<li><label>Forest Temple: </label><input type="checkbox" id="major"><br> </li>
-					<ol>
-						<li><label>Forest Temple Vine OOB Key: </label><input type="checkbox" id="major"><br> </li>
-					</ol>
-				<li><label>Fire Temple: </label><input type="checkbox" id="major"><br> </li>
-					<ol>
-						<li><label>Fire Temple Chest OOB Key: </label><input type="checkbox" id="minor"><br> </li>
-					</ol>
-				<li><label>Water Temple: </label><input type="checkbox" id="major"><br> </li>	
-					<ol>
-						<li><label>Water Temple OOB Boss Key:</label><input type="checkbox" id="grotto"><br></li>
-					</ol>
-				<li><label>Spirit Temple: </label><input type="checkbox" id="major"><br> </li>	
-					<ol>
-					    <li><label>Spirit Temple OOB: </label><input type="checkbox" id="compass"><br></li> 
-					</ol>
-                <li><label>Bomb Jumping: </label><input type="checkbox" id="heartC"><br></li>
-                <li><label>Timewarping Items: </label><input type="checkbox" id="Ruto"></li> 
-      </ul>
-		</nav>
-	</div>
-    <div id="Kirite">
-	<details>
-	  <summary>Kirite's Stupid Settings</summary>
-      <label>All of these are stupid garbage that Kirite and Lemon thought of while in vc and they suck :)</label><br><br>
+
+<head>
+  <title>Randomizer Settings</title>
+  <script type="module" src="main.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+
+<body>
+  <h1>Ocarina of Time Randomiser (in Minecraft)</h1>
+  <div class="line"></div>
+  <h2>Randomisation Options</h2>
+  <div id="logic">
+    <label>Logic: </label>
+    <select name="logic">
+      <option value="first">No Logic</option>
+    </select>
+  </div>
+  <div id="download">
+    <button type="submit" id="downloadButton">Download Randomized Datapack</button>
+  </div>
+  <div>
+    <dl>
+      <dt><label>Major Items </label><input type="checkbox" id="major" checked="true"><br></dt>
+      <dd>Randomizes Boomerang, Slingshot, Bow, and other main dungeon items</dd>
+      <dt><label>Minor Items (Rupees, Hearts, etc): </label><input type="checkbox" id="minor" checked="true"><br></dt>
+      <dd>Randomizes Hearts, Rupees, and other common items found in small chests</dd>
+      <dt><label>Grotto Chests:</label><input type="checkbox" id="grotto" checked="true"><br></dt>
+      <dd>Makes it possible to find any item in the holes scattered around Hyrule</dd>
+      <dt><label class="unused">Randomised Kokiri Sword: </label><input type="checkbox" id="sword"><br></dt>
+      <dd>The Kokiri Sword can be found anywhere</dd>
+      <dt><label>Randomised Heart Containers: </label><input type="checkbox" id="heartC"><br></dt>
+      <dd>Heart Containers chests are included</dd>
+      <dt><label>Randomised Compasses: </label><input type="checkbox" id="compass"><br></dt>
+      <dd>Compass chests are now randomized</dd>
+      <dt><label class="unused">Randomised Ruto's Letter: </label><input type="checkbox" id="Ruto"></dt>
+      <dd>Ruto drops a random item at the bottom of the lake instead of a letter</dd>
+    </dl>
+  </div>
+  <br><label>Individual Check Locations:</label><br>
+  <div id="LocationList" class="scrollList">
+      <input type="text" class="searchbar" placeholder="Search for location" title="Type in check">
+      <ul id="Locations"></ul>
+  </div>
+  <br><label>Tricks:</label><br>
+  <div id="GlitchList" class="scrollList">
+    <input type="text" class="searchbar" placeholder="Search for skip" title="Type in skip">
+    <ul id="Skips">
+      <li><label>Forest Temple: </label><input type="checkbox" id="major"><br> </li>
+      <ol>
+        <li><label>Forest Temple Vine OOB Key: </label><input type="checkbox" id="major"><br> </li>
+      </ol>
+      <li><label>Fire Temple: </label><input type="checkbox" id="major"><br> </li>
+      <ol>
+        <li><label>Fire Temple Chest OOB Key: </label><input type="checkbox" id="minor"><br> </li>
+      </ol>
+      <li><label>Water Temple: </label><input type="checkbox" id="major"><br> </li>
+      <ol>
+        <li><label>Water Temple OOB Boss Key:</label><input type="checkbox" id="grotto"><br></li>
+      </ol>
+      <li><label>Spirit Temple: </label><input type="checkbox" id="major"><br> </li>
+      <ol>
+        <li><label>Spirit Temple OOB: </label><input type="checkbox" id="compass"><br></li>
+      </ol>
+      <li><label>Bomb Jumping: </label><input type="checkbox" id="heartC"><br></li>
+      <li><label>Timewarping Items: </label><input type="checkbox" id="Ruto"></li>
+    </ul>
+  </div>
+  <div id="Kirite">
+    <details>
+      <summary>Kirite's Stupid Settings</summary>
+      <label>All of these are stupid garbage that Kirite and Lemon thought of while in vc and they suck
+        :)</label><br><br>
       <div>
         <label>Moronic Checks (dont use this lmao its so bad)</label>
         <label>Randomises unimportant containers, like the ones in grass or in the castle stealth section.</label>
-        <input type="checkbox" id="3head" value="true"><br>
+        <input type="checkbox" id="3head" checked="true"><br>
       </div>
       <div>
-        <label>Literally not even a stupid check (idk anymore Kirite came up with this blame him, also literal hell)</label><br>
+        <label>Literally not even a stupid check (idk anymore Kirite came up with this blame him, also literal
+          hell)</label><br>
         <label>This one randomises empty barrels and hoppers and stuff, its toxic.</label>
-        <input type="checkbox" id="2head" value="true"><br>
+        <input type="checkbox" id="2head" checked="true"><br>
       </div>
       <div>
         <label>Armor stands holding items</label><br>
         <label>bad idea</label>
-        <input type="checkbox" id="1head" value="true"><br>
+        <input type="checkbox" id="1head" checked="true"><br>
       </div>
       <div>
-        <label>Random items in signs</label><br>
+        <label class="unused">Random items in signs</label><br>
         <label>no</label>
-        <input type="checkbox" id="0head" value="true"><br>
+        <input type="checkbox" id="0head" checked="true"><br>
       </div>
-	</details>
+    </details>
+
 </html>

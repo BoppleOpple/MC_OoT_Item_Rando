@@ -16,38 +16,47 @@ html {
 label {
   color: white;
   font-size: 14pt;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 dd {
   color: white;
   font-size: 12pt;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-nav ul{
-  height:100px;
-  width:25%;
-  overflow:hidden;
-  overflow-y:scroll;
+.scrollList ul {
+  height: 300px;
+  width: fit-content;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+li {
+  color: white;
 }
 
 h1 {
   color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 h2 {
   color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 h3 {
   color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 summary {
   color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
-div{
+
+div {
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -57,7 +66,7 @@ select {
   color: white;
   border: none;
   font-size: 14pt;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .unused {
@@ -67,6 +76,7 @@ select {
 .line {
   border-top: 1px solid white;
 }
+
 /* 
 .dropdown {
   background-color: #333333;
