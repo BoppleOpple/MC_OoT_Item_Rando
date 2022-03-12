@@ -695,6 +695,230 @@
   "region": "dodongo_cavern",
   "tp": "/tp 2248 54 1941"
 }, {
+  "x": 825,
+  "y": 90,
+  "z": 408,
+  "id": "universal_minecraft:flower_pot",
+  "nbt": "{utags: {isMovable: 1b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 825 90 408"
+}, {
+  "x": 825,
+  "y": 90,
+  "z": 412,
+  "id": "universal_minecraft:flower_pot",
+  "nbt": "{utags: {isMovable: 1b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 825 90 412"
+}, {
+  "x": 826,
+  "y": 90,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 90 403"
+}, {
+  "x": 826,
+  "y": 91,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 91 403"
+}, {
+  "x": 826,
+  "y": 92,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 92 403"
+}, {
+  "x": 826,
+  "y": 93,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 93 403"
+}, {
+  "x": 826,
+  "y": 94,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 94 403"
+}, {
+  "x": 826,
+  "y": 95,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 95 403"
+}, {
+  "x": 826,
+  "y": 96,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 96 403"
+}, {
+  "x": 826,
+  "y": 97,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 97 403"
+}, {
+  "x": 826,
+  "y": 98,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 98 403"
+}, {
+  "x": 826,
+  "y": 99,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 99 403"
+}, {
+  "x": 826,
+  "y": 100,
+  "z": 403,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 100 403"
+}, {
+  "x": 824,
+  "y": 87,
+  "z": 401,
+  "id": "universal_minecraft:command_block",
+  "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"/give @p player_head{display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Zelda\\\\\\\"}\\\"},SkullOwner:{Id:\\\"d2ebc8be-33df-487f-9654-9df26603f111\\\",Properties:{textures:[{Value:\\\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNhMGRjOTc2ZTY3NTYzYzQ1ZGMzYWE5OWM1MjE5ZjFmZGFlMWVlMzYxZmMxNGZlYTExNmQ2NWFmNmU4MCJ9fX0=\\\"}]}},SecretMask:1b}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 218189070L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.give.success.single\\\",\\\"with\\\":[\\\"1\\\",{\\\"color\\\":\\\"yellow\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_item\\\",\\\"contents\\\":{\\\"id\\\":\\\"minecraft:player_head\\\",\\\"tag\\\":\\\"{SecretMask:1b,SkullOwner:{Id:\\\\\\\"d2ebc8be-33df-487f-9654-9df26603f111\\\\\\\",Properties:{textures:[{Value:\\\\\\\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNhMGRjOTc2ZTY3NTYzYzQ1ZGMzYWE5OWM1MjE5ZjFmZGFlMWVlMzYxZmMxNGZlYTExNmQ2NWFmNmU4MCJ9fX0=\\\\\\\"}]}},display:{Name:'{\\\\\\\"text\\\\\\\":\\\\\\\"Zelda\\\\\\\"}'}}\\\"}},\\\"extra\\\":[{\\\"italic\\\":true,\\\"extra\\\":[{\\\"text\\\":\\\"Zelda\\\"}],\\\"text\\\":\\\"\\\"},{\\\"text\\\":\\\"]\\\"}],\\\"text\\\":\\\"[\\\"},{\\\"insertion\\\":\\\"Rivero7462\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"suggest_command\\\",\\\"value\\\":\\\"/tell Rivero7462 \\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:player\\\",\\\"id\\\":\\\"fbbd1ee0-33e3-43ff-8b31-8c956f021c99\\\",\\\"name\\\":{\\\"text\\\":\\\"Rivero7462\\\"}}},\\\"text\\\":\\\"Rivero7462\\\"}]}],\\\"text\\\":\\\"[18:46:46] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 1, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 824 87 401"
+}, {
+  "x": 824,
+  "y": 90,
+  "z": 403,
+  "id": "universal_minecraft:sign",
+  "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"way.\\\"}\", Text3: \"{\\\"text\\\":\\\"to swim all this\\\"}\", Text2: \"{\\\"text\\\":\\\"feel bad you had\\\"}\", Text1: \"{\\\"text\\\":\\\"I just straight up\\\"}\"}, Color: \"black\"}",
+  "region": "Inside_Castle",
+  "tp": "/tp 824 90 403"
+}, {
+  "x": 816,
+  "y": 84,
+  "z": 410,
+  "id": "universal_minecraft:chest",
+  "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 0b, id: \"minecraft:written_book\", Count: 16b, tag: {pages: [\"{\\\"text\\\":\\\"This is Link. He is under my orders to save Hyrule\\\"}\"], title: \"Zelda's Letter\", author: \"Rivero7462\"}}], keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 816 84 410"
+}, {
+  "x": 829,
+  "y": 90,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 90 400"
+}, {
+  "x": 829,
+  "y": 91,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 91 400"
+}, {
+  "x": 829,
+  "y": 92,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 92 400"
+}, {
+  "x": 829,
+  "y": 93,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 93 400"
+}, {
+  "x": 829,
+  "y": 94,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 94 400"
+}, {
+  "x": 829,
+  "y": 95,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 95 400"
+}, {
+  "x": 829,
+  "y": 96,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 96 400"
+}, {
+  "x": 829,
+  "y": 97,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 97 400"
+}, {
+  "x": 829,
+  "y": 98,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 98 400"
+}, {
+  "x": 829,
+  "y": 99,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 99 400"
+}, {
+  "x": 829,
+  "y": 100,
+  "z": 400,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 100 400"
+}, {
+  "x": 824,
+  "y": 89,
+  "z": 403,
+  "id": "universal_minecraft:chest",
+  "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNhMGRjOTc2ZTY3NTYzYzQ1ZGMzYWE5OWM1MjE5ZjFmZGFlMWVlMzYxZmMxNGZlYTExNmQ2NWFmNmU4MCJ9fX0=\"}]}, Id: [I;-756299586, 870271103, -1772839438, 1711534353]}, SecretMask: 1b, display: {Name: \"{\\\"text\\\":\\\"Zelda\\\"}\"}}}], keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 824 89 403"
+}, {
   "x": 970,
   "y": 7,
   "z": 1394,
@@ -1908,7 +2132,7 @@
   "z": 1979,
   "id": "universal_minecraft:flower_pot",
   "nbt": "{utags: {isMovable: 1b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2685 42 1979"
 }, {
   "x": 2686,
@@ -1916,7 +2140,7 @@
   "z": 1980,
   "id": "universal_minecraft:flower_pot",
   "nbt": "{utags: {isMovable: 1b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2686 42 1980"
 }, {
   "x": 2059,
@@ -2983,6 +3207,182 @@
   "region": "dodongo_cavern",
   "tp": "/tp 2245 35 1952"
 }, {
+  "x": 826,
+  "y": 90,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 90 417"
+}, {
+  "x": 826,
+  "y": 91,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 91 417"
+}, {
+  "x": 826,
+  "y": 92,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 92 417"
+}, {
+  "x": 826,
+  "y": 93,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 93 417"
+}, {
+  "x": 826,
+  "y": 94,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 94 417"
+}, {
+  "x": 826,
+  "y": 95,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 95 417"
+}, {
+  "x": 826,
+  "y": 96,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 96 417"
+}, {
+  "x": 826,
+  "y": 97,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 97 417"
+}, {
+  "x": 826,
+  "y": 98,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 98 417"
+}, {
+  "x": 826,
+  "y": 99,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 99 417"
+}, {
+  "x": 826,
+  "y": 100,
+  "z": 417,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"rs\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 826 100 417"
+}, {
+  "x": 829,
+  "y": 90,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 90 420"
+}, {
+  "x": 829,
+  "y": 91,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 91 420"
+}, {
+  "x": 829,
+  "y": 92,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 92 420"
+}, {
+  "x": 829,
+  "y": 93,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 93 420"
+}, {
+  "x": 829,
+  "y": 94,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 94 420"
+}, {
+  "x": 829,
+  "y": 95,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 95 420"
+}, {
+  "x": 829,
+  "y": 96,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 96 420"
+}, {
+  "x": 829,
+  "y": 97,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 97 420"
+}, {
+  "x": 829,
+  "y": 98,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 98 420"
+}, {
+  "x": 829,
+  "y": 99,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 99 420"
+}, {
+  "x": 829,
+  "y": 100,
+  "z": 420,
+  "id": "universal_minecraft:banner",
+  "nbt": "{utags: {isMovable: 1b, Base: 0, Type: 0, keepPacked: 0b, Patterns: [{Pattern: \"ls\", Color: 4}]}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 829 100 420"
+}, {
   "x": 914,
   "y": 74,
   "z": 935,
@@ -3031,12 +3431,52 @@
   "region": "Zora_River",
   "tp": "/tp 1489 60 2345"
 }, {
+  "x": 898,
+  "y": 87,
+  "z": 428,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 898 87 428"
+}, {
+  "x": 898,
+  "y": 87,
+  "z": 430,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 898 87 430"
+}, {
+  "x": 900,
+  "y": 87,
+  "z": 428,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/red_rupee\", keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 900 87 428"
+}, {
+  "x": 902,
+  "y": 87,
+  "z": 428,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 902 87 428"
+}, {
+  "x": 902,
+  "y": 87,
+  "z": 430,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 902 87 430"
+}, {
   "x": 2723,
   "y": 39,
   "z": 2016,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Navi\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2723 39 2016"
 }, {
   "x": 912,
@@ -3476,7 +3916,7 @@
   "z": 1941,
   "id": "universal_minecraft:command_block",
   "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"summon minecraft:marker 2693 29 1941 {Tags:[\\\"Pots\\\"]}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 268799303L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"70dd2c07-b50d-4b45-904c-8849026f468a\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:marker\\\",\\\"id\\\":\\\"70dd2c07-b50d-4b45-904c-8849026f468a\\\",\\\"name\\\":{\\\"translate\\\":\\\"entity.minecraft.marker\\\"}}},\\\"translate\\\":\\\"entity.minecraft.marker\\\"}]}],\\\"text\\\":\\\"[08:39:15] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 1, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2693 27 1941"
 }, {
   "x": 2692,
@@ -3484,7 +3924,7 @@
   "z": 1948,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Gold Skulltula\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2692 37 1948"
 }, {
   "x": 2689,
@@ -3492,7 +3932,7 @@
   "z": 1942,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Goron City\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2689 26 1942"
 }, {
   "x": 2691,
@@ -3500,7 +3940,7 @@
   "z": 1942,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Death Mountain\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2691 26 1942"
 }, {
   "x": 2693,
@@ -3508,7 +3948,7 @@
   "z": 1942,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Pots\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2693 28 1942"
 }, {
   "x": 2261,
@@ -4404,7 +4844,7 @@
   "z": 1940,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2717 44 1940"
 }, {
   "x": 2718,
@@ -4412,7 +4852,7 @@
   "z": 1945,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"2\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2718 40 1945"
 }, {
   "x": 2718,
@@ -4420,7 +4860,7 @@
   "z": 1946,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"1\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2718 40 1946"
 }, {
   "x": 557,
@@ -5487,6 +5927,30 @@
   "region": "adult_lake",
   "tp": "/tp 1399 63 2707"
 }, {
+  "x": 898,
+  "y": 87,
+  "z": 432,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 898 87 432"
+}, {
+  "x": 900,
+  "y": 87,
+  "z": 432,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 900 87 432"
+}, {
+  "x": 902,
+  "y": 87,
+  "z": 432,
+  "id": "universal_minecraft:dispenser",
+  "nbt": "{utags: {isMovable: 1b, Items: [], Lock: \"\", LootTable: \"ocarina_of_time:chests/general/green_rupee\", keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 902 87 432"
+}, {
   "x": 1755,
   "y": 29,
   "z": 2300,
@@ -6012,7 +6476,7 @@
   "z": 1960,
   "id": "universal_minecraft:campfire",
   "nbt": "{utags: {isMovable: 1b, Items: [], CookingTimes: [I;0, 0, 0, 0], CookingTotalTimes: [I;0, 0, 0, 0], ItemTime1: 0, ItemTime2: 0, ItemTime3: 0, ItemTime4: 0, keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2692 54 1960"
 }, {
   "x": 2692,
@@ -6020,7 +6484,7 @@
   "z": 1958,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:golden_carrot\", Count: 1b, tag: {InventoryItem: 1b, HeartPiece: 1b, display: {Name: \"{\\\"text\\\":\\\"Heart Piece\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2692 55 1958"
 }, {
   "x": 537,
@@ -7959,6 +8423,14 @@
   "region": "desert_colossus",
   "tp": "/tp 460 33 479"
 }, {
+  "x": 943,
+  "y": 85,
+  "z": 433,
+  "id": "universal_minecraft:sign",
+  "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Check Guards\\\"}\"}, Color: \"black\"}",
+  "region": "Inside_Castle",
+  "tp": "/tp 943 85 433"
+}, {
   "x": 1695,
   "y": 59,
   "z": 964,
@@ -8172,7 +8644,7 @@
   "z": 1980,
   "id": "universal_minecraft:flower_pot",
   "nbt": "{utags: {isMovable: 1b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2693 42 1980"
 }, {
   "x": 2694,
@@ -8180,7 +8652,7 @@
   "z": 1979,
   "id": "universal_minecraft:flower_pot",
   "nbt": "{utags: {isMovable: 1b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2694 42 1979"
 }, {
   "x": 2692,
@@ -8188,7 +8660,7 @@
   "z": 1980,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"Gorons\\\"}\", Text2: \"{\\\"text\\\":\\\"Home of the\\\"}\", Text1: \"{\\\"text\\\":\\\"Goron City\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2692 42 1980"
 }, {
   "x": 1605,
@@ -8452,7 +8924,7 @@
   "z": 1932,
   "id": "universal_minecraft:head",
   "nbt": "{utags: {isMovable: 1b, MouthMoving: 0b, MouthTickCount: 0, keepPacked: 0b}, SkullOwner: {Id: [I;1679942660, -219656990, -1304777738, -846037816], Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDVhYzBjYTczNWIyN2FlYmUzNGE4NGNlZjYzMmYyZmU2ZDdiNDgyNTZkZDhiZjdlMDQwNDA1NDc5NDIxYTY5YyJ9fX0=\"}]}}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2730 23 1932"
 }, {
   "x": 2727,
@@ -8460,7 +8932,7 @@
   "z": 1935,
   "id": "universal_minecraft:head",
   "nbt": "{utags: {isMovable: 1b, MouthMoving: 0b, MouthTickCount: 0, keepPacked: 0b}, SkullOwner: {Id: [I;1679942660, -219656990, -1304777738, -846037816], Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDVhYzBjYTczNWIyN2FlYmUzNGE4NGNlZjYzMmYyZmU2ZDdiNDgyNTZkZDhiZjdlMDQwNDA1NDc5NDIxYTY5YyJ9fX0=\"}]}}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2727 24 1935"
 }, {
   "x": 2729,
@@ -8468,7 +8940,7 @@
   "z": 1933,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:tnt\", Count: 1b, tag: {Item: 1b, BombPickup: 1b, display: {Name: \"{\\\"text\\\":\\\"Bomb\\\"}\"}, PickupItem: 1b}}], keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2729 19 1933"
 }, {
   "x": -145,
@@ -10670,6 +11142,22 @@
   "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"summon minecraft:zombie 905 74 -1103 {Tags:[\\\"GoldSkull50\\\",\\\"GoldSkull\\\",\\\"Wall\\\",\\\"Invisible\\\"],Rotation:[0f],NoAI:1b,ArmorItems:[{},{},{},{id:cobblestone,Count:1b,tag:{CustomModelData:9}}],Health:7,Invulnerable:1b,PersistenceRequired:1b,Silent:1,IsBaby:1b,DeathLootTable:\\\"ocarina_of_time:entities/gold_skulltula\\\",ArmorDropChances:[0f,0f,0f,0f]}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 246412111L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"6bca3ec4-12aa-465b-b665-4d35476ce691\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:zombie\\\",\\\"id\\\":\\\"6bca3ec4-12aa-465b-b665-4d35476ce691\\\",\\\"name\\\":{\\\"translate\\\":\\\"entity.minecraft.zombie\\\"}}},\\\"translate\\\":\\\"entity.minecraft.zombie\\\"}]}],\\\"text\\\":\\\"[14:11:31] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 1, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
   "region": "Forest_Temple",
   "tp": "/tp 907 74 -1103"
+}, {
+  "x": 834,
+  "y": 91,
+  "z": 425,
+  "id": "universal_minecraft:flower_pot",
+  "nbt": "{utags: {isMovable: 1b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 834 91 425"
+}, {
+  "x": 834,
+  "y": 90,
+  "z": 425,
+  "id": "universal_minecraft:hopper",
+  "nbt": "{utags: {isMovable: 1b, Items: [], TransferCooldown: 0, keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 834 90 425"
 }, {
   "x": -579,
   "y": 74,
@@ -14068,7 +14556,7 @@
   "z": 1963,
   "id": "universal_minecraft:command_block",
   "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"/summon villager 2722 41 1962 {Invulnerable:1,Silent:1,NoAI:1,CustomName:\\\"\\\\\\\"Shop\\\\\\\"\\\",Offers:{Recipes:[{buy:{id:lapis_lazuli,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Blue Rupee\\\\\\\"}\\\"}}},sell:{id:lime_dye,Count:5,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:lime_dye,Count:5,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},sell:{id:lapis_lazuli,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Blue Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:red_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Red Rupee\\\\\\\"}\\\"}}},sell:{id:lime_dye,Count:20,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:lime_dye,Count:20,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},sell:{id:red_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Red Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:purple_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Purple Rupee\\\\\\\"}\\\"}}},sell:{id:lime_dye,Count:50,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:orange_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Orange Rupee\\\\\\\"}\\\"}}},sell:{id:purple_dye,Count:4,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Purple Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:yellow_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Huge Rupee\\\\\\\"}\\\"}}},sell:{id:purple_dye,Count:4,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Purple Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999}]},PersistenceRequired:1,Tags:[\\\"Invisible\\\",\\\"RupeeConvert\\\",\\\"CraterConvert\\\"]}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 243724924L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"a50c2874-eeab-4fd0-ba2e-547258ee713c\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:villager\\\",\\\"id\\\":\\\"a50c2874-eeab-4fd0-ba2e-547258ee713c\\\",\\\"name\\\":{\\\"text\\\":\\\"Shop\\\"}}},\\\"text\\\":\\\"Shop\\\"}]}],\\\"text\\\":\\\"[11:57:43] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 1, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2721 41 1963"
 }, {
   "x": 2727,
@@ -14076,7 +14564,7 @@
   "z": 1962,
   "id": "universal_minecraft:command_block",
   "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"summon minecraft:zombie 2727 57 1960 {Tags:[\\\"GoldSkull27\\\",\\\"GoldSkull\\\",\\\"Floor\\\",\\\"Child\\\",\\\"Invisible\\\"],Rotation:[0f],NoAI:1b,ArmorItems:[{},{},{},{id:cobblestone,Count:1b,tag:{CustomModelData:10}}],Health:7,Invulnerable:1b,PersistenceRequired:1b,IsBaby:1b,Silent:1,DeathLootTable:\\\"ocarina_of_time:entities/gold_skulltula\\\",ArmorDropChances:[0f,0f,0f,0f]}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 246250782L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"b7ba9502-4a35-4f8c-b8a9-70da16a2e271\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:zombie\\\",\\\"id\\\":\\\"b7ba9502-4a35-4f8c-b8a9-70da16a2e271\\\",\\\"name\\\":{\\\"translate\\\":\\\"entity.minecraft.zombie\\\"}}},\\\"translate\\\":\\\"entity.minecraft.zombie\\\"}]}],\\\"text\\\":\\\"[11:45:43] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 1, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2727 55 1962"
 }, {
   "x": 2720,
@@ -14084,7 +14572,7 @@
   "z": 1962,
   "id": "universal_minecraft:head",
   "nbt": "{utags: {isMovable: 1b, MouthMoving: 0b, MouthTickCount: 0, keepPacked: 0b}, SkullOwner: {Id: [I;1943330920, 980241547, -1887096029, 1416189380], Properties: {textures: [{Signature: \"kmol28lvgx8FS8oTrMPmwZIp+6/gODYMMBkIWVafrqJNGQP4RrVtb8fHAkxvJ7vFSNTiFUMQ4VcjPXFDl8ZqGjekmrpSzn/WxamwsaZbvYUejhRR7y4xkos7p7JOildqceFM8S4+8VmNeUL2Cva3dJ3Dl+CtiU9dG4CckWNEYb4eJxZC48M7jiR80QW84nvci08l7gXi2+lmLJdDLD8oULdpO6KsBvDSqCu5BBskqzRTqHHLYX/1JjnyCl950xBpAA5ep6Zs6eG7+RfkZjxnVI11J9yvqsT2ZgvCwfMM2QvJb2pvJUKFneZ8uYJO7Ygx7IIHIhlHL+Xby18Pe8bhGogIdwD/GKEAxFxa00WmI8RmeFn40vlRhtnpQS7ZAYpEyF2MGV0VVHRiENIV0JGho8cQ0ODsvnRnJBORQxwIniRpUSF1UpAoIeS9rgiF5DDsfnS3a80bEWwMnvg7akSwIVwNzNxGw6ciK/XWpwJOARWseilCOLFnkUVlqOgsFSiUGuY3fmRzoOvdGqy/U5c2Ma5aWh3VETt/3Vt5wkK6kBNlZGH+PyDUegVSPlhxPqQot1CAd5sYz5J+KR4dtvZnh3zEJ/sCrwsEgxavJ/2R9+eflFkgemGZENbGud8B0l4I+6bS0SUejNls0JrueqMdbD6JqTYIPVWuQg9ozlBWG7I=\", Value: \"ewogICJ0aW1lc3RhbXAiIDogMTU5NTUxNjc1MjQxNCwKICAicHJvZmlsZUlkIiA6ICI3M2Q0ZTA2ODNhNmQ0YzhiOGY4NTMzMjM1NDY5NTVjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfQ2hlc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSIKICAgIH0KICB9Cn0=\"}]}, Name: \"MHF_Chest\"}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2720 43 1962"
 }, {
   "x": 2722,
@@ -14092,7 +14580,7 @@
   "z": 1962,
   "id": "universal_minecraft:head",
   "nbt": "{utags: {isMovable: 1b, MouthMoving: 0b, MouthTickCount: 0, keepPacked: 0b}, SkullOwner: {Id: [I;1943330920, 980241547, -1887096029, 1416189380], Properties: {textures: [{Signature: \"kmol28lvgx8FS8oTrMPmwZIp+6/gODYMMBkIWVafrqJNGQP4RrVtb8fHAkxvJ7vFSNTiFUMQ4VcjPXFDl8ZqGjekmrpSzn/WxamwsaZbvYUejhRR7y4xkos7p7JOildqceFM8S4+8VmNeUL2Cva3dJ3Dl+CtiU9dG4CckWNEYb4eJxZC48M7jiR80QW84nvci08l7gXi2+lmLJdDLD8oULdpO6KsBvDSqCu5BBskqzRTqHHLYX/1JjnyCl950xBpAA5ep6Zs6eG7+RfkZjxnVI11J9yvqsT2ZgvCwfMM2QvJb2pvJUKFneZ8uYJO7Ygx7IIHIhlHL+Xby18Pe8bhGogIdwD/GKEAxFxa00WmI8RmeFn40vlRhtnpQS7ZAYpEyF2MGV0VVHRiENIV0JGho8cQ0ODsvnRnJBORQxwIniRpUSF1UpAoIeS9rgiF5DDsfnS3a80bEWwMnvg7akSwIVwNzNxGw6ciK/XWpwJOARWseilCOLFnkUVlqOgsFSiUGuY3fmRzoOvdGqy/U5c2Ma5aWh3VETt/3Vt5wkK6kBNlZGH+PyDUegVSPlhxPqQot1CAd5sYz5J+KR4dtvZnh3zEJ/sCrwsEgxavJ/2R9+eflFkgemGZENbGud8B0l4I+6bS0SUejNls0JrueqMdbD6JqTYIPVWuQg9ozlBWG7I=\", Value: \"ewogICJ0aW1lc3RhbXAiIDogMTU5NTUxNjc1MjQxNCwKICAicHJvZmlsZUlkIiA6ICI3M2Q0ZTA2ODNhNmQ0YzhiOGY4NTMzMjM1NDY5NTVjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfQ2hlc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSIKICAgIH0KICB9Cn0=\"}]}, Name: \"MHF_Chest\"}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2722 42 1962"
 }, {
   "x": 912,
@@ -14188,7 +14676,7 @@
   "z": 1911,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 0b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 2b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 3b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 6b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 8b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2679 33 1911"
 }, {
   "x": 2679,
@@ -14196,7 +14684,7 @@
   "z": 1911,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 0b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 2b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 3b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 6b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}, {Slot: 8b, id: \"minecraft:lapis_lazuli\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Blue Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2679 35 1911"
 }, {
   "x": -557,
@@ -14342,6 +14830,22 @@
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [], LootTable: \"ocarina_of_time:chests/general/blue_rupee\", keepPacked: 0b}}",
   "region": "Kokiri_Forest/Lost_Woods",
   "tp": "/tp -568 74 -752"
+}, {
+  "x": 950,
+  "y": 84,
+  "z": 433,
+  "id": "universal_minecraft:command_block",
+  "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"/summon minecraft:armor_stand ~ ~ ~ {Rotation:[0f],NoGravity:1b,Small:0b,ShowArms:1b,Invisible:1b,CustomName:\\\"\\\\\\\"Guard15\\\\\\\"\\\",CustomNameVisible:0,ArmorItems:[{id:\\\"leather_boots\\\",Count:1,tag:{display:{color:8224125}}},{id:\\\"leather_leggings\\\",Count:1,tag:{display:{color:15319922}}},{id:\\\"leather_chestplate\\\",Count:1,tag:{display:{color:16777215}}},{id:\\\"player_head\\\",Count:1,tag:{SkullOwner:{Name:\\\"Guard\\\",Id:\\\"27734439-8814-4dd0-87f0-720e0536dff9\\\",Properties:{textures:[{Value:\\\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RkNmIwMzdjZThkN2UxYWMyMmI1ODMzYmMyNmU0MzNjNDFjODJlNmFmNTEwMzZjYjZiMTRkMzRkY2YwNmMifX19\\\"}]}}}}],HandItems:[{id:wooden_hoe,Count:1b},{}],DisabledSlots:7936,Pose:{Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 77078605L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"6e2dfa98-a800-4d08-a910-4e0805a558dd\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:armor_stand\\\",\\\"id\\\":\\\"6e2dfa98-a800-4d08-a910-4e0805a558dd\\\",\\\"name\\\":{\\\"text\\\":\\\"Guard15\\\"}}},\\\"text\\\":\\\"Guard15\\\"}]}],\\\"text\\\":\\\"[14:50:18] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 0, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 950 84 433"
+}, {
+  "x": 951,
+  "y": 84,
+  "z": 435,
+  "id": "universal_minecraft:command_block",
+  "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"/summon minecraft:armor_stand ~ ~ ~ {Rotation:[0f],NoGravity:1b,Small:0b,ShowArms:1b,Invisible:1b,CustomName:\\\"\\\\\\\"Guard16\\\\\\\"\\\",CustomNameVisible:0,ArmorItems:[{id:\\\"leather_boots\\\",Count:1,tag:{display:{color:8224125}}},{id:\\\"leather_leggings\\\",Count:1,tag:{display:{color:15319922}}},{id:\\\"leather_chestplate\\\",Count:1,tag:{display:{color:16777215}}},{id:\\\"player_head\\\",Count:1,tag:{SkullOwner:{Name:\\\"Guard\\\",Id:\\\"27734439-8814-4dd0-87f0-720e0536dff9\\\",Properties:{textures:[{Value:\\\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RkNmIwMzdjZThkN2UxYWMyMmI1ODMzYmMyNmU0MzNjNDFjODJlNmFmNTEwMzZjYjZiMTRkMzRkY2YwNmMifX19\\\"}]}}}}],HandItems:[{id:wooden_hoe,Count:1b},{}],DisabledSlots:7936,Pose:{Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 77078621L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"4093e48a-19ab-4d57-938d-1583f7f8acee\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:armor_stand\\\",\\\"id\\\":\\\"4093e48a-19ab-4d57-938d-1583f7f8acee\\\",\\\"name\\\":{\\\"text\\\":\\\"Guard16\\\"}}},\\\"text\\\":\\\"Guard16\\\"}]}],\\\"text\\\":\\\"[14:50:19] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 0, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 951 84 435"
 }, {
   "x": 1724,
   "y": 32,
@@ -14700,7 +15204,7 @@
   "z": 2015,
   "id": "universal_minecraft:command_block",
   "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"summon minecraft:area_effect_cloud ~ ~1 ~ {ReapplicationDelay:20,Radius:1.0f,Duration:4,Effects:[{Ambient:6b,ShowParticles:6b,Duration:1,Id:6b,Amplifier:6b}],RadiusPerTick:0.f}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 198031890L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"773becc8-f351-46b2-b88a-06006df08b21\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:area_effect_cloud\\\",\\\"id\\\":\\\"773becc8-f351-46b2-b88a-06006df08b21\\\",\\\"name\\\":{\\\"translate\\\":\\\"entity.minecraft.area_effect_cloud\\\"}}},\\\"translate\\\":\\\"entity.minecraft.area_effect_cloud\\\"}]}],\\\"text\\\":\\\"[00:19:27] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 1, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2716 46 2015"
 }, {
   "x": -85,
@@ -15764,7 +16268,7 @@
   "z": 1924,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2668 33 1924"
 }, {
   "x": 2668,
@@ -15772,7 +16276,7 @@
   "z": 1924,
   "id": "universal_minecraft:chest",
   "nbt": "{utags: {isMovable: 1b, Findable: 0b, Items: [{Slot: 13b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}], keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2668 37 1924"
 }, {
   "x": 1612,
@@ -16324,7 +16828,7 @@
   "z": 1923,
   "id": "universal_minecraft:campfire",
   "nbt": "{utags: {isMovable: 1b, Items: [], CookingTimes: [I;0, 0, 0, 0], CookingTotalTimes: [I;0, 0, 0, 0], ItemTime1: 0, ItemTime2: 0, ItemTime3: 0, ItemTime4: 0, keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2684 51 1923"
 }, {
   "x": -571,
@@ -17919,6 +18423,22 @@
   "region": "Hyrule_Field",
   "tp": "/tp 1054 64 1928"
 }, {
+  "x": 880,
+  "y": 82,
+  "z": 418,
+  "id": "universal_minecraft:command_block",
+  "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"834 88 410\", conditionMet: 0b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 0L, LastOutput: \"\", LastOutputParams: [], powered: 0b, SuccessCount: 0, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
+  "region": "Inside_Castle",
+  "tp": "/tp 880 82 418"
+}, {
+  "x": 880,
+  "y": 83,
+  "z": 419,
+  "id": "universal_minecraft:sign",
+  "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Caslte Field\\\"}\"}, Color: \"black\"}",
+  "region": "Inside_Castle",
+  "tp": "/tp 880 83 419"
+}, {
   "x": 1344,
   "y": 51,
   "z": -644,
@@ -18246,6 +18766,14 @@
   "nbt": "{utags: {isMovable: 1b}}",
   "region": "Ganon_Castle",
   "tp": "/tp -554 31 1886"
+}, {
+  "x": 878,
+  "y": 83,
+  "z": 419,
+  "id": "universal_minecraft:sign",
+  "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Respawn\\\"}\"}, Color: \"black\"}",
+  "region": "Inside_Castle",
+  "tp": "/tp 878 83 419"
 }, {
   "x": 1360,
   "y": 65,
@@ -19452,7 +19980,7 @@
   "z": 1949,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Cutscene\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2683 33 1949"
 }, {
   "x": 2685,
@@ -19460,7 +19988,7 @@
   "z": 1942,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Bolero of Fire\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2685 26 1942"
 }, {
   "x": 2687,
@@ -19468,7 +19996,7 @@
   "z": 1942,
   "id": "universal_minecraft:sign",
   "nbt": "{GlowingText: 0b, utags: {keepPacked: 0b, Text4: \"{\\\"text\\\":\\\"\\\"}\", Text3: \"{\\\"text\\\":\\\"\\\"}\", Text2: \"{\\\"text\\\":\\\"\\\"}\", Text1: \"{\\\"text\\\":\\\"Fire Temple\\\"}\"}, Color: \"black\"}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2687 26 1942"
 }, {
   "x": -622,
@@ -19972,7 +20500,7 @@
   "z": 1910,
   "id": "universal_minecraft:dispenser",
   "nbt": "{utags: {isMovable: 1b, Items: [{Slot: 0b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 2b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 3b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 4b, id: \"minecraft:red_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Red Rupee\\\"}\"}}}, {Slot: 5b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 6b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}, {Slot: 8b, id: \"minecraft:lime_dye\", Count: 1b, tag: {Item: 1b, display: {Name: \"{\\\"text\\\":\\\"Green Rupee\\\"}\"}}}], Lock: \"\", keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2697 33 1910"
 }, {
   "x": 541,
@@ -20804,7 +21332,7 @@
   "z": 1965,
   "id": "universal_minecraft:head",
   "nbt": "{utags: {isMovable: 1b, MouthMoving: 0b, MouthTickCount: 0, keepPacked: 0b}, SkullOwner: {Id: [I;1943330920, 980241547, -1887096029, 1416189380], Properties: {textures: [{Signature: \"kmol28lvgx8FS8oTrMPmwZIp+6/gODYMMBkIWVafrqJNGQP4RrVtb8fHAkxvJ7vFSNTiFUMQ4VcjPXFDl8ZqGjekmrpSzn/WxamwsaZbvYUejhRR7y4xkos7p7JOildqceFM8S4+8VmNeUL2Cva3dJ3Dl+CtiU9dG4CckWNEYb4eJxZC48M7jiR80QW84nvci08l7gXi2+lmLJdDLD8oULdpO6KsBvDSqCu5BBskqzRTqHHLYX/1JjnyCl950xBpAA5ep6Zs6eG7+RfkZjxnVI11J9yvqsT2ZgvCwfMM2QvJb2pvJUKFneZ8uYJO7Ygx7IIHIhlHL+Xby18Pe8bhGogIdwD/GKEAxFxa00WmI8RmeFn40vlRhtnpQS7ZAYpEyF2MGV0VVHRiENIV0JGho8cQ0ODsvnRnJBORQxwIniRpUSF1UpAoIeS9rgiF5DDsfnS3a80bEWwMnvg7akSwIVwNzNxGw6ciK/XWpwJOARWseilCOLFnkUVlqOgsFSiUGuY3fmRzoOvdGqy/U5c2Ma5aWh3VETt/3Vt5wkK6kBNlZGH+PyDUegVSPlhxPqQot1CAd5sYz5J+KR4dtvZnh3zEJ/sCrwsEgxavJ/2R9+eflFkgemGZENbGud8B0l4I+6bS0SUejNls0JrueqMdbD6JqTYIPVWuQg9ozlBWG7I=\", Value: \"ewogICJ0aW1lc3RhbXAiIDogMTU5NTUxNjc1MjQxNCwKICAicHJvZmlsZUlkIiA6ICI3M2Q0ZTA2ODNhNmQ0YzhiOGY4NTMzMjM1NDY5NTVjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfQ2hlc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSIKICAgIH0KICB9Cn0=\"}]}, Name: \"MHF_Chest\"}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2670 18 1965"
 }, {
   "x": 2670,
@@ -20812,7 +21340,7 @@
   "z": 1964,
   "id": "universal_minecraft:command_block",
   "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"/summon villager ~ ~.5 ~1 {Invulnerable:1,Silent:1,NoAI:1,CustomName:\\\"\\\\\\\"Shop\\\\\\\"\\\",Offers:{Recipes:[{buy:{id:lapis_lazuli,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Blue Rupee\\\\\\\"}\\\"}}},sell:{id:lime_dye,Count:5,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:lime_dye,Count:5,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},sell:{id:lapis_lazuli,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Blue Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:red_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Red Rupee\\\\\\\"}\\\"}}},sell:{id:lime_dye,Count:20,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:lime_dye,Count:20,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},sell:{id:red_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Red Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:purple_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Purple Rupee\\\\\\\"}\\\"}}},sell:{id:lime_dye,Count:50,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Green Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:orange_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Orange Rupee\\\\\\\"}\\\"}}},sell:{id:purple_dye,Count:4,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Purple Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999},{buy:{id:yellow_dye,Count:1,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Huge Rupee\\\\\\\"}\\\"}}},sell:{id:purple_dye,Count:4,tag:{Item:1b,display:{Name:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Purple Rupee\\\\\\\"}\\\"}}},rewardExp:0b,maxUses:9999999}]},PersistenceRequired:1,Tags:[\\\"Invisible\\\",\\\"RupeeConvert\\\"]}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 244629548L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"9c393fc2-d0d0-4c71-89f7-c171fd571567\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:villager\\\",\\\"id\\\":\\\"9c393fc2-d0d0-4c71-89f7-c171fd571567\\\",\\\"name\\\":{\\\"text\\\":\\\"Shop\\\"}}},\\\"text\\\":\\\"Shop\\\"}]}],\\\"text\\\":\\\"[14:50:27] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 1, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2670 17 1964"
 }, {
   "x": 1105,
@@ -21668,7 +22196,7 @@
   "z": 2015,
   "id": "universal_minecraft:command_block",
   "nbt": "{utags: {isMovable: 1b, auto: 0b, Command: \"summon minecraft:area_effect_cloud ~ ~1 ~ {ReapplicationDelay:20,Radius:1.0f,Duration:4,Effects:[{Ambient:6b,ShowParticles:6b,Duration:1,Id:6b,Amplifier:6b}],RadiusPerTick:0.f}\", conditionMet: 1b, CustomName: \"{\\\"text\\\":\\\"@\\\"}\", ExecuteOnFirstTick: 0b, LPCommandMode: 0, LPCondionalMode: 0b, LPRedstoneMode: 0b, LastExecution: 255697361L, LastOutput: \"{\\\"extra\\\":[{\\\"translate\\\":\\\"commands.summon.success\\\",\\\"with\\\":[{\\\"insertion\\\":\\\"ff472135-acda-4b62-965b-d07d956197a9\\\",\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_entity\\\",\\\"contents\\\":{\\\"type\\\":\\\"minecraft:area_effect_cloud\\\",\\\"id\\\":\\\"ff472135-acda-4b62-965b-d07d956197a9\\\",\\\"name\\\":{\\\"translate\\\":\\\"entity.minecraft.area_effect_cloud\\\"}}},\\\"translate\\\":\\\"entity.minecraft.area_effect_cloud\\\"}]}],\\\"text\\\":\\\"[23:24:43] \\\"}\", LastOutputParams: [], powered: 0b, SuccessCount: 1, TickDelay: 0, TrackOutput: 1b, Version: 10, UpdateLastExecution: 1b, keepPacked: 0b}}",
-  "region": "DM",
+  "region": "DMC",
   "tp": "/tp 2730 46 2015"
 }, {
   "x": 3118,

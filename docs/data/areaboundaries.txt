@@ -38,3 +38,4 @@
 /execute in minecraft:overworld run tp @s 1449.92 4.00 1861.80 -53.10 -24.00 /execute in minecraft:overworld run tp @s 1756.05 137.23 2045.97 -198.00 44.70 Kakariko/Graveyard
 /execute in minecraft:overworld run tp @s 2075.11 4.00 1541.58 -212.70 -29.70 /execute in minecraft:overworld run tp @s 1946.74 197.26 1290.25 -63.15 22.95 DMT
 /execute in minecraft:overworld run tp @s 2762.61 4.00 2043.00 135.15 -34.35 /execute in minecraft:overworld run tp @s 2634.04 112.24 1888.64 304.49 40.65 DMC
+/execute in minecraft:overworld run tp @s 794.24 4.00 380.80 295.19 -58.20 /execute in minecraft:overworld run tp @s 980.26 118.88 454.52 457.49 19.80 Inside_Castle
