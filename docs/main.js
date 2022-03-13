@@ -4,7 +4,7 @@ import {  randomise   } from "./randomisation.js"
 let ReferenceSpoiler;
 // move this to an <input type="submit"> later, for testing it will be onload
 async function loaded () {
-  ReferenceSpoiler = await loadJSON("data/reference_spoiler_log.json");
+  ReferenceSpoiler = await loadJSON("data/referencespoilerlog.json");
 
   for (let region in ReferenceSpoiler){
     let regionNode = document.createElement("li");
