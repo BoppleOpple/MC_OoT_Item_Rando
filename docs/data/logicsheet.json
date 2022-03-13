@@ -4,7 +4,7 @@
     "name": "zelda_letter_chest_under_ganon",
     "coords": "816 84 410",
     "contents": "16 zeldas_letter",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, {
     "name": "secret",
     "coords": "824 89 403",
@@ -54,7 +54,7 @@
     "name": "hopper_in_window",
     "coords": "834 90 425",
     "contents": "",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, ""],
   "Zoras_Domain": [
     {
@@ -1000,7 +1000,7 @@
     "name": "ice_wolfos_cave_chest",
     "coords": "-596 39 -728",
     "contents": "pupee",
-    "reqiurements": "CanGetToSFM AND CanOpenBombGrottos"
+    "reqiurements": "CanGetToSFM AND CanKillEnemies AND CanOpenGroundGrottos"
   }, {
     "name": "secret",
     "coords": "-458 61 -653",
@@ -1112,17 +1112,17 @@
     "name": "hookshot_chest",
     "coords": "1638 42 2004",
     "contents": "hookshot",
-    "reqiurements": ""
+    "reqiurements": "IsAdult AND HasSongOfTime"
   }, {
     "name": "bomb_grotto",
     "coords": "1501 35 1917",
     "contents": "yupee",
-    "reqiurements": ""
+    "reqiurements": "CanKillEnemies AND CanOpenGroundGrottos"
   }, {
     "name": "windmill_top_chest",
     "coords": "1569 52 1921",
     "contents": "poh",
-    "reqiurements": ""
+    "reqiurements": "HasHookshot OR (IsAdult AND HasSongOfTime)"
   }, {
     "name": "windmill_barrel",
     "coords": "1562 48 1925",
@@ -1142,22 +1142,22 @@
     "name": "redead_grave_chest",
     "coords": "1590 34 1955",
     "contents": "poh",
-    "reqiurements": ""
+    "reqiurements": "CanKillEnemies AND HasSunSong"
   }, {
     "name": "secret",
     "coords": "1509 88 1904",
     "contents": "mutoh_head",
-    "reqiurements": ""
+    "reqiurements": "IsChild"
   }, {
     "name": "graveyard_hookshot_chest",
     "coords": "1608 79 1942",
     "contents": "poh",
-    "reqiurements": ""
+    "reqiurements": "CanChangeTime AND HasBean"
   }, {
     "name": "sun_grave_lit_torch_chest",
     "coords": "1613 47 1950",
     "contents": "bomb",
-    "reqiurements": ""
+    "reqiurements": "HasDekuSticks OR HasDinsFire OR HasFireArrows"
   }, {
     "name": "exposed_grotto",
     "coords": "1547 51 1891",
@@ -1167,7 +1167,7 @@
     "name": "oob_letter_chest",
     "coords": "1518 78 1889",
     "contents": "47 zeldas_letter",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, ""],
   "Jabu_Jabu": [
     {
@@ -1253,7 +1253,7 @@
     "name": "rock_by_gate_grotto",
     "coords": "933 43 1914",
     "contents": "blupee",
-    "reqiurements": ""
+    "reqiurements": "CanBreakRocks"
   }, {
     "name": "gate_right_dispenser",
     "coords": "979 75 1908",
@@ -1263,12 +1263,12 @@
     "name": "diving_grotto",
     "coords": "853 28 1945",
     "contents": "poh",
-    "reqiurements": ""
+    "reqiurements": "CanOpenGroundGrottos"
   }, {
     "name": "rock_grotto_by_lake",
     "coords": "958 38 2178",
     "contents": "repee",
-    "reqiurements": ""
+    "reqiurements": "CanBreakRocks"
   }, ""],
   "Ganon_Castle": [
     {
@@ -1708,12 +1708,12 @@
     "name": "underwater_dispenser_1",
     "coords": "1371 9 -660",
     "contents": "heart",
-    "reqiurements": "HasSlingshot"
+    "reqiurements": "HasSlingshot AND CanKillEnemies"
   }, {
     "name": "underwater_dispenser_2",
     "coords": "1368 9 -657",
     "contents": "heart",
-    "reqiurements": "HasSlingshot"
+    "reqiurements": "HasSlingshot AND CanKillEnemies"
   }, {
     "name": "compass_chest",
     "coords": "1368 89 -679",
@@ -1728,12 +1728,12 @@
     "name": "other_chest_in_slingshot_room",
     "coords": "1347 81 -687",
     "contents": "heart",
-    "reqiurements": "HasShield AND HasSlingshot"
+    "reqiurements": "HasShield AND HasSlingshot AND CanKill"
   }, {
     "name": "slingshot_chest",
     "coords": "1358 77 -689",
     "contents": "slingshot",
-    "reqiurements": "HasShield AND HasSlingshot"
+    "reqiurements": "HasShield AND HasSlingshot AND CanKill"
   }, {
     "name": "center_room_chest_by_vines",
     "coords": "1360 74 -627",
@@ -1753,29 +1753,29 @@
     "name": "underwater_dispenser_3",
     "coords": "1371 9 -643",
     "contents": "heart",
-    "reqiurements": "HasSlingshot"
+    "reqiurements": "HasSlingshot AND CanKillEnemies"
   },  ""],
   "Death_Mountain_Trail": [
     {
     "name": "song_of_storms_grotto",
     "coords": "2020 67 1436",
     "contents": "yupee",
-    "reqiurements": ""
+    "reqiurements": "HasSongOfStorms"
   }, {
     "name": "cow_grotto_dispenser_1",
     "coords": "2022 65 1476",
     "contents": "6 grupee, repee",
-    "reqiurements": ""
+    "reqiurements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
   }, {
     "name": "rock_chest_up_to_DMC_2",
     "coords": "2030 115 1469",
     "contents": "repee",
-    "reqiurements": ""
+    "reqiurements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
   }, {
     "name": "rock_chest_up_to_DMC_1",
     "coords": "2020 112 1469",
     "contents": "blupee",
-    "reqiurements": ""
+    "reqiurements": "CanBreakRocks"
   }, {
     "name": "chest_behind_rock_wall",
     "coords": "2029 111 1464",
@@ -1988,12 +1988,12 @@
     "name": "Treasure_Box_Minigame_Secret",
     "coords": "858 50 1411",
     "contents": "Curious Dog Guy",
-    "reqiurements": ""
+    "reqiurements": "HasAllTreasureBoxKey OR NormalTreasureBox"
   }, {
     "name": "OoB_Mask_Shop",
     "coords": "893 53 1386",
     "contents": "",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, {
     "name": "Balcony_Dispenser_1",
     "coords": "872 74 1419",
@@ -2023,47 +2023,47 @@
     "name": "Alternate_Chest_Minigame_Reward",
     "coords": "-53 52 1341",
     "contents": "pupee",
-    "reqiurements": ""
+    "reqiurements": "HasAllTreasureBoxKey OR NormalTreasureBox"
   }, {
     "name": "Bomb_Shop_OoB_Back_Hopper_1",
     "coords": "895 40 1431",
     "contents": "",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, {
     "name": "Bomb_Shop_OoB_Back_Hopper_2",
     "coords": "896 40 1431",
     "contents": "",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, {
     "name": "Bomb_Shob_OoB_Back_Barrel_1",
     "coords": "891 40 1431",
     "contents": "",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, {
     "name": "Bomb_Shop_OoB_Back_Barrel_2",
     "coords": "892 40 1430",
     "contents": "",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, {
     "name": "Bomb_Shop_OoB_Back_Barrel_3",
     "coords": "893 40 1431",
     "contents": "",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, {
     "name": "Bomb_Shop_OoB_Side_Hopper_1",
     "coords": "899 40 1428",
     "contents": "",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, {
     "name": "Bomb_Shop_OoB_Side_Hopper_2",
     "coords": "899 40 1430",
     "contents": "",
-    "reqiurements": ""
+    "reqiurements": "OutOfBounds"
   }, {
     "name": "Chest_Minigame_Reward",
     "coords": "862 51 1502",
     "contents": "PoH",
-    "reqiurements": ""
+    "reqiurements": "HasAllTreasureBoxKey"
   }, {
     "name": "Fence_Secret_Chest",
     "coords": "927 70 1421",
