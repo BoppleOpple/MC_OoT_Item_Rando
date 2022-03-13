@@ -10,5 +10,10 @@
         {
             "name":"Hookshot_Bean_Chest"
         }
+    ],
+    "Dodongos_Cavern" : [
+        {
+            "name":"Any_Item_Can_Be_Thrown_Onto_Gold_Pressure_Plate"
+        }
     ]
 }

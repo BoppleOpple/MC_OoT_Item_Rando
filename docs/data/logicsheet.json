@@ -1896,97 +1896,87 @@
     "name": "Lens_Chest",
     "coords": "30 52 1363",
     "contents": "LensOfTruth",
-    "requirements": ""
+    "requirements": "CanKillEnemies AND HasZeldasLullaby"
   }, {
     "name": "Underwater_Heart_Chest",
     "coords": "-53 52 1341",
     "contents": "Heart",
-    "requirements": ""
+    "requirements": "HasZeldasLullaby"
   }, {
     "name": "Pit_Trap_Dirt_Mound",
     "coords": "-44 59 1312",
     "contents": "Nut",
-    "requirements": ""
+    "requirements": "HasExplosives"
   }, {
     "name": "Huge_Rupee_Chest",
     "coords": "38 59 1363",
     "contents": "Yupee",
-    "requirements": ""
+    "requirements": "HasZeldasLullaby AND HasLens"
   }, {
     "name": "Center_Pit_Blupee_Dispenser_1",
     "coords": "-14 42 1333",
     "contents": "Blupee",
-    "requirements": ""
+    "requirements": "HasLens AND CanKillEnemies"
   }, {
     "name": "Center_Pit_Blupee_Dispenser_2",
     "coords": "-13 42 1330",
     "contents": "Blupee",
-    "requirements": ""
+    "requirements": "HasLens AND CanKillEnemies"
   }, {
     "name": "Center_Pit_Blupee_Dispenser_3",
     "coords": "-11 42 1333",
     "contents": "Blupee",
-    "requirements": ""
+    "requirements": "HasLens AND CanKillEnemies"
   }, {
     "name": "Center_Pit_Blupee_Dispenser_4",
     "coords": "-10 42 1337",
     "contents": "Blupee",
-    "requirements": ""
+    "requirements": "HasLens AND CanKillEnemies"
   }, {
     "name": "Center_Pit_Blupee_Dispenser_5",
     "coords": "-8 42 1334",
     "contents": "Blupee",
-    "requirements": ""
+    "requirements": "HasLens AND CanKillEnemies"
   }, {
     "name": "Compass_Chest",
     "coords": "-21 59 1344",
     "contents": "Compass",
-    "requirements": ""
+    "requirements": "HasLens"
   }, {
     "name": "Left_Hidden_Key_Chest",
     "coords": "-25 59 1349",
     "contents": "Small_Key",
-    "requirements": ""
+    "requirements": "HasLens"
   }, {
     "name": "Entrance_Dirt_Pile_Bombchu_Refill",
     "coords": "-15 53 1346",
     "contents": "Bombchu (10)",
-    "requirements": ""
+    "requirements": "HasExplosives"
   }, {
     "name": "Entrance_Underwater_Bomb_Chest",
     "coords": "-12 55 1356",
     "contents": "Bomb",
-    "requirements": ""
+    "requirements": "HasZeldasLullaby"
   }, {
     "name": "Hylian_Shield_Chest",
     "coords": "18 59 1334",
     "contents": "Hylian_Shield",
-    "requirements": ""
+    "requirements": "HasLens AND HasAllBOTWKeys"
   }, {
     "name": "Deku_Shield_Chest",
     "coords": "21 59 1330",
     "contents": "Deku_Shield",
-    "requirements": ""
+    "requirements": "HasLens AND HasAllBOTWKeys"
   }, {
     "name": "Right_Hidden_Key_Chest",
     "coords": "2 59 1349",
     "contents": "Small_Key",
-    "requirements": ""
-  }, {
-    "name": "Underwater_Heart_Chest",
-    "coords": "-53 52 1341",
-    "contents": "Heart",
-    "requirements": ""
-  }, {
-    "name": "Underwater_Heart_Chest",
-    "coords": "-53 52 1341",
-    "contents": "Heart",
-    "requirements": ""
+    "requirements": "HasLens"
   }, {
     "name": "Bottom_Cavern_Bomb_Refill",
     "coords": "11 36 1358",
     "contents": "Bomb",
-    "requirements": ""
+    "requirements": "CanKillEnemies"
   }, ""],
   "Castle_Town/ToT/Sacred_Realm": [
     {
@@ -2026,7 +2016,7 @@
     "requirements": ""
   }, {
     "name": "Alternate_Chest_Minigame_Reward",
-    "coords": "-53 52 1341",
+    "coords": "861 47 1456",
     "contents": "pupee",
     "requirements": "HasAllTreasureBoxKey OR NormalTreasureBox"
   }, {
