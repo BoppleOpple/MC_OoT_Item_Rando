@@ -1,5 +1,6 @@
 {
-  "Inside_Castle": [{
+  "Inside_Castle": [
+    {
     "name": "zelda_letter_chest_under_ganon",
     "coords": "816 84 410",
     "contents": "16 zeldas_letter",
@@ -55,13 +56,15 @@
     "contents": "",
     "reqiurements": ""
   }, ""],
-  "Zoras_Domain": [{
+  "Zoras_Domain": [
+    {
     "name": "behind_waterfall_chest",
     "coords": "1755 29 2300",
     "contents": "poh",
     "reqiurements": ""
   }, ""],
-  "Lon_Lon_Ranch": [{
+  "Lon_Lon_Ranch": [
+    {
     "name": "talon_button_hopper",
     "coords": "426 7 1364",
     "contents": "",
@@ -117,7 +120,8 @@
     "contents": "",
     "reqiurements": ""
   }, ""],
-  "Haunted_Wasteland": [{
+  "Haunted_Wasteland": [
+    {
     "name": "secret",
     "coords": "1996 47 168",
     "contents": "carpet_master_head",
@@ -128,7 +132,8 @@
     "contents": "pupee",
     "reqiurements": ""
   }, ""],
-  "Goron_City": [{
+  "Goron_City": [
+    {
     "name": "boulder_double_left_chest",
     "coords": "2142 74 1793",
     "contents": "pupee",
@@ -149,7 +154,8 @@
     "contents": "pupee",
     "reqiurements": ""
   }, ""],
-  "Gerudo_Valley": [{
+  "Gerudo_Valley": [
+    {
     "name": "high_cliff_chest",
     "coords": "367 63 2071",
     "contents": "poh",
@@ -245,19 +251,22 @@
     "contents": "grupee",
     "reqiurements": ""
   }, ""],
-  "Gerudo_Fortress": [{
+  "Gerudo_Fortress": [
+    {
     "name": "chest_atop_fortress",
     "coords": "-96 92 1974",
     "contents": "poh",
     "reqiurements": ""
   }, ""],
-  "Fishing_Pond": [{
+  "Fishing_Pond": [
+    {
     "name": "secret",
     "coords": "376 73 2684",
     "contents": "fisherman_head",
     "reqiurements": ""
   }, ""],
-  "Dodongo_Cavern": [{
+  "Dodongo_Cavern": [
+    {
     "name": "chest_before_boss",
     "coords": "2167 36 1897",
     "contents": "bomb",
@@ -313,7 +322,8 @@
     "contents": "heart",
     "reqiurements": ""
   }, ""],
-  "Desert_Colossus": [{
+  "Desert_Colossus": [
+    {
     "name": "bean_chest",
     "coords": "408 67 412",
     "contents": "poh",
@@ -334,7 +344,8 @@
     "contents": "silver_gauntlets",
     "reqiurements": ""
   }, ""],
-  "Outside_Child_Castle": [{
+  "Outside_Child_Castle": [
+    {
     "name": "Underwater_Dispenser_1",
     "coords": "914 83 898",
     "contents": "grupee",
@@ -395,7 +406,8 @@
     "contents": "soldier_head",
     "reqiurements": ""
   }, ""],
-  "Adult_Lake": [{
+  "Adult_Lake": [
+    {
     "name": "chest_atop_lab",
     "coords": "1361 93 2701",
     "contents": "poh",
@@ -426,7 +438,8 @@
     "contents": "repee",
     "reqiurements": ""
   }, ""],
-  "Zora_River": [{
+  "Zora_River": [
+    {
     "name": "underwater_dispenser_1",
     "coords": "1499 65 2319",
     "contents": "grupee",
@@ -567,7 +580,8 @@
     "contents": "bean_man_head",
     "reqiurements": ""
   }, ""],
-  "Zora_Fountain_Child": [{
+  "Zora_Fountain_Child": [
+    {
     "name": "bottom_of_the_lake",
     "coords": "1425 11 1288",
     "contents": "poh",
@@ -578,7 +592,8 @@
     "contents": "poh",
     "reqiurements": ""
   }, ""],
-  "Water_Temple": [{
+  "Water_Temple": [
+    {
     "name": "longshot_chest",
     "coords": "1134 66 3125",
     "contents": "longshot",
@@ -654,7 +669,8 @@
     "contents": "water_temple_boss_key",
     "reqiurements": ""
   }, ""],
-  "Spirit_Temple": [{
+  "Spirit_Temple": [
+    {
     "name": "chest_after_silver_rupee_boulder",
     "coords": "19 82 827",
     "contents": "spirit_temple_small_key",
@@ -755,7 +771,8 @@
     "contents": "spirit_temple_boss_key",
     "reqiurements": ""
   }, ""],
-  "Shadow_Temple": [{
+  "Shadow_Temple": [
+    {
     "name": "bongo_bongo_clear",
     "coords": "1654 14 962",
     "contents": "heart_container",
@@ -876,37 +893,39 @@
     "contents": "shadow_temple_boss_key",
     "reqiurements": ""
   }, ""],
-  "Outside_Ganon_Castle": [{
+  "Outside_Ganon_Castle": [
+    {
     "name": "secret",
     "coords": "1393 57 446",
     "contents": "phantom_ganon_head",
     "reqiurements": ""
   }, ""],
-  "Kokiri_Forest/Lost_Woods": [{
+  "Kokiri_Forest/Lost_Woods": [
+    {
     "name": "lost_woods_grotto_chest",
     "coords": "-570 47 -689",
     "contents": "blupee",
-    "reqiurements": ""
+    "reqiurements": "CanBreakRocks"
   }, {
     "name": "lost_woods_rock_chest",
     "coords": "-556 74 -719",
     "contents": "blupee",
-    "reqiurements": ""
+    "reqiurements": "CanBreakRocks AND (IsChild OR CanGetToSFM)"
   }, {
     "name": "kokiri_sword_chest",
     "coords": "-581 70 -576",
     "contents": "kokiri_sword",
-    "reqiurements": ""
+    "reqiurements": "IsChild"
   }, {
     "name": "sacred_forest_meadow_grass_1",
     "coords": "-568 74 -752",
     "contents": "blupee",
-    "reqiurements": ""
+    "reqiurements": "CanGetToSFM"
   }, {
     "name": "sacred_forest_meadow_grass_2",
     "coords": "-575 74 -747",
     "contents": "grupee",
-    "reqiurements": ""
+    "reqiurements": "CanGetToSFM"
   }, {
     "name": "saria_housetop_chest_1",
     "coords": "-558 70 -609",
@@ -946,32 +965,32 @@
     "name": "sword_chest_grass",
     "coords": "-588 68 -583",
     "contents": "2 grupee",
-    "reqiurements": ""
+    "reqiurements": "IsChild"
   }, {
     "name": "after_boulder_by_sword_chest",
     "coords": "-590 69 -580",
     "contents": "blupee",
-    "reqiurements": ""
+    "reqiurements": "IsChild"
   }, {
     "name": "before_boulder_by_sword_chest",
     "coords": "-596 69 -586",
     "contents": "blupee",
-    "reqiurements": ""
+    "reqiurements": "IsChild"
   }, {
     "name": "sacred_forest_meadow_grass_3",
     "coords": "-567 74 -766",
     "contents": "grupee",
-    "reqiurements": ""
+    "reqiurements": "CanGetToSFM"
   }, {
     "name": "sacred_forest_meadow_wolfos_grass",
     "coords": "-580 74 -734",
     "contents": "blupee",
-    "reqiurements": ""
+    "reqiurements": "IsChild OR CanGetToSFM"
   }, {
     "name": "kokiri_forest_bean_chest",
     "coords": "-545 69 -643",
     "contents": "6 grupee, 1 repee",
-    "reqiurements": ""
+    "reqiurements": "HasBeans AND CanChangeTime"
   }, {
     "name": "shop_chest",
     "coords": "-553 52 -643",
@@ -981,12 +1000,12 @@
     "name": "ice_wolfos_cave_chest",
     "coords": "-596 39 -728",
     "contents": "pupee",
-    "reqiurements": ""
+    "reqiurements": "CanGetToSFM AND CanOpenBombGrottos"
   }, {
     "name": "secret",
     "coords": "-458 61 -653",
     "contents": "saria_head",
-    "reqiurements": ""
+    "reqiurements": "CanAccessDekuTree"
   }, {
     "name": "lost_woods_grass_1",
     "coords": "-561 69 -654",
@@ -1006,7 +1025,7 @@
     "name": "song_of_storms_grotto",
     "coords": "-576 41 -658",
     "contents": "repee",
-    "reqiurements": ""
+    "reqiurements": "HasSongOfStorms"
   }, {
     "name": "lost_woods_grass_3",
     "coords": "-563 69 -663",
@@ -1036,7 +1055,7 @@
     "name": "sacred_forest_meadow_grass_4",
     "coords": "-578 74 -768",
     "contents": "blupee",
-    "reqiurements": ""
+    "reqiurements": "CanGetToSFM"
   }, {
     "name": "zora_exit_dispenser_1",
     "coords": "-545 67 -684",
@@ -1088,7 +1107,8 @@
     "contents": "blupee",
     "reqiurements": ""
   }, ""],
-  "Kakariko/Graveyard": [{
+  "Kakariko/Graveyard": [
+    {
     "name": "hookshot_chest",
     "coords": "1638 42 2004",
     "contents": "hookshot",
@@ -1149,7 +1169,8 @@
     "contents": "47 zeldas_letter",
     "reqiurements": ""
   }, ""],
-  "Jabu_Jabu": [{
+  "Jabu_Jabu": [
+    {
     "name": "boomerang_chest",
     "coords": "1737 46 1334",
     "contents": "boomerang",
@@ -1170,7 +1191,8 @@
     "contents": "heart",
     "reqiurements": ""
   }, ""],
-  "Ice_Cavern": [{
+  "Ice_Cavern": [
+    {
     "name": "iron_boots_chest",
     "coords": "2026 30 2326",
     "contents": "iron_boots",
@@ -1221,7 +1243,8 @@
     "contents": "fire_temple_boss_key",
     "reqiurements": ""
   }, ""],
-  "Hyrule_Field": [{
+  "Hyrule_Field": [
+    {
     "name": "gate_left_dispenser",
     "coords": "968 75 1908",
     "contents": "2 repee",
@@ -1247,7 +1270,8 @@
     "contents": "repee",
     "reqiurements": ""
   }, ""],
-  "Ganon_Castle": [{
+  "Ganon_Castle": [
+    {
     "name": "invisible_spirit_trial_chest",
     "coords": "-556 32 2019",
     "contents": "arrows (10)",
@@ -1348,7 +1372,8 @@
     "contents": "ganon_castle_boss_key",
     "reqiurements": ""
   }, ""],
-  "GTG": [{
+  "GTG": [
+    {
     "name": "like_like_back_chest",
     "coords": "465 44 810",
     "contents": "gtg_small_key",
@@ -1464,7 +1489,13 @@
     "contents": "gtg_small_key",
     "reqiurements": ""
   }, ""],
-  "Forest_Temple": [{
+  "Forest_Temple": [
+    {
+      "name": "forest_boss_key",
+      "coords": "853 79 -1212",
+      "contents": "forest_temple_boss_key",
+      "reqiurements": ""
+  }, {
     "name": "well_dispenser_1",
     "coords": "899 40 -1166",
     "contents": "heart",
@@ -1550,7 +1581,8 @@
     "contents": "forest_temple_small_key",
     "reqiurements": ""
   }, ""],
-  "Fire_Temple": [{
+  "Fire_Temple": [
+    {
     "name": "dispenser_end_of_fire_wall_chase",
     "coords": "3110 109 1931",
     "contents": "heart",
@@ -1666,41 +1698,42 @@
     "contents": "yupee",
     "reqiurements": ""
   }, ""],
-  "Deku_Tree": [{
+  "Deku_Tree": [
+    {
     "name": "third_floor_skulltula_chest",
     "coords": "1360 89 -668",
     "contents": "heart",
-    "reqiurements": ""
+    "reqiurements": "CanKillEnemies"
   }, {
     "name": "underwater_dispenser_1",
     "coords": "1371 9 -660",
     "contents": "heart",
-    "reqiurements": ""
+    "reqiurements": "HasSlingshot"
   }, {
     "name": "underwater_dispenser_2",
     "coords": "1368 9 -657",
     "contents": "heart",
-    "reqiurements": ""
+    "reqiurements": "HasSlingshot"
   }, {
     "name": "compass_chest",
     "coords": "1368 89 -679",
     "contents": "deku_tree_compass",
-    "reqiurements": ""
+    "reqiurements": "CanKillEnemies"
   }, {
     "name": "gohma_clear",
     "coords": "1427 4 -659",
     "contents": "heart_container",
-    "reqiurements": ""
+    "reqiurements": "CanKillGohma"
   }, {
     "name": "other_chest_in_slingshot_room",
     "coords": "1347 81 -687",
     "contents": "heart",
-    "reqiurements": ""
+    "reqiurements": "HasShield AND HasSlingshot"
   }, {
     "name": "slingshot_chest",
     "coords": "1358 77 -689",
     "contents": "slingshot",
-    "reqiurements": ""
+    "reqiurements": "HasShield AND HasSlingshot"
   }, {
     "name": "center_room_chest_by_vines",
     "coords": "1360 74 -627",
@@ -1720,14 +1753,10 @@
     "name": "underwater_dispenser_3",
     "coords": "1371 9 -643",
     "contents": "heart",
-    "reqiurements": ""
-  }, {
-    "name": "forest_boss_key",
-    "coords": "853 79 -1212",
-    "contents": "forest_temple_boss_key",
-    "reqiurements": ""
-  }, ""],
-  "Death_Mountain_Trail": [{
+    "reqiurements": "HasSlingshot"
+  },  ""],
+  "Death_Mountain_Trail": [
+    {
     "name": "song_of_storms_grotto",
     "coords": "2020 67 1436",
     "contents": "yupee",
@@ -1773,7 +1802,8 @@
     "contents": "poh",
     "reqiurements": ""
   }, ""],
-  "Death_Mountain_Crater": [{
+  "Death_Mountain_Crater": [
+    {
     "name": "chest_by_fire_temple_entrance",
     "coords": "2668 37 1924",
     "contents": "repee",
@@ -1809,7 +1839,8 @@
     "contents": "poh",
     "reqiurements": ""
   }, ""],
-  "Child_Lake": [{
+  "Child_Lake": [
+    {
     "name": "poh_atop_lab",
     "coords": "740 93 2701",
     "contents": "poh",
@@ -1855,7 +1886,8 @@
     "contents": "grupee",
     "reqiurements": ""
   }, ""],
-  "BOTW": [{
+  "BOTW": [
+    {
     "name": "Lens_Chest",
     "coords": "30 52 1363",
     "contents": "LensOfTruth",
@@ -1951,7 +1983,8 @@
     "contents": "Bomb",
     "reqiurements": ""
   }, ""],
-  "Castle_Town/ToT/Sacred_Realm": [{
+  "Castle_Town/ToT/Sacred_Realm": [
+    {
     "name": "Treasure_Box_Minigame_Secret",
     "coords": "858 50 1411",
     "contents": "Curious Dog Guy",
