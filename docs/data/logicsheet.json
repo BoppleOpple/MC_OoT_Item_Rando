@@ -1,0 +1,2040 @@
+{
+  "Inside_Castle": [{
+    "name": "zelda_letter_chest_under_ganon",
+    "coords": "816 84 410",
+    "contents": "16 zeldas_letter",
+    "reqiurements": ""
+  }, {
+    "name": "secret",
+    "coords": "824 89 403",
+    "contents": "zelda_head",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_1",
+    "coords": "898 87 428",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_2",
+    "coords": "898 87 430",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_3",
+    "coords": "900 87 428",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_4",
+    "coords": "902 87 428",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_5",
+    "coords": "902 87 430",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_6",
+    "coords": "898 87 432",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_7",
+    "coords": "900 87 432",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_8",
+    "coords": "902 87 432",
+    "contents": "gupee",
+    "reqiurements": ""
+  }, {
+    "name": "hopper_in_window",
+    "coords": "834 90 425",
+    "contents": "",
+    "reqiurements": ""
+  }, ""],
+  "Zoras_Domain": [{
+    "name": "behind_waterfall_chest",
+    "coords": "1755 29 2300",
+    "contents": "poh",
+    "reqiurements": ""
+  }, ""],
+  "Lon_Lon_Ranch": [{
+    "name": "talon_button_hopper",
+    "coords": "426 7 1364",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "talon_right_shelf_hopper",
+    "coords": "427 10 1350",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "talon_left_shelf_hopper",
+    "coords": "426 10 1350",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "mill_back_chest",
+    "coords": "410 9 1394",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "mill_left_barrel",
+    "coords": "427 10 1396",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "mill_right_barrel",
+    "coords": "426 10 1396",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "barn_middle_corner_hopper",
+    "coords": "489 34 1299",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "barn_left_corner_hopper",
+    "coords": "489 34 1298",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "barn_far_left_corner_hopper",
+    "coords": "489 34 1296",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "barn_right_corner_hopper",
+    "coords": "488 34 1299",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "barn_far_right_corner_hopper",
+    "coords": "486 34 1299",
+    "contents": "",
+    "reqiurements": ""
+  }, ""],
+  "Haunted_Wasteland": [{
+    "name": "secret",
+    "coords": "1996 47 168",
+    "contents": "carpet_master_head",
+    "reqiurements": ""
+  }, {
+    "name": "torch_in_hole",
+    "coords": "2003 38 244",
+    "contents": "pupee",
+    "reqiurements": ""
+  }, ""],
+  "Goron_City": [{
+    "name": "boulder_double_left_chest",
+    "coords": "2142 74 1793",
+    "contents": "pupee",
+    "reqiurements": ""
+  }, {
+    "name": "boulder_left_chest",
+    "coords": "2138 74 1792",
+    "contents": "yupee",
+    "reqiurements": ""
+  }, {
+    "name": "secret",
+    "coords": "2154 69 1860",
+    "contents": "darunia_head",
+    "reqiurements": ""
+  }, {
+    "name": "boulder_right_chest",
+    "coords": "2146 74 1793",
+    "contents": "pupee",
+    "reqiurements": ""
+  }, ""],
+  "Gerudo_Valley": [{
+    "name": "high_cliff_chest",
+    "coords": "367 63 2071",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "adult_megaton_rock",
+    "coords": "342 76 2065",
+    "contents": "pupee",
+    "reqiurements": ""
+  }, {
+    "name": "high_cliff_grotto_dispenser_1",
+    "coords": "337 37 2046",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "high_cliff_grotto_dispenser_2",
+    "coords": "337 37 2040",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "toxic_high_cliff_grotto_dispenser_1",
+    "coords": "337 36 2046",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "toxic_high_cliff_grotto_dispenser_2",
+    "coords": "337 37 2040",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "high_cliff_grotto_dispenser_3",
+    "coords": "336 37 2045",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "high_cliff_grotto_dispenser_4",
+    "coords": "336 37 2041",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "toxic_high_cliff_grotto_dispenser_3",
+    "coords": "336 36 2045",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "toxic_high_cliff_grotto_dispenser_4",
+    "coords": "336 36 2041",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "behind_waterfall_chest",
+    "coords": "378 45 1982",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "high_cliff_grotto_dispenser_5",
+    "coords": "335 37 2043",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "toxic_high_cliff_grotto_dispenser_5",
+    "coords": "335 36 2043",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "high_cliff_grotto_dispenser_6",
+    "coords": "333 37 2046",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "high_cliff_grotto_dispenser_7",
+    "coords": "333 37 2044",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "high_cliff_grotto_dispenser_8",
+    "coords": "333 36 2041",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "toxic_high_cliff_grotto_dispenser_6",
+    "coords": "333 36 2046",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "toxic_high_cliff_grotto_dispenser_7",
+    "coords": "333 36 2044",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "toxic_high_cliff_grotto_dispenser_8",
+    "coords": "333 36 2041",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, ""],
+  "Gerudo_Fortress": [{
+    "name": "chest_atop_fortress",
+    "coords": "-96 92 1974",
+    "contents": "poh",
+    "reqiurements": ""
+  }, ""],
+  "Fishing_Pond": [{
+    "name": "secret",
+    "coords": "376 73 2684",
+    "contents": "fisherman_head",
+    "reqiurements": ""
+  }, ""],
+  "Dodongo_Cavern": [{
+    "name": "chest_before_boss",
+    "coords": "2167 36 1897",
+    "contents": "bomb",
+    "reqiurements": ""
+  }, {
+    "name": "dodongo_clear_chest",
+    "coords": "2165 4 1897",
+    "contents": "heart_container",
+    "reqiurements": ""
+  }, {
+    "name": "bomb_bag_chest",
+    "coords": "2226 52 1935",
+    "contents": "bomb_bag",
+    "reqiurements": ""
+  }, {
+    "name": "second_lizalfos_right_dispenser",
+    "coords": "2270 50 1913",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "second_lizalfos_left_dispenser",
+    "coords": "2268 50 1915",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "lone_armos_chest",
+    "coords": "2146 35 1958",
+    "contents": "dodongo_compass",
+    "reqiurements": ""
+  }, {
+    "name": "entrance_room_behind_rock",
+    "coords": "2170 35 1941",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "first_lizalfos_hidden_heart",
+    "coords": "2287 37 1928",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "entrance_room_top_bomb_wall",
+    "coords": "2170 50 1927",
+    "contents": "deku_shield",
+    "reqiurements": ""
+  }, {
+    "name": "bomb_bag_room_pillar_chest",
+    "coords": "2230 49 1958",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "bomb_bag_room_dispenser",
+    "coords": "2236 44 1955",
+    "contents": "heart",
+    "reqiurements": ""
+  }, ""],
+  "Desert_Colossus": [{
+    "name": "bean_chest",
+    "coords": "408 67 412",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "mirror_shield_chest",
+    "coords": "421 77 382",
+    "contents": "mirror_shield",
+    "reqiurements": ""
+  }, {
+    "name": "secret",
+    "coords": "433 81 358",
+    "contents": "nabooru_head",
+    "reqiurements": ""
+  }, {
+    "name": "silver_gauntlet_chest",
+    "coords": "398 77 384",
+    "contents": "silver_gauntlets",
+    "reqiurements": ""
+  }, ""],
+  "Outside_Child_Castle": [{
+    "name": "Underwater_Dispenser_1",
+    "coords": "914 83 898",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_2",
+    "coords": "908 83 898",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_3",
+    "coords": "902 83 898",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_4",
+    "coords": "897 83 898",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_5",
+    "coords": "918 83 894",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_6",
+    "coords": "918 83 888",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_7",
+    "coords": "918 83 884",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_8",
+    "coords": "917 83 874",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_9",
+    "coords": "891 83 898",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_10",
+    "coords": "886 83 898",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Dispenser_6",
+    "coords": "918 83 888",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "secret",
+    "coords": "904 81 955",
+    "contents": "soldier_head",
+    "reqiurements": ""
+  }, ""],
+  "Adult_Lake": [{
+    "name": "chest_atop_lab",
+    "coords": "1361 93 2701",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "lab_left_barrel",
+    "coords": "1369 56 2672",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "lab_right_barrel",
+    "coords": "1368 56 2672",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "lab_underwater_dispenser_1",
+    "coords": "1361 44 2672",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "lab_underwater_dispenser_2",
+    "coords": "1364 44 2668",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "lab_underwater_dispenser_3",
+    "coords": "1359 44 2665",
+    "contents": "repee",
+    "reqiurements": ""
+  }, ""],
+  "Zora_River": [{
+    "name": "underwater_dispenser_1",
+    "coords": "1499 65 2319",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_2",
+    "coords": "1492 65 2319",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "waterfall_heart_piece_chest",
+    "coords": "1593 87 2281",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_3",
+    "coords": "1587 75 2284",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_4",
+    "coords": "1584 75 2284",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_5",
+    "coords": "1536 68 2320",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_6",
+    "coords": "1531 68 2320",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_7",
+    "coords": "1527 68 2320",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_8",
+    "coords": "1523 68 2320",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_9",
+    "coords": "1580 75 2284",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_10",
+    "coords": "1578 75 2287",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_11",
+    "coords": "1544 68 2314",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_12",
+    "coords": "1542 68 2316",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_13",
+    "coords": "1540 68 2317",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_14",
+    "coords": "1538 68 2319",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_15",
+    "coords": "1519 65 2315",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_16",
+    "coords": "1519 65 2311",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_17",
+    "coords": "1519 65 2306",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_18",
+    "coords": "1520 69 2300",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_19",
+    "coords": "1520 69 2295",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "pillar_heart_piece_chest",
+    "coords": "1531 79 2293",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_20",
+    "coords": "1489 60 2345",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_21",
+    "coords": "1489 60 2340",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "open_grotto",
+    "coords": "1500 49 2328",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_22",
+    "coords": "1489 65 2324",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_23",
+    "coords": "1489 60 2335",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_24",
+    "coords": "1489 60 2331",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "secret",
+    "coords": "1477 73 2331",
+    "contents": "bean_man_head",
+    "reqiurements": ""
+  }, ""],
+  "Zora_Fountain_Child": [{
+    "name": "bottom_of_the_lake",
+    "coords": "1425 11 1288",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "atop_ice_chest",
+    "coords": "1398 6 1309",
+    "contents": "poh",
+    "reqiurements": ""
+  }, ""],
+  "Water_Temple": [{
+    "name": "longshot_chest",
+    "coords": "1134 66 3125",
+    "contents": "longshot",
+    "reqiurements": ""
+  }, {
+    "name": "long_stream_of_water_dispenser_1",
+    "coords": "1128 41 3090",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "long_stream_of_water_dispenser_2",
+    "coords": "1122 40 3094",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "long_stream_of_water_dispenser_3",
+    "coords": "1119 40 3107",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "long_stream_of_water_dispenser_4",
+    "coords": "1110 40 3099",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "key_chest_behind_long_stream",
+    "coords": "1097 44 3094",
+    "contents": "water_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "compass_chest",
+    "coords": "1022 56 3047",
+    "contents": "water_temple_compass",
+    "reqiurements": ""
+  }, {
+    "name": "dragon_vortex_key_chest",
+    "coords": "1114 37 3075",
+    "contents": "water_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "ruto_top_room_chest",
+    "coords": "1016 57 3025",
+    "contents": "arrows (5)",
+    "reqiurements": ""
+  }, {
+    "name": "ruto_middle_room_chest",
+    "coords": "1016 48 3025",
+    "contents": "water_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "ruto_bottom_room_chest",
+    "coords": "1016 36 3025",
+    "contents": "water_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "bottom_clam_room_chest",
+    "coords": "1041 30 3014",
+    "contents": "water_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "morpha_clear_chest",
+    "coords": "1063 51 3089",
+    "contents": "heart_container",
+    "reqiurements": ""
+  }, {
+    "name": "two_way_push_blocks",
+    "coords": "1042 48 3002",
+    "contents": "water_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "water_boss_key",
+    "coords": "1089 39 3097",
+    "contents": "water_temple_boss_key",
+    "reqiurements": ""
+  }, ""],
+  "Spirit_Temple": [{
+    "name": "chest_after_silver_rupee_boulder",
+    "coords": "19 82 827",
+    "contents": "spirit_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "adult_hall_before_iron_knucle_left_chest",
+    "coords": "32 114 903",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "first_sun_room_before_boss",
+    "coords": "-45 132 854",
+    "contents": "bomb",
+    "reqiurements": ""
+  }, {
+    "name": "beamos_silver_rupee_room",
+    "coords": "-65 107 893",
+    "contents": "small_key_spirit_temple",
+    "reqiurements": ""
+  }, {
+    "name": "megaton_hammer_pressure_plate_chest",
+    "coords": "-9 106 844",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "wolfos_sand_pit_chest",
+    "coords": "-19 87 836",
+    "contents": "spirit_temple_compass",
+    "reqiurements": ""
+  }, {
+    "name": "statue_center_chest",
+    "coords": "-27 93 846",
+    "contents": "bombchu (10)",
+    "reqiurements": ""
+  }, {
+    "name": "statue_hand_chest",
+    "coords": "-38 93 846",
+    "contents": "spirit_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "silver_rupee_bottom_child_side_chest",
+    "coords": "-41 83 842",
+    "contents": "spirit_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "adult_hall_before_iron_knucle_right_chest",
+    "coords": "18 114 903",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "lizalfos_chest_by_ladder",
+    "coords": "-58 96 843",
+    "contents": "bombchu (10)",
+    "reqiurements": ""
+  }, {
+    "name": "lizalfos_chest_by_door",
+    "coords": "-50 96 847",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "four_sun_room_second_chest",
+    "coords": "11 96 860",
+    "contents": "freeze",
+    "reqiurements": ""
+  }, {
+    "name": "four_sun_room_first_chest",
+    "coords": "11 96 855",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "twinrova_clear_chest",
+    "coords": "-34 116 769",
+    "contents": "heart_container",
+    "reqiurements": ""
+  }, {
+    "name": "lone_chest_behind_sun",
+    "coords": "25 111 860",
+    "contents": "spirit_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "shifting_ladder_room_left_dispenser",
+    "coords": "-8 134 888",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "shifting_ladder_room_right_dispenser",
+    "coords": "-10 134 888",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "boomerang_bridge_chest",
+    "coords": "-83 87 837",
+    "contents": "deku_shield",
+    "reqiurements": ""
+  }, {
+    "name": "spirit_boss_key",
+    "coords": "-9 133 838",
+    "contents": "spirit_temple_boss_key",
+    "reqiurements": ""
+  }, ""],
+  "Shadow_Temple": [{
+    "name": "bongo_bongo_clear",
+    "coords": "1654 14 962",
+    "contents": "heart_container",
+    "reqiurements": ""
+  }, {
+    "name": "gibdo_room_after_fan_clear_chest",
+    "coords": "1776 54 915",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "gibdo_room_after_fan_dirt_chest",
+    "coords": "1785 59 918",
+    "contents": "shadow_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "gibdo_room_after_beamos_clear_chest",
+    "coords": "1749 74 958",
+    "contents": "shadow_temple_compass",
+    "reqiurements": ""
+  }, {
+    "name": "after_boat_pierre_left_dispenser",
+    "coords": "1571 70 923",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "after_boat_pierre_right_dispenser",
+    "coords": "1571 70 921",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "scythe_skulltula_invisible_chest",
+    "coords": "1808 63 986",
+    "contents": "arrows (30)",
+    "reqiurements": ""
+  }, {
+    "name": "double_ceiling_spike_bottom_chest",
+    "coords": "1666 58 1024",
+    "contents": "arrows (10)",
+    "reqiurements": ""
+  }, {
+    "name": "floor_master_clear_chest",
+    "coords": "1550 54 939",
+    "contents": "shadow_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "double_ceiling_spike_pressure_plate_chest",
+    "coords": "1684 62 1019",
+    "contents": "shadow_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "silver_rupee_floor_spikes_chest",
+    "coords": "1726 53 964",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "beamos_silver_rupee_invisable_scythe_chest",
+    "coords": "1766 77 922",
+    "contents": "shadow_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "before_boat_pierre_left_dispenser",
+    "coords": "1764 66 907",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "before_boat_pierre_right_dispenser",
+    "coords": "1764 66 903",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "dead_hand_redead_clear_chest",
+    "coords": "1650 86 910",
+    "contents": "bombchu (10)",
+    "reqiurements": ""
+  }, {
+    "name": "scythe_skulltula_visible_chest",
+    "coords": "1803 63 982",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "double_spike_visible_top_chest",
+    "coords": "1657 62 1035",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "scythe_skulltula_right_dispenser",
+    "coords": "1796 71 971",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "scythe_skulltula_left_dispenser",
+    "coords": "1795 71 970",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "boss_key_room_normal_chest",
+    "coords": "1542 58 879",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "hover_boot_chest",
+    "coords": "1593 87 925",
+    "contents": "hover_boots",
+    "reqiurements": ""
+  }, {
+    "name": "after_fan_invisible_chest",
+    "coords": "1795 59 936",
+    "contents": "arrows (10)",
+    "reqiurements": ""
+  }, {
+    "name": "before_boss_pillar_dispenser",
+    "coords": "1579 61 930",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "shadow_boss_key",
+    "coords": "1560 58 879",
+    "contents": "shadow_temple_boss_key",
+    "reqiurements": ""
+  }, ""],
+  "Outside_Ganon_Castle": [{
+    "name": "secret",
+    "coords": "1393 57 446",
+    "contents": "phantom_ganon_head",
+    "reqiurements": ""
+  }, ""],
+  "Kokiri_Forest/Lost_Woods": [{
+    "name": "lost_woods_grotto_chest",
+    "coords": "-570 47 -689",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "lost_woods_rock_chest",
+    "coords": "-556 74 -719",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "kokiri_sword_chest",
+    "coords": "-581 70 -576",
+    "contents": "kokiri_sword",
+    "reqiurements": ""
+  }, {
+    "name": "sacred_forest_meadow_grass_1",
+    "coords": "-568 74 -752",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "sacred_forest_meadow_grass_2",
+    "coords": "-575 74 -747",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "saria_housetop_chest_1",
+    "coords": "-558 70 -609",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "saria_housetop_chest_2",
+    "coords": "-560 70 -609",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "saria_housetop_chest_3",
+    "coords": "-560 70 -609",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "saria_interior_chest_1",
+    "coords": "-557 53 -609",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "saria_interior_chest_2",
+    "coords": "-557 53 -613",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "saria_interior_chest_3",
+    "coords": "-561 53 -609",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "saria_interior_chest_4",
+    "coords": "-561 53 -613",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "sword_chest_grass",
+    "coords": "-588 68 -583",
+    "contents": "2 grupee",
+    "reqiurements": ""
+  }, {
+    "name": "after_boulder_by_sword_chest",
+    "coords": "-590 69 -580",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "before_boulder_by_sword_chest",
+    "coords": "-596 69 -586",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "sacred_forest_meadow_grass_3",
+    "coords": "-567 74 -766",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "sacred_forest_meadow_wolfos_grass",
+    "coords": "-580 74 -734",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "kokiri_forest_bean_chest",
+    "coords": "-545 69 -643",
+    "contents": "6 grupee, 1 repee",
+    "reqiurements": ""
+  }, {
+    "name": "shop_chest",
+    "coords": "-553 52 -643",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "ice_wolfos_cave_chest",
+    "coords": "-596 39 -728",
+    "contents": "pupee",
+    "reqiurements": ""
+  }, {
+    "name": "secret",
+    "coords": "-458 61 -653",
+    "contents": "saria_head",
+    "reqiurements": ""
+  }, {
+    "name": "lost_woods_grass_1",
+    "coords": "-561 69 -654",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "lost_woods_grass_2",
+    "coords": "-571 69 -655",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "kokiri_forest_grass_1",
+    "coords": "-589 64 -618",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "song_of_storms_grotto",
+    "coords": "-576 41 -658",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "lost_woods_grass_3",
+    "coords": "-563 69 -663",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "mido_inside_1",
+    "coords": "-592 55 -635",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "mido_inside_2",
+    "coords": "-592 55 -638",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "mido_inside_3",
+    "coords": "-588 55 -635",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "mido_inside_4",
+    "coords": "-588 55 -638",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "sacred_forest_meadow_grass_4",
+    "coords": "-578 74 -768",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "zora_exit_dispenser_1",
+    "coords": "-545 67 -684",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "zora_exit_dispenser_2",
+    "coords": "-546 67 -683",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "zora_exit_dispenser_3",
+    "coords": "-546 67 -685",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "zora_exit_dispenser_4",
+    "coords": "-547 67 -682",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "zora_exit_dispenser_5",
+    "coords": "-547 67 -684",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "zora_exit_dispenser_6",
+    "coords": "-547 67 -686",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "zora_exit_dispenser_7",
+    "coords": "-548 67 -684",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "zora_exit_dispenser_8",
+    "coords": "-549 67 -684",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "kokiri_forest_grass_2",
+    "coords": "-578 64 -641",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "behind_mido_house_chest",
+    "coords": "-590 65 -642",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, ""],
+  "Kakariko/Graveyard": [{
+    "name": "hookshot_chest",
+    "coords": "1638 42 2004",
+    "contents": "hookshot",
+    "reqiurements": ""
+  }, {
+    "name": "bomb_grotto",
+    "coords": "1501 35 1917",
+    "contents": "yupee",
+    "reqiurements": ""
+  }, {
+    "name": "windmill_top_chest",
+    "coords": "1569 52 1921",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "windmill_barrel",
+    "coords": "1562 48 1925",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "cow_chest",
+    "coords": "1534 60 1956",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "fairy_grave_chest",
+    "coords": "1598 34 1992",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "redead_grave_chest",
+    "coords": "1590 34 1955",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "secret",
+    "coords": "1509 88 1904",
+    "contents": "mutoh_head",
+    "reqiurements": ""
+  }, {
+    "name": "graveyard_hookshot_chest",
+    "coords": "1608 79 1942",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "sun_grave_lit_torch_chest",
+    "coords": "1613 47 1950",
+    "contents": "bomb",
+    "reqiurements": ""
+  }, {
+    "name": "exposed_grotto",
+    "coords": "1547 51 1891",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "oob_letter_chest",
+    "coords": "1518 78 1889",
+    "contents": "47 zeldas_letter",
+    "reqiurements": ""
+  }, ""],
+  "Jabu_Jabu": [{
+    "name": "boomerang_chest",
+    "coords": "1737 46 1334",
+    "contents": "boomerang",
+    "reqiurements": ""
+  }, {
+    "name": "compass_chest",
+    "coords": "1762 46 1275",
+    "contents": "jabu_jabu_compass",
+    "reqiurements": ""
+  }, {
+    "name": "barinade_clear",
+    "coords": "1678 43 1333",
+    "contents": "heart_container",
+    "reqiurements": ""
+  }, {
+    "name": "red_tentacle_chest",
+    "coords": "1737 45 1247",
+    "contents": "heart",
+    "reqiurements": ""
+  }, ""],
+  "Ice_Cavern": [{
+    "name": "iron_boots_chest",
+    "coords": "2026 30 2326",
+    "contents": "iron_boots",
+    "reqiurements": ""
+  }, {
+    "name": "push_ice_block_room_dispenser",
+    "coords": "2014 36 2289",
+    "contents": "3 repee",
+    "reqiurements": ""
+  }, {
+    "name": "first_blue_fire_room_center_dispenser",
+    "coords": "2076 29 2250",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "first_blue_fire_room_right_dispenser",
+    "coords": "2075 29 2251",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "first_blue_fire_room_left_dispenser",
+    "coords": "2075 29 2249",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "first_blue_fire_room_red_ice_chest",
+    "coords": "2051 30 2241",
+    "contents": "bomb",
+    "reqiurements": ""
+  }, {
+    "name": "first_open_room_red_ice_chest",
+    "coords": "2047 25 2324",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "skulltula_blue_fire_room_right_chest",
+    "coords": "2078 25 2318",
+    "contents": "ice_cavern_compass",
+    "reqiurements": ""
+  }, {
+    "name": "skulltula_blue_fire_room_left_chest",
+    "coords": "2078 25 2303",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "fire_boss_key",
+    "coords": "3068 42 1943",
+    "contents": "fire_temple_boss_key",
+    "reqiurements": ""
+  }, ""],
+  "Hyrule_Field": [{
+    "name": "gate_left_dispenser",
+    "coords": "968 75 1908",
+    "contents": "2 repee",
+    "reqiurements": ""
+  }, {
+    "name": "rock_by_gate_grotto",
+    "coords": "933 43 1914",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "gate_right_dispenser",
+    "coords": "979 75 1908",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "diving_grotto",
+    "coords": "853 28 1945",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "rock_grotto_by_lake",
+    "coords": "958 38 2178",
+    "contents": "repee",
+    "reqiurements": ""
+  }, ""],
+  "Ganon_Castle": [{
+    "name": "invisible_spirit_trial_chest",
+    "coords": "-556 32 2019",
+    "contents": "arrows (10)",
+    "reqiurements": ""
+  }, {
+    "name": "light_trial_first_room_far_right_chest",
+    "coords": "-535 20 1968",
+    "contents": "arrows (10)",
+    "reqiurements": ""
+  }, {
+    "name": "light_trial_first_room_far_left_chest",
+    "coords": "-535 20 1980",
+    "contents": "freeze",
+    "reqiurements": ""
+  }, {
+    "name": "light_trial_first_room_center_chest",
+    "coords": "-535 17 1974",
+    "contents": "ganon_castle_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "light_trial_first_room_back_left_chest",
+    "coords": "-539 20 1978",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "light_trial_first_room_back_right_chest",
+    "coords": "-539 20 1970",
+    "contents": "freeze",
+    "reqiurements": ""
+  }, {
+    "name": "light_trial_first_room_front_left_chest",
+    "coords": "-531 20 1978",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "light_trial_first_room_front_right_chest",
+    "coords": "-531 20 1970",
+    "contents": "freeze",
+    "reqiurements": ""
+  }, {
+    "name": "shadow_trial_front_chest",
+    "coords": "-473 31 1927",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "forest_trial_center_chest",
+    "coords": "-461 27 2014",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "ice_trial_right_chest",
+    "coords": "-439 20 1981",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "light_trial_lullaby_room",
+    "coords": "-550 18 1970",
+    "contents": "ganon_castle_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "ice_trial_left_chest",
+    "coords": "-439 20 1967",
+    "contents": "freeze",
+    "reqiurements": ""
+  }, {
+    "name": "golden_gauntlet_chest",
+    "coords": "-432 28 1896",
+    "contents": "golden_gauntlet",
+    "reqiurements": ""
+  }, {
+    "name": "spirit_trial_silver_rupee_room_dispenser",
+    "coords": "-506 30 2012",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "shadow_trial_first_dispenser",
+    "coords": "-428 30 1885",
+    "contents": " heart",
+    "reqiurements": ""
+  }, {
+    "name": "shadow_trial_second_dispenser",
+    "coords": "-429 30 1881",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "shadow_trial_third_dispenser",
+    "coords": "-429 30 1879",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "spirit_trial_crystal_chest",
+    "coords": "-543 28 2007",
+    "contents": "bombchu (10)",
+    "reqiurements": ""
+  }, {
+    "name": "ganon_boss_key",
+    "coords": "-500 46 1616",
+    "contents": "ganon_castle_boss_key",
+    "reqiurements": ""
+  }, ""],
+  "GTG": [{
+    "name": "like_like_back_chest",
+    "coords": "465 44 810",
+    "contents": "gtg_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "like_like_room_back_chest",
+    "coords": "457 46 813",
+    "contents": "freeze",
+    "reqiurements": ""
+  }, {
+    "name": "fire_slug_room_hidden_chest",
+    "coords": "538 33 844",
+    "contents": "arrows (10)",
+    "reqiurements": ""
+  }, {
+    "name": "chest_above_spinning_pot_room",
+    "coords": "500 45 881",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "ice_arrow_chest",
+    "coords": "500 38 881",
+    "contents": "ice_arrow",
+    "reqiurements": ""
+  }, {
+    "name": "maze_room_bombchu_chest",
+    "coords": "506 38 883",
+    "contents": "bombchu (10)",
+    "reqiurements": ""
+  }, {
+    "name": "secret_ceiling_chest",
+    "coords": "501 45 890",
+    "contents": "gtg_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "maze_room_1",
+    "coords": "486 38 883",
+    "contents": "pupee",
+    "reqiurements": ""
+  }, {
+    "name": "maze_room_arrow_chest",
+    "coords": "510 38 879",
+    "contents": "arrows (30)",
+    "reqiurements": ""
+  }, {
+    "name": "maze_room_2",
+    "coords": "491 38 871",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "maze_room_3",
+    "coords": "495 38 871",
+    "contents": "arrows (30)",
+    "reqiurements": ""
+  }, {
+    "name": "stalfos_room",
+    "coords": "459 33 907",
+    "contents": "gtg_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "spinning_pot_chest",
+    "coords": "502 31 851",
+    "contents": "gtg_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "fire_wall_right_dispenser",
+    "coords": "538 39 928",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "fire_wall_left_dispenser",
+    "coords": "548 39 918",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "fire_wall_complete_chest",
+    "coords": "538 34 918",
+    "contents": "gtg_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "wolfos_chest",
+    "coords": "468 40 848",
+    "contents": "arrows (30)",
+    "reqiurements": ""
+  }, {
+    "name": "diving_room_chest",
+    "coords": "557 42 878",
+    "contents": "gtg_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "entrance_eye_chest_1",
+    "coords": "505 37 913",
+    "contents": "arrows (10)",
+    "reqiurements": ""
+  }, {
+    "name": "like_like_front_chest",
+    "coords": "469 43 825",
+    "contents": "yupee",
+    "reqiurements": ""
+  }, {
+    "name": "entrance_eye_chest_2",
+    "coords": "495 37 913",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "like_like_middle_chest",
+    "coords": "452 43 819",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "fire_slug_fire_wall_chest",
+    "coords": "538 38 852",
+    "contents": "gtg_small_key",
+    "reqiurements": ""
+  }, ""],
+  "Forest_Temple": [{
+    "name": "well_dispenser_1",
+    "coords": "899 40 -1166",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "well_dispenser_2",
+    "coords": "897 40 -1166",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "chest_outside_well",
+    "coords": "940 57 -1182",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "basement_skullkula_chest",
+    "coords": "884 22 -1141",
+    "contents": "arrows (10)",
+    "reqiurements": ""
+  }, {
+    "name": "between_courtyards_chest",
+    "coords": "898 66 -1188",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "well_chest",
+    "coords": "868 37 -1165",
+    "contents": "forest_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "first_floor_stalfos_chest",
+    "coords": "898 57 -1202",
+    "contents": "forest_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "phantom_ganon_clear",
+    "coords": "900 21 -1205",
+    "contents": "heart_container",
+    "reqiurements": ""
+  }, {
+    "name": "bow_chest",
+    "coords": "898 68 -1211",
+    "contents": "bow",
+    "reqiurements": ""
+  }, {
+    "name": "blue_poe_chest",
+    "coords": "908 64 -1206",
+    "contents": "forest_temple_compass",
+    "reqiurements": ""
+  }, {
+    "name": "eye_chest_vertically_thick_room",
+    "coords": "862 73 -1151",
+    "contents": "arrows (30)",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_on_arch_1",
+    "coords": "864 61 -1187",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_on_arch_2",
+    "coords": "864 61 -1189",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "red_poe_chest",
+    "coords": "885 64 -1206",
+    "contents": "forest_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "falling_ceiling_chest",
+    "coords": "948 59 -1171",
+    "contents": "arrows (10)",
+    "reqiurements": ""
+  }, {
+    "name": "floor_master_chest",
+    "coords": "842 56 -1171",
+    "contents": "forest_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "entrance_room_chest",
+    "coords": "891 70 -1104",
+    "contents": "forest_temple_small_key",
+    "reqiurements": ""
+  }, ""],
+  "Fire_Temple": [{
+    "name": "dispenser_end_of_fire_wall_chase",
+    "coords": "3110 109 1931",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "first_floor_big_room_left_goron_chest",
+    "coords": "3124 46 1912",
+    "contents": "fire_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "boulder_maze_left_goron",
+    "coords": "3108 109 1912",
+    "contents": "fire_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "fire_wall_chase_dispenser_1",
+    "coords": "3098 112 1951",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "fire_wall_chase_dispenser_2",
+    "coords": "3093 112 1951",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "darunia_room_goron_chest",
+    "coords": "3043 48 1979",
+    "contents": "fire_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "fire_wall_maze_right_chest",
+    "coords": "3057 109 1920",
+    "contents": "fire_temple_compass",
+    "reqiurements": ""
+  }, {
+    "name": "race_the_crystal_to_ascend_goron_chest",
+    "coords": "3136 89 1955",
+    "contents": "fire_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "first_floor_big_room_right_goron_chest",
+    "coords": "3110 48 2008",
+    "contents": "fire_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "first_floor_fire_dancer_chest",
+    "coords": "3061 39 1915",
+    "contents": "10 bomb",
+    "reqiurements": ""
+  }, {
+    "name": "time_block_megaton_pressure_plate_goron_chest",
+    "coords": "3035 109 1955",
+    "contents": "fire_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "boulder_maze_second_floor_goron_chest",
+    "coords": "3120 113 1986",
+    "contents": "fire_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "boulder_maze_right_goron_chest",
+    "coords": "3130 109 1984",
+    "contents": "fire_temple_small_key",
+    "reqiurements": ""
+  }, {
+    "name": "block_onto_eruption_room_dispenser_1",
+    "coords": "3159 60 1949",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "block_onto_eruption_room_dispenser_2",
+    "coords": "3157 60 1950",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "block_onto_eruption_room_dispenser_3",
+    "coords": "3157 60 1948",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "shaft_over_big_bottom_floor_room_dispenser_1",
+    "coords": "3121 109 1956",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "shaft_over_big_bottom_floor_room_dispenser_2",
+    "coords": "3121 109 1955",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "shaft_over_big_bottom_floor_room_dispenser_3",
+    "coords": "3121 109 1954",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "megaton_hammer_chest",
+    "coords": "3021 158 1965",
+    "contents": "megaton_hammer",
+    "reqiurements": ""
+  }, {
+    "name": "volvagia_clear",
+    "coords": "3014 39 1953",
+    "contents": "heart_container",
+    "reqiurements": ""
+  }, {
+    "name": "shaft_eye_chest",
+    "coords": "3106 109 1952",
+    "contents": "arrows (10)",
+    "reqiurements": ""
+  }, {
+    "name": "pierre_chest",
+    "coords": "3123 160 1948",
+    "contents": "yupee",
+    "reqiurements": ""
+  }, ""],
+  "Deku_Tree": [{
+    "name": "third_floor_skulltula_chest",
+    "coords": "1360 89 -668",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_1",
+    "coords": "1371 9 -660",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_2",
+    "coords": "1368 9 -657",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "compass_chest",
+    "coords": "1368 89 -679",
+    "contents": "deku_tree_compass",
+    "reqiurements": ""
+  }, {
+    "name": "gohma_clear",
+    "coords": "1427 4 -659",
+    "contents": "heart_container",
+    "reqiurements": ""
+  }, {
+    "name": "other_chest_in_slingshot_room",
+    "coords": "1347 81 -687",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "slingshot_chest",
+    "coords": "1358 77 -689",
+    "contents": "slingshot",
+    "reqiurements": ""
+  }, {
+    "name": "center_room_chest_by_vines",
+    "coords": "1360 74 -627",
+    "contents": "nut",
+    "reqiurements": ""
+  }, {
+    "name": "center_room_dispenser",
+    "coords": "1373 71 -639",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "chest_behind_web",
+    "coords": "1374 47 -634",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "underwater_dispenser_3",
+    "coords": "1371 9 -643",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "forest_boss_key",
+    "coords": "853 79 -1212",
+    "contents": "forest_temple_boss_key",
+    "reqiurements": ""
+  }, ""],
+  "Death_Mountain_Trail": [{
+    "name": "song_of_storms_grotto",
+    "coords": "2020 67 1436",
+    "contents": "yupee",
+    "reqiurements": ""
+  }, {
+    "name": "cow_grotto_dispenser_1",
+    "coords": "2022 65 1476",
+    "contents": "6 grupee, repee",
+    "reqiurements": ""
+  }, {
+    "name": "rock_chest_up_to_DMC_2",
+    "coords": "2030 115 1469",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "rock_chest_up_to_DMC_1",
+    "coords": "2020 112 1469",
+    "contents": "blupee",
+    "reqiurements": ""
+  }, {
+    "name": "chest_behind_rock_wall",
+    "coords": "2029 111 1464",
+    "contents": "pupee",
+    "reqiurements": ""
+  }, {
+    "name": "cow_grotto_dispenser_2",
+    "coords": "2025 66 1468",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "cow_grotto_dispenser_3",
+    "coords": "2021 66 1465",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "cow_grotto_dispenser_4",
+    "coords": "2019 66 1468",
+    "contents": "heart",
+    "reqiurements": ""
+  }, {
+    "name": "poh_atop_cavern",
+    "coords": "2010 101 1442",
+    "contents": "poh",
+    "reqiurements": ""
+  }, ""],
+  "Death_Mountain_Crater": [{
+    "name": "chest_by_fire_temple_entrance",
+    "coords": "2668 37 1924",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "child_dispenser_by_fire_temple_entrance",
+    "coords": "2679 35 1911",
+    "contents": "6 blupee, repee",
+    "reqiurements": ""
+  }, {
+    "name": "adult_dispenser_by_fire_temple_entrance",
+    "coords": "2679 33 1911",
+    "contents": "6 blupee, repee",
+    "reqiurements": ""
+  }, {
+    "name": "adult_pierre_dispenser",
+    "coords": "2679 33 1911",
+    "contents": "6 grupee, repee",
+    "reqiurements": ""
+  }, {
+    "name": "rock_grotto_chest",
+    "coords": "2729 19 1933",
+    "contents": "bomb",
+    "reqiurements": ""
+  }, {
+    "name": "bean_poh",
+    "coords": "2692 55 1958",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "ladder_chest",
+    "coords": "2717 44 1940",
+    "contents": "poh",
+    "reqiurements": ""
+  }, ""],
+  "Child_Lake": [{
+    "name": "poh_atop_lab",
+    "coords": "740 93 2701",
+    "contents": "poh",
+    "reqiurements": ""
+  }, {
+    "name": "lab_left_barrel",
+    "coords": "748 56 2672",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "lab_right_barrel",
+    "coords": "747 56 2672",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "lab_underwater_dispenser_1",
+    "coords": "740 44 2672",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "lab_underwater_dispenser_2",
+    "coords": "743 44 2668",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "lab_underwater_dispenser_3",
+    "coords": "738 44 2665",
+    "contents": "repee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_1",
+    "coords": "778 56 2713",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_2",
+    "coords": "775 58 2709",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, {
+    "name": "dispenser_3",
+    "coords": "774 59 2707",
+    "contents": "grupee",
+    "reqiurements": ""
+  }, ""],
+  "BOTW": [{
+    "name": "Lens_Chest",
+    "coords": "30 52 1363",
+    "contents": "LensOfTruth",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Heart_Chest",
+    "coords": "-53 52 1341",
+    "contents": "Heart",
+    "reqiurements": ""
+  }, {
+    "name": "Pit_Trap_Dirt_Mound",
+    "coords": "-44 59 1312",
+    "contents": "Nut",
+    "reqiurements": ""
+  }, {
+    "name": "Huge_Rupee_Chest",
+    "coords": "38 59 1363",
+    "contents": "Yupee",
+    "reqiurements": ""
+  }, {
+    "name": "Center_Pit_Blupee_Dispenser_1",
+    "coords": "-14 42 1333",
+    "contents": "Blupee",
+    "reqiurements": ""
+  }, {
+    "name": "Center_Pit_Blupee_Dispenser_2",
+    "coords": "-13 42 1330",
+    "contents": "Blupee",
+    "reqiurements": ""
+  }, {
+    "name": "Center_Pit_Blupee_Dispenser_3",
+    "coords": "-11 42 1333",
+    "contents": "Blupee",
+    "reqiurements": ""
+  }, {
+    "name": "Center_Pit_Blupee_Dispenser_4",
+    "coords": "-10 42 1337",
+    "contents": "Blupee",
+    "reqiurements": ""
+  }, {
+    "name": "Center_Pit_Blupee_Dispenser_5",
+    "coords": "-8 42 1334",
+    "contents": "Blupee",
+    "reqiurements": ""
+  }, {
+    "name": "Compass_Chest",
+    "coords": "-21 59 1344",
+    "contents": "Compass",
+    "reqiurements": ""
+  }, {
+    "name": "Left_Hidden_Key_Chest",
+    "coords": "-25 59 1349",
+    "contents": "Small_Key",
+    "reqiurements": ""
+  }, {
+    "name": "Entrance_Dirt_Pile_Bombchu_Refill",
+    "coords": "-15 53 1346",
+    "contents": "Bombchu (10)",
+    "reqiurements": ""
+  }, {
+    "name": "Entrance_Underwater_Bomb_Chest",
+    "coords": "-12 55 1356",
+    "contents": "Bomb",
+    "reqiurements": ""
+  }, {
+    "name": "Hylian_Shield_Chest",
+    "coords": "18 59 1334",
+    "contents": "Hylian_Shield",
+    "reqiurements": ""
+  }, {
+    "name": "Deku_Shield_Chest",
+    "coords": "21 59 1330",
+    "contents": "Deku_Shield",
+    "reqiurements": ""
+  }, {
+    "name": "Right_Hidden_Key_Chest",
+    "coords": "2 59 1349",
+    "contents": "Small_Key",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Heart_Chest",
+    "coords": "-53 52 1341",
+    "contents": "Heart",
+    "reqiurements": ""
+  }, {
+    "name": "Underwater_Heart_Chest",
+    "coords": "-53 52 1341",
+    "contents": "Heart",
+    "reqiurements": ""
+  }, {
+    "name": "Bottom_Cavern_Bomb_Refill",
+    "coords": "11 36 1358",
+    "contents": "Bomb",
+    "reqiurements": ""
+  }, ""],
+  "Castle_Town/ToT/Sacred_Realm": [{
+    "name": "Treasure_Box_Minigame_Secret",
+    "coords": "858 50 1411",
+    "contents": "Curious Dog Guy",
+    "reqiurements": ""
+  }, {
+    "name": "OoB_Mask_Shop",
+    "coords": "893 53 1386",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Balcony_Dispenser_1",
+    "coords": "872 74 1419",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Balcony_Dispenser_2",
+    "coords": "872 74 1421",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Balcony_Dispenser_3",
+    "coords": "872 74 1423",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Balcony_Dispenser_4",
+    "coords": "872 74 1425",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Balcony_Dispenser_5",
+    "coords": "872 74 1427",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Alternate_Chest_Minigame_Reward",
+    "coords": "-53 52 1341",
+    "contents": "pupee",
+    "reqiurements": ""
+  }, {
+    "name": "Bomb_Shop_OoB_Back_Hopper_1",
+    "coords": "895 40 1431",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Bomb_Shop_OoB_Back_Hopper_2",
+    "coords": "896 40 1431",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Bomb_Shob_OoB_Back_Barrel_1",
+    "coords": "891 40 1431",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Bomb_Shop_OoB_Back_Barrel_2",
+    "coords": "892 40 1430",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Bomb_Shop_OoB_Back_Barrel_3",
+    "coords": "893 40 1431",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Bomb_Shop_OoB_Side_Hopper_1",
+    "coords": "899 40 1428",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Bomb_Shop_OoB_Side_Hopper_2",
+    "coords": "899 40 1430",
+    "contents": "",
+    "reqiurements": ""
+  }, {
+    "name": "Chest_Minigame_Reward",
+    "coords": "862 51 1502",
+    "contents": "PoH",
+    "reqiurements": ""
+  }, {
+    "name": "Fence_Secret_Chest",
+    "coords": "927 70 1421",
+    "contents": "Items Shop Owner",
+    "reqiurements": ""
+  }, ""]
+}
