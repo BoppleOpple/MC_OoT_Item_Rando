@@ -1,0 +1,10 @@
+[
+  {
+    "key": "CanEscapeForest",
+    "requirements": "HasSilverScale or CanKillDekuTree"
+  },
+  {
+    "key": "CanKillDekuTree",
+    "requirements": "(HasSword and HasShield and HasSlingshot) or CanNoClip"
+  }
+]
