@@ -52,7 +52,7 @@ async function loaded () {
 
 async function download(){
   let settings = {}; // Read Inputs
-  let spoiler = await randomise(settings, ReferenceSpoiler); // generate spoiler JSON
+  let spoiler = await randomise(settings, await loadJSON("data/logicsheet.json"), await loadJSON("data/logicmacros.json")); // generate spoiler JSON
 
   await saveDatapack(await loadJSON("data/OoT_data.json"), await loadJSON("data/blockentitiespruned.json"), spoiler);
 }
