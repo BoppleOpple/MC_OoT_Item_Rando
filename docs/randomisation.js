@@ -12,28 +12,31 @@ export function randomise(settings, logicSheet, logicMacros){
 }
 
 function expandCondition(condition, logicMacros){
-  for (let term of condition.split(' ')){
+  let result = ""
+  mainLoop : for (let term of condition.split(' ')){
     if (condition.split(' ').length == 1){
       switch (term) {
         case "AND":
-          return "&&";
+          result += "&&";
+          break mainLoop;
         case "OR":
-          return "||";
+          result += "||";
         default:
           let operatorlessTerm = term;
           operatorlessTerm.replace('(', '');
           operatorlessTerm.replace(')', '');
           for (let macro in logicMacros){
             if (operatorlessTerm == macro.key){
-              return term.replace(operatorlessTerm, '(' + expandCondition(macro.requirements) + ')')
+              result += term.replace(operatorlessTerm, '(' + expandCondition(macro.requirements) + ')')
             }
           }
-          return term;
+          result += term;
       }
     }else{
-      return expandCondition(term)
+      result += expandCondition(term)
     }
   }
+  return result
 }
 
 // export async function randomise(settings, default_spoiler){
