@@ -1,4 +1,61 @@
 {
+  "Inside_Castle": [
+    {
+      "name": "zelda_letter_chest_under_ganon",
+      "coords": "816 84 410",
+      "contents": "16 zeldas_letter"
+    },
+    {
+      "name": "secret",
+      "coords": "824 89 403",
+      "contents": "zelda_head"
+    },
+    {
+      "name": "dispenser_1",
+      "coords": "898 87 428",
+      "contents": "grupee"
+    },
+    {
+      "name": "dispenser_2",
+      "coords": "898 87 430",
+      "contents": "blupee"
+    },
+    {
+      "name": "dispenser_3",
+      "coords": "900 87 428",
+      "contents": "repee"
+    },
+    {
+      "name": "dispenser_4",
+      "coords": "902 87 428",
+      "contents": "blupee"
+    },
+    {
+      "name": "dispenser_5",
+      "coords": "902 87 430",
+      "contents": "grupee"
+    },
+    {
+      "name": "dispenser_6",
+      "coords": "898 87 432",
+      "contents": "blupee"
+    },
+    {
+      "name": "dispenser_7",
+      "coords": "900 87 432",
+      "contents": "grupee"
+    },
+    {
+      "name": "dispenser_8",
+      "coords": "902 87 432",
+      "contents": "gupee"
+    },
+    {
+      "name": "hopper_in_window",
+      "coords": "834 90 425",
+      "contents": ""
+    }
+  ],
   "Zoras_Domain": [
     {
       "name": "behind_waterfall_chest",
@@ -1109,7 +1166,7 @@
     {
       "name": "oob_letter_chest",
       "coords": "1518 78 1889",
-      "contents": "47 zeldas letter"
+      "contents": "47 zeldas_letter"
     }
   ],
   "Jabu_Jabu": [
