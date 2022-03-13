@@ -4,7 +4,7 @@ with open("referencespoilerlog.json") as spoiler:
   logicSheet = json.load(spoiler)
   for region in logicSheet:
     for check in logicSheet[region]:
-      check["reqiurements"] = ""
+      check["requirements"] = ""
     logicSheet[region].append("")
 
 with open("logicsheet.json", 'w') as JSONFile:

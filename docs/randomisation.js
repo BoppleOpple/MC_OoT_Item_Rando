@@ -4,6 +4,7 @@ export function randomise(settings, logicSheet, logicMacros){
   for (let region in logicSheet){
     rawConditions[region] = [];
     for (let check of logicSheet[region].slice(0, logicSheet[region].length-1)){
+      console.log(check)
       rawConditions[region].push(expandCondition(check.requirements, logicMacros));
     }
   }
