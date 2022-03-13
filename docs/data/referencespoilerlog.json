@@ -1804,8 +1804,13 @@
   ],
   "Death_Mountain_Crater": [
     {
-      "name": "chest_by_fire_temple_entrance",
+      "name": "child_chest_by_fire_temple_entrance",
       "coords": "2668 37 1924",
+      "contents": "repee"
+    },
+    {
+      "name": "adult_chest_by_fire_temple_entrance",
+      "coords": "2668 33 1924",
       "contents": "repee"
     },
     {

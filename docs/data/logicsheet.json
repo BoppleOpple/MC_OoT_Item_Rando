@@ -137,22 +137,22 @@
     "name": "boulder_double_left_chest",
     "coords": "2142 74 1793",
     "contents": "pupee",
-    "requirements": ""
+    "reqiurements": "CanBreakRocks"
   }, {
     "name": "boulder_left_chest",
     "coords": "2138 74 1792",
     "contents": "yupee",
-    "requirements": ""
+    "reqiurements": "HasHammer"
   }, {
     "name": "secret",
     "coords": "2154 69 1860",
     "contents": "darunia_head",
-    "requirements": ""
+    "reqiurements": "HasExplosives OR HasGoronBracelets"
   }, {
     "name": "boulder_right_chest",
     "coords": "2146 74 1793",
     "contents": "pupee",
-    "requirements": ""
+    "reqiurements": "CanBreakRocks"
   }, ""],
   "Gerudo_Valley": [
     {
@@ -270,57 +270,57 @@
     "name": "chest_before_boss",
     "coords": "2167 36 1897",
     "contents": "bomb",
-    "requirements": ""
+    "reqiurements": "HasExplosives AND Slingshot"
   }, {
     "name": "dodongo_clear_chest",
     "coords": "2165 4 1897",
     "contents": "heart_container",
-    "requirements": ""
+    "reqiurements": "CanBeatDodongo"
   }, {
     "name": "bomb_bag_chest",
     "coords": "2226 52 1935",
     "contents": "bomb_bag",
-    "requirements": ""
+    "reqiurements": "(HasExplosives OR HasGoronBracelets) AND Slingshot"
   }, {
     "name": "second_lizalfos_right_dispenser",
     "coords": "2270 50 1913",
     "contents": "heart",
-    "requirements": ""
+    "reqiurements": "(HasExplosives OR HasGoronBracelets) AND Slingshot"
   }, {
     "name": "second_lizalfos_left_dispenser",
     "coords": "2268 50 1915",
     "contents": "heart",
-    "requirements": ""
+    "reqiurements": "(HasExplosives OR HasGoronBracelets) AND Slingshot"
   }, {
     "name": "lone_armos_chest",
     "coords": "2146 35 1958",
     "contents": "dodongo_compass",
-    "requirements": ""
+    "reqiurements": "HasExplosives OR HasGoronBracelets"
   }, {
     "name": "entrance_room_behind_rock",
     "coords": "2170 35 1941",
     "contents": "heart",
-    "requirements": ""
+    "reqiurements": "HasExplosives OR HasGoronBracelets"
   }, {
     "name": "first_lizalfos_hidden_heart",
     "coords": "2287 37 1928",
     "contents": "heart",
-    "requirements": ""
+    "reqiurements": "HasExplosives OR HasGoronBracelets"
   }, {
     "name": "entrance_room_top_bomb_wall",
     "coords": "2170 50 1927",
     "contents": "deku_shield",
-    "requirements": ""
+    "reqiurements": "HasExplosives AND Slingshot"
   }, {
     "name": "bomb_bag_room_pillar_chest",
     "coords": "2230 49 1958",
     "contents": "repee",
-    "requirements": ""
+    "reqiurements": "HasExplosives OR HasGoronBracelets"
   }, {
     "name": "bomb_bag_room_dispenser",
     "coords": "2236 44 1955",
     "contents": "heart",
-    "requirements": ""
+    "reqiurements": "HasExplosives OR HasGoronBracelets"
   }, ""],
   "Desert_Colossus": [
     {
@@ -990,7 +990,7 @@
     "name": "kokiri_forest_bean_chest",
     "coords": "-545 69 -643",
     "contents": "6 grupee, 1 repee",
-    "requirements": "HasBeans AND CanChangeTime"
+    "reqiurements": "CanPlantKokiriBean"
   }, {
     "name": "shop_chest",
     "coords": "-553 52 -643",
@@ -1152,7 +1152,7 @@
     "name": "graveyard_hookshot_chest",
     "coords": "1608 79 1942",
     "contents": "poh",
-    "requirements": "CanChangeTime AND HasBean"
+    "reqiurements": "CanPlantGraveyardBean"
   }, {
     "name": "sun_grave_lit_torch_chest",
     "coords": "1613 47 1950",
@@ -1780,22 +1780,22 @@
     "name": "chest_behind_rock_wall",
     "coords": "2029 111 1464",
     "contents": "pupee",
-    "requirements": ""
+    "reqiurements": "CanBreakRocks"
   }, {
     "name": "cow_grotto_dispenser_2",
     "coords": "2025 66 1468",
     "contents": "heart",
-    "requirements": ""
+    "reqiurements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
   }, {
     "name": "cow_grotto_dispenser_3",
     "coords": "2021 66 1465",
     "contents": "heart",
-    "requirements": ""
+    "reqiurements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
   }, {
     "name": "cow_grotto_dispenser_4",
     "coords": "2019 66 1468",
     "contents": "heart",
-    "requirements": ""
+    "reqiurements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
   }, {
     "name": "poh_atop_cavern",
     "coords": "2010 101 1442",
@@ -1807,37 +1807,42 @@
     "name": "chest_by_fire_temple_entrance",
     "coords": "2668 37 1924",
     "contents": "repee",
-    "requirements": ""
+    "reqiurements": "IsChild AND CanGetToFireWarpPlatform"
+  }, {
+    "name": "adult_chest_by_fire_temple_entrance",
+    "coords": "2668 33 1924",
+    "contents": "repee",
+    "reqiurements": "IsAdult AND CanGetToFireWarpPlatform"
   }, {
     "name": "child_dispenser_by_fire_temple_entrance",
     "coords": "2679 35 1911",
     "contents": "6 blupee, repee",
-    "requirements": ""
+    "reqiurements": "IsChild AND CanGetToFireWarpPlatform"
   }, {
     "name": "adult_dispenser_by_fire_temple_entrance",
     "coords": "2679 33 1911",
     "contents": "6 blupee, repee",
-    "requirements": ""
+    "reqiurements": "IsAdult AND CanGetToFireWarpPlatform"
   }, {
     "name": "adult_pierre_dispenser",
     "coords": "2679 33 1911",
     "contents": "6 grupee, repee",
-    "requirements": ""
+    "reqiurements": "IsAdult AND CanGetToFireWarpPlatform AND ((HasHookShot AND HasScarecrowSong) OR (CanPlantCraterBean AND HasHoverBoots))"
   }, {
     "name": "rock_grotto_chest",
     "coords": "2729 19 1933",
     "contents": "bomb",
-    "requirements": ""
+    "reqiurements": "CanGetToTopHalfOfCrater AND CanBreakRocks"
   }, {
     "name": "bean_poh",
     "coords": "2692 55 1958",
     "contents": "poh",
-    "requirements": ""
+    "reqiurements": "CanPlantCraterBean"
   }, {
     "name": "ladder_chest",
     "coords": "2717 44 1940",
     "contents": "poh",
-    "requirements": ""
+    "reqiurements": "CanGetToTopHalfOfCrater"
   }, ""],
   "Child_Lake": [
     {
