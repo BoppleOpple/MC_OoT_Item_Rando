@@ -5,7 +5,7 @@ class Player {
   }
   has(item){ return (this.inventory.filter(ele=>(ele.contents == item.contents)).length > 0); }
 
-  init(settings, itemPool,  logicMacros){
+  init(settings, itemPool, logicMacros){
     for (let region in itemPool){
       for (let i in itemPool[region].slice(0, itemPool[region].length-1)){
         let check = itemPool[region][i];
@@ -75,6 +75,9 @@ function expandCondition(condition, logicMacros){
           break mainLoop;
         case "OR":
           result += "||";
+          break mainLoop;
+        case "NOT":
+          result += "!";
           break mainLoop;
         default:
           let operatorlessTerm = term;

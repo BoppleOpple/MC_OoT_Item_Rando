@@ -2,7 +2,6 @@ import { saveDatapack } from "./spoiler_log_to_datapack.js"
 import {  randomise   } from "./randomisation.js"
 
 let ReferenceSpoiler;
-// move this to an <input type="submit"> later, for testing it will be onload
 async function loaded () {
   ReferenceSpoiler = await loadJSON("data/referencespoilerlog.json");
 

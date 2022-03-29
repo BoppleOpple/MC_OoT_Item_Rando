@@ -1,10 +1,65 @@
 [
   {
-    "key": "CanEscapeForest",
-    "requirements": "HasSilverScale or CanKillDekuTree"
+    "key": "CanGetToDekuTree",
+    "requirements": "HasKokiriSword AND HasKokiriShield"
   },
   {
-    "key": "CanKillDekuTree",
-    "requirements": "(HasSword and HasShield and HasSlingshot) or CanNoClip"
+    "key": "CanGetToSFM",
+    "requirements": "(IsChild AND CanKillEnemies) OR (IsAdult AND CanPlaySariasSong)"
+  },
+  {
+    "key": "CanBreakRocks",
+    "requirements": "CanBlast OR (HasMegaton AND IsAdult)"
+  },
+  {
+    "key": "IsChild",
+    "requirements": "NOT IsAdult"
+  },
+  {
+    "key": "CanPlantBean",
+    "requirements": "HasMagicBeans AND IsChild"
+  },
+  {
+    "key": "CanRefillArrows",
+    "requirements": "HasMagicBeans AND IsChild"
+  },
+  {
+    "key": "CanShootBow",
+    "requirements": "IsAdult AND HasBow AND CanRefillArrows"
+  },
+  {
+    "key": "CanRefillArrows",
+    "requirements": "CanGetRupees OR CanCutGrass"
+  },
+  {
+    "key": "CanGetRupees",
+    "requirements": "CanKillEnemies OR IDKHelpMePlsKiriteThisOneIsWeirdAndIHaveNoIdeaHowToImplementIt"
+  },
+  {
+    "key": "CanCutGrass",
+    "requirements": "(IsChild AND HasKokiriSword) OR (IsAdult AND (HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
+  },
+  {
+    "key": "CanUseDinsFire",
+    "requirements": "HasDinsFire AND HasMagic"
+  },
+  {
+    "key": "CanBlast",
+    "requirements": "HasBombs OR HasBombchus"
+  },
+  {
+    "key": "CanKillEnemies",
+    "requirements": "SettingKillWithoutWeapons OR (IsChild AND HasKokiriSword) OR CanUseDinsFire OR CanBlast OR (IsAdult AND (HasMegaton OR CanShootBow OR HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
+  },
+
+  {
+    "key": "CanPlaySariasSong",
+    "requirements": "HasOcarina AND HasSariasSong"
+  },
+
+
+  {
+    "key": "IsAdult",
+    "requirements": "StateAdult"
   }
 ]

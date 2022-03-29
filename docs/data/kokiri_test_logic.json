@@ -89,7 +89,7 @@
     "name": "kokiri_forest_bean_chest",
     "coords": "-545 69 -643",
     "contents": "6 grupee, 1 repee",
-    "reqiurements": "CanPlantKokiriBean"
+    "requirements": "CanPlantBean"
   }, {
     "name": "shop_chest",
     "coords": "-553 52 -643",
@@ -104,7 +104,7 @@
     "name": "secret",
     "coords": "-458 61 -653",
     "contents": "saria_head",
-    "requirements": "CanAccessDekuTree"
+    "requirements": "CanGetToDekuTree"
   }, {
     "name": "lost_woods_grass_1",
     "coords": "-561 69 -654",
@@ -205,5 +205,5 @@
     "coords": "-590 65 -642",
     "contents": "blupee",
     "requirements": ""
-  }, ""],
+  }, ""]
 }
