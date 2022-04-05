@@ -48,7 +48,7 @@
   }, {
     "name": "dispenser_8",
     "coords": "902 87 432",
-    "contents": "gupee",
+    "contents": "grupee",
     "requirements": ""
   }, {
     "name": "hopper_in_window",
@@ -1982,7 +1982,7 @@
     {
     "name": "Treasure_Box_Minigame_Secret",
     "coords": "858 50 1411",
-    "contents": "Curious Dog Guy",
+    "contents": "Curious_Dog_Guy",
     "requirements": "HasAllTreasureBoxKey OR NormalTreasureBox"
   }, {
     "name": "OoB_Mask_Shop",
@@ -2062,7 +2062,7 @@
   }, {
     "name": "Fence_Secret_Chest",
     "coords": "927 70 1421",
-    "contents": "Items Shop Owner",
+    "contents": "ItemShopOwner",
     "requirements": ""
   }, ""]
 }

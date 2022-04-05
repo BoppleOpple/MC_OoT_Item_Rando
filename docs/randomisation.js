@@ -1,9 +1,11 @@
+const KEYWORDS = ["Has", "Setting", "State"]
 
 class Player {
   constructor(){
     this.inventory = [];
+    this.currentStates = {};
+    this.settings = {};
   }
-  has(item){ return (this.inventory.filter(ele=>(ele.contents == item.contents)).length > 0); }
 
   init(settings, itemPool, logicMacros){
     for (let region in itemPool){
@@ -13,6 +15,41 @@ class Player {
         check.requirements = expandCondition(check.requirements, logicMacros);
       }
     }
+  }
+  test(condition){
+    let states  = condition.split("state");
+    states = states.slice(1, states.length);
+
+    for (i in states){
+      let state = states[i].split(')')[0];
+      state = state.slice(1, state.length);
+      states[i] = state;
+
+    }
+    let result = false;
+    for (let i = 0; i < Math.pow(2, states.length); i++){
+      let boolStr = i.toString(2);
+      for (j in states){
+        this.currentStates[states[j]] = !!boolStr[j]
+      }
+      result = eval(condition);
+      if (result){
+        break;
+      }
+    }
+    return result;
+  } // Changes scope of eval to act on the current player object
+
+  has(item){
+    return this.inventory.filter(check => item == check.contents).length > 0;
+  }
+
+  setting(key){
+    return this.settings[key];
+  }
+
+  state(playerState){
+    return this.currentStates[playerState];
   }
 }
 
@@ -45,7 +82,7 @@ export function randomise(settings, logicSheet, logicMacros){
 
     for (let region in pool){
       for (let check of pool[region]){
-        if (testCondition(inventory, check.requirements)){
+        if (player.test(check.requirements)){
           placedItems.push({
             name: check.name,
             coords: check.coords,
@@ -83,9 +120,17 @@ function expandCondition(condition, logicMacros){
           let operatorlessTerm = term;
           operatorlessTerm.replace('(', '');
           operatorlessTerm.replace(')', '');
+          
+          
+          for (let keyWord of KEYWORDS){
+            if (operatorlessTerm.startsWith(keyWord)){
+              operatorlessTerm = "this." + keyWord.lower() + '("' +  operatorlessTerm.slice(keyWord.length, operatorlessTerm.length) + '")';
+            }
+          }
+
           for (let macro in logicMacros){
             if (operatorlessTerm == macro.key){
-              result += term.replace(operatorlessTerm, '(' + expandCondition(macro.requirements) + ')')
+              result += term.replace(operatorlessTerm, '(' + expandCondition(macro.requirements) + ')');
             }
           }
           result += term;
