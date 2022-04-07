@@ -1,20 +1,20 @@
 {
-"Kokiri_Forest/Lost_Woods": [
+  "Kokiri_Forest/Lost_Woods": [
     {
     "name": "lost_woods_grotto_chest",
     "coords": "-570 47 -689",
     "contents": "blupee",
-    "requirements": "CanBreakRocks"
+    "requirements": "CanGetToLWGrotto"
   }, {
     "name": "lost_woods_rock_chest",
     "coords": "-556 74 -719",
     "contents": "blupee",
-    "requirements": "CanBreakRocks AND (IsChild OR CanGetToSFM)"
+    "requirements": "CanBreakRocks AND (IsChild OR AdultMidoCheck) AND CanGetToKokiriForest"
   }, {
     "name": "kokiri_sword_chest",
     "coords": "-581 70 -576",
     "contents": "kokiri_sword",
-    "requirements": "IsChild"
+    "requirements": "IsChild AND CanGetToKokiriForest"
   }, {
     "name": "sacred_forest_meadow_grass_1",
     "coords": "-568 74 -752",
@@ -29,52 +29,52 @@
     "name": "saria_housetop_chest_1",
     "coords": "-558 70 -609",
     "contents": "heart",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "saria_housetop_chest_2",
     "coords": "-560 70 -609",
     "contents": "heart",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "saria_housetop_chest_3",
     "coords": "-560 70 -609",
     "contents": "heart",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "saria_interior_chest_1",
     "coords": "-557 53 -609",
     "contents": "heart",
-    "requirements": ""
+    "requirements": "CanGetToSariaHouse"
   }, {
     "name": "saria_interior_chest_2",
     "coords": "-557 53 -613",
     "contents": "heart",
-    "requirements": ""
+    "requirements": "CanGetToSariaHouse"
   }, {
     "name": "saria_interior_chest_3",
     "coords": "-561 53 -609",
     "contents": "heart",
-    "requirements": ""
+    "requirements": "CanGetToSariaHouse"
   }, {
     "name": "saria_interior_chest_4",
     "coords": "-561 53 -613",
     "contents": "heart",
-    "requirements": ""
+    "requirements": "CanGetToSariaHouse"
   }, {
     "name": "sword_chest_grass",
     "coords": "-588 68 -583",
     "contents": "2 grupee",
-    "requirements": "IsChild"
+    "requirements": "IsChild AND CanGetToKokiriForest"
   }, {
     "name": "after_boulder_by_sword_chest",
     "coords": "-590 69 -580",
     "contents": "blupee",
-    "requirements": "IsChild"
+    "requirements": "IsChild AND CanGetToKokiriForest"
   }, {
     "name": "before_boulder_by_sword_chest",
     "coords": "-596 69 -586",
     "contents": "blupee",
-    "requirements": "IsChild"
+    "requirements": "IsChild AND CanGetToKokiriForest"
   }, {
     "name": "sacred_forest_meadow_grass_3",
     "coords": "-567 74 -766",
@@ -84,72 +84,72 @@
     "name": "sacred_forest_meadow_wolfos_grass",
     "coords": "-580 74 -734",
     "contents": "blupee",
-    "requirements": "IsChild OR CanGetToSFM"
+    "requirements": "(IsChild AND CanGetToKokiriForest) OR CanGetToSFM"
   }, {
     "name": "kokiri_forest_bean_chest",
     "coords": "-545 69 -643",
     "contents": "6 grupee, 1 repee",
-    "requirements": "CanPlantBean"
+    "requirements": "CanPlantBean AND CanGetToKokiriForest"
   }, {
     "name": "shop_chest",
     "coords": "-553 52 -643",
     "contents": "blupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriShop"
   }, {
     "name": "ice_wolfos_cave_chest",
     "coords": "-596 39 -728",
     "contents": "pupee",
-    "requirements": "CanGetToSFM AND CanKillEnemies AND CanOpenGroundGrottos"
+    "requirements": "CanGetToIceWolfosSFMGrotto AND CanKill"
   }, {
     "name": "secret",
     "coords": "-458 61 -653",
     "contents": "saria_head",
-    "requirements": "CanGetToDekuTree"
+    "requirements": "(ChildMidoCheck OR IsAdult) AND CanGetToKokiriForest"
   }, {
     "name": "lost_woods_grass_1",
     "coords": "-561 69 -654",
     "contents": "blupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "lost_woods_grass_2",
     "coords": "-571 69 -655",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "kokiri_forest_grass_1",
     "coords": "-589 64 -618",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "song_of_storms_grotto",
     "coords": "-576 41 -658",
     "contents": "repee",
-    "requirements": "HasSongOfStorms"
+    "requirements": "CanGetToKFStormsGrotto"
   }, {
     "name": "lost_woods_grass_3",
     "coords": "-563 69 -663",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "mido_inside_1",
     "coords": "-592 55 -635",
     "contents": "blupee",
-    "requirements": ""
+    "requirements": "CanGetToMidoHouse"
   }, {
     "name": "mido_inside_2",
     "coords": "-592 55 -638",
     "contents": "blupee",
-    "requirements": ""
+    "requirements": "CanGetToMidoHouse"
   }, {
     "name": "mido_inside_3",
     "coords": "-588 55 -635",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToMidoHouse"
   }, {
     "name": "mido_inside_4",
     "coords": "-588 55 -638",
     "contents": "heart",
-    "requirements": ""
+    "requirements": "CanGetToMidoHouse"
   }, {
     "name": "sacred_forest_meadow_grass_4",
     "coords": "-578 74 -768",
@@ -159,51 +159,51 @@
     "name": "zora_exit_dispenser_1",
     "coords": "-545 67 -684",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "zora_exit_dispenser_2",
     "coords": "-546 67 -683",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "zora_exit_dispenser_3",
     "coords": "-546 67 -685",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "zora_exit_dispenser_4",
     "coords": "-547 67 -682",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "zora_exit_dispenser_5",
     "coords": "-547 67 -684",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "zora_exit_dispenser_6",
     "coords": "-547 67 -686",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "zora_exit_dispenser_7",
     "coords": "-548 67 -684",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "zora_exit_dispenser_8",
     "coords": "-549 67 -684",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "kokiri_forest_grass_2",
     "coords": "-578 64 -641",
     "contents": "grupee",
-    "requirements": ""
+    "requirements": "CanGetToKokiriForest"
   }, {
     "name": "behind_mido_house_chest",
     "coords": "-590 65 -642",
     "contents": "blupee",
-    "requirements": ""
-  }, ""]
+    "requirements": "CanGetToKokiriForest"
+  }, "" ]
 }

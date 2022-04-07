@@ -3,40 +3,169 @@
     {
     "key": "CanGetToKokiriForest",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "KokiriStartLocation OR (CanGetToZorasRiverLWExit AND HasScale) OR CanGetToHyruleFieldKokiriExit OR (CanGetToGoronCityLWExit AND (CanBlast OR HasSticks OR CanUseDinsFire))"
+    "requirements": "KokiriStartLocation OR LWZorasRiverExit OR KokiriHyruleFieldExit OR LWGoronCityExit OR MinuetWarp OR SFMForestTempleExit OR SFMIceWolfosExit OR KokiriMidoExit OR KokiriSariaExit OR KFStormGrottoExit OR KokiriShopExit OR KokiriDekuTreeExit"
+    },
+    {
+      "key": "CanGetToForestTemple",
+      "location": "Forest_Temple",
+      "requirements": "ForestTempleStartLocation OR ForestTempleSFMExit"
     },
     {
       "key": "CanGetToDekuTree",
-      "location": "DekuTree",
-      "requirements": "CanGetToKokiriForestDekuExit OR DekuTreeStartLocation"
+      "location": "Deku_Tree",
+      "requirements": "DekuTreeStartLocation OR DekuTreeKokiriExit"
+    },
+    {
+      "key": "CanGetToIceWolfosLWGrotto",
+      "location": "Kokiri_Forest/Lost_Woods",
+      "requirements": "IceWolfosLWStartLocation OR IceWolfosSFMExit"
+    },
+    {
+      "key": "CanGetToSariaHouse",
+      "location": "Kokiri_Forest/Lost_Woods",
+      "requirements": "SariaHouseStartLocation OR SariaKokiriExit"
+    },
+    {
+      "key": "CanGetToMidoHouse",
+      "location": "Kokiri_Forest/Lost_Woods",
+      "requirements": "MidoHouseStartLocation OR MidoKokiriExit"
+    },
+    {
+      "key": "CanGetToKFStormGrotto",
+      "location": "Kokiri_Forest/Lost_Woods",
+      "requirements": "KFStormGrottoStartLocation OR StormGrottoKFExit"
+    },
+    {
+      "key": "CanGetToKokiriShop",
+      "location": "Kokiri_Forest/Lost_Woods",
+      "requirements": "KokiriShopStartLocation OR ShopKokiriExit"
+    },
+    {
+      "key": "CanGetToLWGrotto",
+      "location": "Kokiri_Forest/Lost_Woods",
+      "requirements": "LWGrottoStartLocation OR GrottoLWExit"
     }
   ],
   "Entrance_Macros": [
     {
-      "key": "CanGetToKokiriForestDekuExit",
-      "requirements": "NoEntranceRando AND CanGetToKokiriForest"
+      "key": "GrottoLWExit",
+      "connected": "LWGrottoExit",
+      "requirements": "CanGetToLWGrotto"
     },
     {
-      "key": "CanGetToZorasRiverLWExit",
-      "requirements": "NoEntranceRando AND CanGetToZorasRiver"
+      "key": "LWGrottoExit",
+      "connected": "GrottoLWExit",
+      "requirements": "CanGetToKokiriForest AND CanBlast"
     },
     {
-      "key": "CanGetToHyruleFieldKokiriExit",
-      "requirements": "NoEntranceRando AND CanGetToHyruleField"
+      "key": "MinuetWarp",
+      "connected": "FTWarpPad",
+      "requirements": "HasMinuet AND HasOcarina"
     },
     {
-      "key": "CanGetToGoronCityLWExit",
-      "requirements": "NoEntranceRando AND CanGetToGoronCity"
-    }
+      "key": "SFMForestTempleExit",
+      "connected": "ForestTempleSFMExit",
+      "requirements": "CanGetToSFM AND HasHookshot"
+    },
+    {
+      "key": "ForestTempleSFMExit",
+      "connected": "SFMForestTempleExit",
+      "requirements": "CanGetToForestTemple"
+    },
+    {
+      "key": "KokiriForestExit",
+      "connected": "ToHyruleFieldKokiriExit",
+      "requirements": "CanGetToKokiriForest AND CanBeatDekuTree "
+    },
+    {
+      "key": "HyruleFieldKokiriExit",
+      "connected": "CanGetToKokiriForestExit",
+      "requirements": "CanGetToHyruleField"
+    },
+    {
+      "key": "ZorasRiverLWExit",
+      "connected": "LWZorasRiverExit",
+      "requirements": "CanGetToZorasRiver AND HasScale"
+    },
+    {
+      "key": "LWZorasRiverExit",
+      "connected": "ZorasRiverLwExit",
+      "requirements": "CanGetToKokiriForest AND HasScale"
+    },
+    {
+      "key": "GoronCityLWExit",
+      "connected": "LWGoronCityExit",
+      "requirements": "CanGetToGoronCity AND (CanBlast OR CanUseDinsFire OR (HasDekuSticks AND HasZeldasLullaby AND HasOcarina))"
+    },
+    {
+      "key": "DekuTreeKokiriExit",
+      "connected": "KokiriDekuTreeExit",
+      "requirements": "CanGetToDekuTree"
+    },
+    {
+      "key": "KokiriDekuTreeExit",
+      "connected": "DekuTreeKokiriExit",
+      "requirements": "ChildMidoCheck AND CanGetToKokiriForest"
+    },
+    {
+      "key": "IceWolfosSFMExit",
+      "connected": "SFMIceWolfosExit",
+      "requirements": "CanGetToIceWolfosLWGrotto"
+    },
+    {
+      "key": "SFMIceWolfosExit",
+      "connected": "IceWolfosSFMExit",
+      "requirements": "CanGetToSFM AND CanBreakRocks"
+    },
+    {
+      "key": "SariaKokiriExit",
+      "connected": "KokiriSariaExit",
+      "requirements": "CanGetToSariaHouse"
+    },
+    {
+      "key": "KokiriSariaExit",
+      "connected": "SariaKokiriExit",
+      "requirements": "CanGetToKokiriForest"
+    },
+    {
+      "key": "MidoKokiriExit",
+      "connected": "KokiriMidoExit",
+      "requirements": "CanGetToMidoHouse"
+    },
+    {
+      "key": "KokiriMidoExit",
+      "connected": "MidoKokiriExit",
+      "requirements": "CanGetToKokiriForest"
+    },
+    {
+      "key": "StormGrottoKFExit",
+      "connected": "KFStormGrottoExit",
+      "requirements": "CanGetToKFStormGrotto"
+    },
+    {
+      "key": "ShopKokiriExit",
+      "connected": "KokiriShopExit",
+      "requirements": "CanGetToKokiriShop"
+    },
+    {
+      "key": "KokiriShopExit",
+      "connected": "ShopKokiriExit",
+      "requirements": "CanGetToKokiriForest"
+    },
+    
   ],
   "General_Macros": [
     {
-      "key": "CanGetPassedDekuMido",
-      "requirements": "HasKokiriSword AND HasKokiriShield"
+      "key": "ChildMidoCheck",
+      "requirements": "HasKokiriSword AND HasKokiriShield AND IsChild"
+    },
+    {
+      "key": "AdultMidoCheck",
+      "requirements": "IsAdult AND HasSariaSong AND HasOcarina"
     },
     {
       "key": "CanGetToSFM",
-      "requirements": "(IsChild AND CanKillEnemies) OR (IsAdult AND CanPlaySariasSong)"
+      "requirements": "(IsChild OR AdultMidoCheck) AND ((CanKillEnemies AND CanGetToKokiriForest) OR MinuetWarp)"
     },
     {
       "key": "CanBreakRocks",
@@ -48,7 +177,7 @@
     },
     {
       "key": "CanPlantBean",
-      "requirements": "HasMagicBeans AND IsChild"
+      "requirements": "HasAllMagicBeans AND CanTimeTravel"
     },
     {
       "key": "CanRefillArrows",
@@ -64,7 +193,7 @@
     },
     {
       "key": "CanGetRupees",
-      "requirements": "CanKillEnemies OR CanGetToKokiriForest..."
+      "requirements": "CanKillEnemies OR CanGetToKokiriForest"
     },
     {
       "key": "CanCutGrass",
@@ -72,11 +201,15 @@
     },
     {
       "key": "CanUseDinsFire",
-      "requirements": "HasDinsFire AND HasMagic"
+      "requirements": "HasDinsFire AND HasMagic AND CanRefillMagic"
     },
     {
       "key": "CanBlast",
       "requirements": "(HasBombs AND CanRefillBombs) OR (HasBombchus AND BombchusInLogic)"
+    },
+    {
+      "key": "CanRefillMagic",
+      "requirements": "(HasZeldaLullaby AND HasOcarina AND CanGetToGreatFairy) OR CanCutGrass"
     },
     {
       "key": "CanRefillBombs",
@@ -95,15 +228,15 @@
       "requirements": "SettingKillWithoutWeapons OR (IsChild AND HasKokiriSword) OR CanUseDinsFire OR CanBlast OR (IsAdult AND (HasMegaton OR CanShootBow OR HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
     },
     {
-      "key": "CanPlaySariasSong",
-      "requirements": "HasOcarina AND HasSariasSong"
+      "key": "HasOcarina",
+      "requirements": "HasFairyOcarina OR HasOcarinaOfTime"
     },
     {
       "key": "IsAdult",
-      "requirements": "StateAdult OR CanGetPastTimeDoor"
+      "requirements": "StateAdult OR CanTimeTravel"
     },
     {
-      "key": "CanGetPastTimeDoor",
+      "key": "CanTimeTravel",
       "requirements": "CanGetToToT AND HasKokiriEmerald AND HasGoronRuby AND HasZoraSapphire AND HasOcarinaOfTime AND HasSongOfTime"
     },
     {
