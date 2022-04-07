@@ -1,65 +1,114 @@
-[
-  {
-    "key": "CanGetToDekuTree",
-    "requirements": "HasKokiriSword AND HasKokiriShield"
-  },
-  {
-    "key": "CanGetToSFM",
-    "requirements": "(IsChild AND CanKillEnemies) OR (IsAdult AND CanPlaySariasSong)"
-  },
-  {
-    "key": "CanBreakRocks",
-    "requirements": "CanBlast OR (HasMegaton AND IsAdult)"
-  },
-  {
-    "key": "IsChild",
-    "requirements": "NOT IsAdult"
-  },
-  {
-    "key": "CanPlantBean",
-    "requirements": "HasMagicBeans AND IsChild"
-  },
-  {
-    "key": "CanRefillArrows",
-    "requirements": "HasMagicBeans AND IsChild"
-  },
-  {
-    "key": "CanShootBow",
-    "requirements": "IsAdult AND HasBow AND CanRefillArrows"
-  },
-  {
-    "key": "CanRefillArrows",
-    "requirements": "CanGetRupees OR CanCutGrass"
-  },
-  {
-    "key": "CanGetRupees",
-    "requirements": "CanKillEnemies OR IDKHelpMePlsKiriteThisOneIsWeirdAndIHaveNoIdeaHowToImplementIt"
-  },
-  {
-    "key": "CanCutGrass",
-    "requirements": "(IsChild AND HasKokiriSword) OR (IsAdult AND (HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
-  },
-  {
-    "key": "CanUseDinsFire",
-    "requirements": "HasDinsFire AND HasMagic"
-  },
-  {
-    "key": "CanBlast",
-    "requirements": "HasBombs OR HasBombchus"
-  },
-  {
-    "key": "CanKillEnemies",
-    "requirements": "SettingKillWithoutWeapons OR (IsChild AND HasKokiriSword) OR CanUseDinsFire OR CanBlast OR (IsAdult AND (HasMegaton OR CanShootBow OR HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
-  },
-
-  {
-    "key": "CanPlaySariasSong",
-    "requirements": "HasOcarina AND HasSariasSong"
-  },
-
-
-  {
-    "key": "IsAdult",
-    "requirements": "StateAdult"
-  }
-]
+{
+  "Location_Macros":[
+    {
+    "key": "CanGetToKokiriForest",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements": "KokiriStartLocation OR (CanGetToZorasRiverLWExit AND HasScale) OR CanGetToHyruleFieldKokiriExit OR (CanGetToGoronCityLWExit AND (CanBlast OR HasSticks OR CanUseDinsFire))"
+    },
+    {
+      "key": "CanGetToDekuTree",
+      "location": "DekuTree",
+      "requirements": "CanGetToKokiriForestDekuExit OR DekuTreeStartLocation"
+    }
+  ],
+  "Entrance_Macros": [
+    {
+      "key": "CanGetToKokiriForestDekuExit",
+      "requirements": "NoEntranceRando AND CanGetToKokiriForest"
+    },
+    {
+      "key": "CanGetToZorasRiverLWExit",
+      "requirements": "NoEntranceRando AND CanGetToZorasRiver"
+    },
+    {
+      "key": "CanGetToHyruleFieldKokiriExit",
+      "requirements": "NoEntranceRando AND CanGetToHyruleField"
+    },
+    {
+      "key": "CanGetToGoronCityLWExit",
+      "requirements": "NoEntranceRando AND CanGetToGoronCity"
+    }
+  ],
+  "General_Macros": [
+    {
+      "key": "CanGetPassedDekuMido",
+      "requirements": "HasKokiriSword AND HasKokiriShield"
+    },
+    {
+      "key": "CanGetToSFM",
+      "requirements": "(IsChild AND CanKillEnemies) OR (IsAdult AND CanPlaySariasSong)"
+    },
+    {
+      "key": "CanBreakRocks",
+      "requirements": "CanBlast OR (HasMegaton AND IsAdult)"
+    },
+    {
+      "key": "IsChild",
+      "requirements": "NOT IsAdult"
+    },
+    {
+      "key": "CanPlantBean",
+      "requirements": "HasMagicBeans AND IsChild"
+    },
+    {
+      "key": "CanRefillArrows",
+      "requirements": "HasMagicBeans AND IsChild"
+    },
+    {
+      "key": "CanShootBow",
+      "requirements": "IsAdult AND HasBow AND CanRefillArrows"
+    },
+    {
+      "key": "CanRefillArrows",
+      "requirements": "(CanGetRupees AND AccessArrowRefillShop) OR CanCutGrass"
+    },
+    {
+      "key": "CanGetRupees",
+      "requirements": "CanKillEnemies OR CanGetToKokiriForest..."
+    },
+    {
+      "key": "CanCutGrass",
+      "requirements": "(IsChild AND HasKokiriSword) OR (IsAdult AND (HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
+    },
+    {
+      "key": "CanUseDinsFire",
+      "requirements": "HasDinsFire AND HasMagic"
+    },
+    {
+      "key": "CanBlast",
+      "requirements": "(HasBombs AND CanRefillBombs) OR (HasBombchus AND BombchusInLogic)"
+    },
+    {
+      "key": "CanRefillBombs",
+      "requirements": "(CanGetRupees AND AccessBombRefillShop) OR CanCutGrass"
+    },
+    {
+      "key": "AccessBombRefillShop",
+      "requirements": "(CanGetToCastleTown AND IsChild) OR (CanGetToKakariko AND IsAdult)"
+    },
+    {
+      "key": "AccessArrowRefillShop",
+      "requirements": "(CanGetToCastleTown AND IsChild) OR (CanGetToKakariko AND IsAdult)"
+    },
+    {
+      "key": "CanKillEnemies",
+      "requirements": "SettingKillWithoutWeapons OR (IsChild AND HasKokiriSword) OR CanUseDinsFire OR CanBlast OR (IsAdult AND (HasMegaton OR CanShootBow OR HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
+    },
+    {
+      "key": "CanPlaySariasSong",
+      "requirements": "HasOcarina AND HasSariasSong"
+    },
+    {
+      "key": "IsAdult",
+      "requirements": "StateAdult OR CanGetPastTimeDoor"
+    },
+    {
+      "key": "CanGetPastTimeDoor",
+      "requirements": "CanGetToToT AND HasKokiriEmerald AND HasGoronRuby AND HasZoraSapphire AND HasOcarinaOfTime AND HasSongOfTime"
+    },
+    {
+      "key": "HasScale",
+      "requirements": "HasSilverScale OR HasGoldenScale"
+    }
+  ]
+}
