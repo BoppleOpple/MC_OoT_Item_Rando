@@ -1,9 +1,10 @@
 import { saveDatapack } from "./spoiler_log_to_datapack.js"
 import {  randomise   } from "./randomisation.js"
 
-let ReferenceSpoiler;
+let ReferenceSpoiler, datapack;
 async function loaded () {
   ReferenceSpoiler = await loadJSON("data/referencespoilerlog.json");
+  datapack = await loadJSON("data/OoT_data.json");
 
   for (let region in ReferenceSpoiler){
     let regionNode = document.createElement("li");
@@ -46,6 +47,25 @@ async function loaded () {
     }
     regionNode.appendChild(indent);
     document.getElementById("Locations").appendChild(regionNode);
+  }
+
+  let cutscenes = datapack.filter(obj=>obj.path=="/data/ocarina_of_time/functions/jump_cutscenes/loop.mcfunction")[0]["content"].split('#');
+  for (let cutscene of cutscenes.slice(2, cutscenes.length)){ // Slice to remove header comments
+    cutscene = cutscene.split('\n')[0];
+    cutscene = cutscene.slice(0, cutscene.length-1);
+    let cutsceneNode = document.createElement("li");
+    cutsceneNode.class = "cutsceneListElement";
+
+    let cutsceneLabel = document.createElement("label");
+    cutsceneLabel.innerText = cutscene;
+    cutsceneNode.appendChild(cutsceneLabel);
+    
+    let cutsceneCheckbox = document.createElement("input");
+    cutsceneCheckbox.id = cutscene;
+    cutsceneCheckbox.type = "checkbox"
+    cutsceneCheckbox.checked = true;
+    cutsceneNode.appendChild(cutsceneCheckbox);
+    document.getElementById("Cutscenes").appendChild(cutsceneNode);
   }
 }
 
