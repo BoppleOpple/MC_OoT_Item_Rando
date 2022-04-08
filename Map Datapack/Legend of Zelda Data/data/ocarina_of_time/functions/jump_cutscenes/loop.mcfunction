@@ -10,10 +10,10 @@ execute if entity @a[tag=SecretStart] as @e[type=armor_stand,tag=SecretGopher] r
 execute if entity @a[tag=MeetNavi] as @e[type=armor_stand,tag=Navi1] run function ocarina_of_time:jump_cutscenes/kokiri_forest/meet_navi
 
 #Mido
-execute if entity @a[tag=MeetMido,x=-546,y=65,z=-629,dx=1,dz=2] as @e[type=armor_stand,tag=Mido] run function ocarina_of_time:jump_cutscenes/kokiri_forest/meet_mido
+execute if entity @a[tag=MeetMido,x=-546,y=65,z=-629,dx=7,dz=2] as @e[type=armor_stand,tag=Mido] run function ocarina_of_time:jump_cutscenes/kokiri_forest/meet_mido
 
 #Mido Sword and Shield
-execute if entity @a[tag=SwordShield,x=-546,y=65,z=-629,dx=1,dz=2] as @e[type=armor_stand,tag=Mido] run function ocarina_of_time:jump_cutscenes/kokiri_forest/meet_mido_2
+execute if entity @a[tag=SwordShield,x=-546,y=65,z=-629,dx=7,dz=2] as @e[type=armor_stand,tag=Mido] run function ocarina_of_time:jump_cutscenes/kokiri_forest/meet_mido_2
 
 #Meeting Deku Tree
 execute if entity @a[tag=MeetDekuTree,x=-516,y=65,z=-644,dx=5,dy=2,dz=5] run function ocarina_of_time:jump_cutscenes/kokiri_forest/meet_deku_tree

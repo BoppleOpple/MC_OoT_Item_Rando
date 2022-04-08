@@ -55,14 +55,14 @@
     "coords": "834 90 425",
     "contents": "",
     "requirements": "OutOfBounds"
-  }, ""],
+  }],
   "Zoras_Domain": [
     {
     "name": "behind_waterfall_chest",
     "coords": "1755 29 2300",
     "contents": "poh",
     "requirements": ""
-  }, ""],
+  }],
   "Lon_Lon_Ranch": [
     {
     "name": "talon_button_hopper",
@@ -119,7 +119,7 @@
     "coords": "486 34 1299",
     "contents": "",
     "requirements": ""
-  }, ""],
+  }],
   "Haunted_Wasteland": [
     {
     "name": "secret",
@@ -131,7 +131,7 @@
     "coords": "2003 38 244",
     "contents": "pupee",
     "requirements": ""
-  }, ""],
+  }],
   "Goron_City": [
     {
     "name": "boulder_double_left_chest",
@@ -153,7 +153,7 @@
     "coords": "2146 74 1793",
     "contents": "pupee",
     "requirements": "CanBreakRocks"
-  }, ""],
+  }],
   "Gerudo_Valley": [
     {
     "name": "high_cliff_chest",
@@ -250,21 +250,21 @@
     "coords": "333 36 2041",
     "contents": "grupee",
     "requirements": ""
-  }, ""],
+  }],
   "Gerudo_Fortress": [
     {
     "name": "chest_atop_fortress",
     "coords": "-96 92 1974",
     "contents": "poh",
     "requirements": ""
-  }, ""],
+  }],
   "Fishing_Pond": [
     {
     "name": "secret",
     "coords": "376 73 2684",
     "contents": "fisherman_head",
     "requirements": ""
-  }, ""],
+  }],
   "Dodongo_Cavern": [
     {
     "name": "chest_before_boss",
@@ -321,7 +321,7 @@
     "coords": "2236 44 1955",
     "contents": "heart",
     "requirements": "HasExplosives OR HasGoronBracelets"
-  }, ""],
+  }],
   "Desert_Colossus": [
     {
     "name": "bean_chest",
@@ -343,7 +343,7 @@
     "coords": "398 77 384",
     "contents": "silver_gauntlets",
     "requirements": ""
-  }, ""],
+  }],
   "Outside_Child_Castle": [
     {
     "name": "Underwater_Dispenser_1",
@@ -405,7 +405,7 @@
     "coords": "904 81 955",
     "contents": "soldier_head",
     "requirements": ""
-  }, ""],
+  }],
   "Adult_Lake": [
     {
     "name": "chest_atop_lab",
@@ -437,7 +437,7 @@
     "coords": "1359 44 2665",
     "contents": "repee",
     "requirements": ""
-  }, ""],
+  }],
   "Zora_River": [
     {
     "name": "underwater_dispenser_1",
@@ -579,7 +579,7 @@
     "coords": "1477 73 2331",
     "contents": "bean_man_head",
     "requirements": ""
-  }, ""],
+  }],
   "Zora_Fountain_Child": [
     {
     "name": "bottom_of_the_lake",
@@ -591,7 +591,7 @@
     "coords": "1398 6 1309",
     "contents": "poh",
     "requirements": ""
-  }, ""],
+  }],
   "Water_Temple": [
     {
     "name": "longshot_chest",
@@ -668,7 +668,7 @@
     "coords": "1089 39 3097",
     "contents": "water_temple_boss_key",
     "requirements": ""
-  }, ""],
+  }],
   "Spirit_Temple": [
     {
     "name": "chest_after_silver_rupee_boulder",
@@ -770,7 +770,7 @@
     "coords": "-9 133 838",
     "contents": "spirit_temple_boss_key",
     "requirements": ""
-  }, ""],
+  }],
   "Shadow_Temple": [
     {
     "name": "bongo_bongo_clear",
@@ -892,14 +892,14 @@
     "coords": "1560 58 879",
     "contents": "shadow_temple_boss_key",
     "requirements": ""
-  }, ""],
+  }],
   "Outside_Ganon_Castle": [
     {
     "name": "secret",
     "coords": "1393 57 446",
     "contents": "phantom_ganon_head",
     "requirements": ""
-  }, ""],
+  }],
   "Kokiri_Forest/Lost_Woods": [
     {
     "name": "lost_woods_grotto_chest",
@@ -1106,7 +1106,7 @@
     "coords": "-590 65 -642",
     "contents": "blupee",
     "requirements": "CanGetToKokiriForest"
-  }, ""],
+  }],
   "Kakariko/Graveyard": [
     {
     "name": "hookshot_chest",
@@ -1168,7 +1168,7 @@
     "coords": "1518 78 1889",
     "contents": "47 zeldas_letter",
     "requirements": "OutOfBounds"
-  }, ""],
+  }],
   "Jabu_Jabu": [
     {
     "name": "boomerang_chest",
@@ -1190,7 +1190,7 @@
     "coords": "1737 45 1247",
     "contents": "heart",
     "requirements": ""
-  }, ""],
+  }],
   "Ice_Cavern": [
     {
     "name": "iron_boots_chest",
@@ -1242,7 +1242,7 @@
     "coords": "3068 42 1943",
     "contents": "fire_temple_boss_key",
     "requirements": ""
-  }, ""],
+  }],
   "Hyrule_Field": [
     {
     "name": "gate_left_dispenser",
@@ -1269,7 +1269,7 @@
     "coords": "958 38 2178",
     "contents": "repee",
     "requirements": "CanBreakRocks"
-  }, ""],
+  }],
   "Ganon_Castle": [
     {
     "name": "invisible_spirit_trial_chest",
@@ -1371,7 +1371,7 @@
     "coords": "-500 46 1616",
     "contents": "ganon_castle_boss_key",
     "requirements": ""
-  }, ""],
+  }],
   "GTG": [
     {
     "name": "like_like_back_chest",
@@ -1488,7 +1488,7 @@
     "coords": "538 38 852",
     "contents": "gtg_small_key",
     "requirements": ""
-  }, ""],
+  }],
   "Forest_Temple": [
     {
       "name": "forest_boss_key",
@@ -1580,7 +1580,7 @@
     "coords": "891 70 -1104",
     "contents": "forest_temple_small_key",
     "requirements": ""
-  }, ""],
+  }],
   "Fire_Temple": [
     {
     "name": "dispenser_end_of_fire_wall_chase",
@@ -1697,7 +1697,7 @@
     "coords": "3123 160 1948",
     "contents": "yupee",
     "requirements": ""
-  }, ""],
+  }],
   "Deku_Tree": [
     {
     "name": "third_floor_skulltula_chest",
@@ -1754,7 +1754,7 @@
     "coords": "1371 9 -643",
     "contents": "heart",
     "requirements": "HasSlingshot AND CanKillEnemies"
-  },  ""],
+  }],
   "Death_Mountain_Trail": [
     {
     "name": "song_of_storms_grotto",
@@ -1801,7 +1801,7 @@
     "coords": "2010 101 1442",
     "contents": "poh",
     "requirements": ""
-  }, ""],
+  }],
   "Death_Mountain_Crater": [
     {
     "name": "chest_by_fire_temple_entrance",
@@ -1843,7 +1843,7 @@
     "coords": "2717 44 1940",
     "contents": "poh",
     "requirements": "CanGetToTopHalfOfCrater"
-  }, ""],
+  }],
   "Child_Lake": [
     {
     "name": "poh_atop_lab",
@@ -1890,7 +1890,7 @@
     "coords": "774 59 2707",
     "contents": "grupee",
     "requirements": ""
-  }, ""],
+  }],
   "BOTW": [
     {
     "name": "Lens_Chest",
@@ -1977,7 +1977,7 @@
     "coords": "11 36 1358",
     "contents": "Bomb",
     "requirements": "CanKillEnemies"
-  }, ""],
+  }],
   "Castle_Town/ToT/Sacred_Realm": [
     {
     "name": "Treasure_Box_Minigame_Secret",
@@ -2064,5 +2064,5 @@
     "coords": "927 70 1421",
     "contents": "ItemShopOwner",
     "requirements": ""
-  }, ""]
+  }]
 }

@@ -30,7 +30,7 @@ class Player {
     for (let i = 0; i < Math.pow(2, states.length); i++){
       let boolStr = i.toString(2);
       for (j in states){
-        this.currentStates[states[j]] = !!boolStr[j]
+        this.currentStates[states[j]] = !!boolStr[j];
       }
       result = eval(condition);
       if (result){
@@ -129,7 +129,7 @@ function expandCondition(condition, logicMacros){
           }
 
           for (let macro in logicMacros){
-            if (operatorlessTerm == macro.key){
+            if (operatorlessTerm == (macro.type != "Entrance") ? macro.key : macro.destination){
               result += term.replace(operatorlessTerm, '(' + expandCondition(macro.requirements) + ')');
             }
           }

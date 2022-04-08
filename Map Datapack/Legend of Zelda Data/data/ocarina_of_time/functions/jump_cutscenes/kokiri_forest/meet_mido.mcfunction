@@ -3,7 +3,7 @@ execute unless entity @a[scores={click=0..}] run fill -546 66 -627 -546 66 -627 
 execute unless entity @a[scores={click=0..}] run fill -547 66 -628 -547 66 -628 minecraft:barrier
 execute unless entity @a[scores={click=0..}] run fill -546 66 -629 -546 66 -629 minecraft:barrier
 execute unless entity @a[scores={click=0..}] run fill -545 66 -628 -545 66 -628 minecraft:barrier
-execute unless entity @a[scores={click=0..}] run data merge entity @e[name=Saria,limit=1] {Pose:{Head:[0f,0f,0f]}}
+execute unless entity @a[scores={click=0..}] run data merge entity @e[name="Saria",limit=1] {Pose:{Head:[0f,0f,0f]}}
 execute unless entity @a[scores={click=0..}] run scoreboard objectives add click minecraft.custom:minecraft.jump
 execute unless entity @a[scores={click=0..}] run scoreboard players set @a click 0
 
