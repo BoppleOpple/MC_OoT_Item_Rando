@@ -1,10 +1,10 @@
 {
   "Kokiri_Forest/Lost_Woods": [
-    {
-    "name": "lost_woods_grotto_chest",
-    "coords": "-570 47 -689",
-    "contents": "blupee",
-    "requirements": "CanGetToLWGrotto"
+  {
+  "name": "lost_woods_grotto_chest",
+  "coords": "-570 47 -689",
+  "contents": "blupee",
+  "requirements": "CanGetToLWGrotto"
   }, {
     "name": "lost_woods_rock_chest",
     "coords": "-556 74 -719",
@@ -205,5 +205,5 @@
     "coords": "-590 65 -642",
     "contents": "blupee",
     "requirements": "CanGetToKokiriForest"
-  }, "" ]
+  }]
 }
