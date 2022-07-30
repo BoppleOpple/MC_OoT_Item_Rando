@@ -1,0 +1,66 @@
+  {
+    "type": 
+    "key": 
+    "unqiue attribute":
+    "requirements":
+  },
+
+*********************************************************************************************************************
+
+  type can be one of 4 values:
+
+  - Location
+  A location macro is a macro for determining whether a player can reach a specific location in the game.
+  Locations are divided up by unique entrances that output to the same area that does not have any unique 
+  conditions to progress.
+
+  - Entrance
+  An entrance macro is a macro for determining where an entrance leads to and if it's accessible.
+  Entrances correspond to any point at which a player teleports, such as exiting a house or moving
+  between maps (i.e. hyrule field to kokiri forest). It does NOT include dungeon doors as of now.
+  The unique attribute is the entrance to which this key outputs to.
+
+  - General
+  A general type macro is a macro made up of sub macros, which consist of other general macros or base macros.
+  While the goal is to simplify all macros down to base item requirements, general macros are used for frequently 
+  used AND/OR logic to make writing and debugging the logic easier. This type of macro does not have any
+  unique attribute.
+
+  - Base
+  While base is a type of macro, it does not need to be defined. Every type of macro should eventually come down to
+  a base macro.
+
+*********************************************************************************************************************
+
+  key is a unique identifier for a macro. The key has different rules it must follow, depending on the type
+  of macro:
+
+  - Location
+    CanGetTo(location identifier)
+
+  - Entrance
+    (starting location identifier)(ending location identifier)
+
+  - General
+    (unique identifier)
+
+  - Base
+    Start(location identifier) OR Has(item identifier)
+
+*********************************************************************************************************************
+
+  unique attribute is an attribute which changes in definition depending on the type of macro:
+
+  - Location
+  Location has the unique attribute of "location" which corresponds to the locations defined on the logic sheet.
+
+  - Entrance
+  Entrance has the unique attribue of "entrance" which corresponds to the entrance that is linked to the key entrance.
+  This is expected to randomize, which is why it's required.
+
+  General and Base do not have unique identifiers
+
+*********************************************************************************************************************
+
+  requirements are what is needed to complete a given check. locations and entrances tend to require a certain
+  area to be accessible while general macros tend to require a specific item.
