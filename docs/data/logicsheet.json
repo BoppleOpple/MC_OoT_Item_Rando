@@ -905,92 +905,92 @@
     "name": "lost_woods_grotto_chest",
     "coords": "-570 47 -689",
     "contents": "blupee",
-    "requirements": "CanGetToLWGrotto"
+    "requirements": "CanGetToLWGoron AND CanExplode"
   }, {
     "name": "lost_woods_rock_chest",
     "coords": "-556 74 -719",
     "contents": "blupee",
-    "requirements": "CanBreakRocks AND (IsChild OR AdultMidoCheck) AND CanGetToKokiriForest"
+    "requirements": "CanGetToLWRock AND CanExplode"
   }, {
     "name": "kokiri_sword_chest",
     "coords": "-581 70 -576",
     "contents": "kokiri_sword",
-    "requirements": "IsChild AND CanGetToKokiriForest"
+    "requirements": "IsChild AND CanGetToKokiriHub"
   }, {
     "name": "sacred_forest_meadow_grass_1",
     "coords": "-568 74 -752",
     "contents": "blupee",
-    "requirements": "CanGetToSFM"
+    "requirements": "CanGetToSFMBack"
   }, {
     "name": "sacred_forest_meadow_grass_2",
     "coords": "-575 74 -747",
     "contents": "grupee",
-    "requirements": "CanGetToSFM"
+    "requirements": "CanGetToSFMBack"
   }, {
     "name": "saria_housetop_chest_1",
     "coords": "-558 70 -609",
     "contents": "heart",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToKokiriHub"
   }, {
     "name": "saria_housetop_chest_2",
     "coords": "-560 70 -609",
     "contents": "heart",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToKokiriHub"
   }, {
     "name": "saria_housetop_chest_3",
     "coords": "-560 70 -609",
     "contents": "heart",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToKokiriHub"
   }, {
     "name": "saria_interior_chest_1",
     "coords": "-557 53 -609",
     "contents": "heart",
-    "requirements": "CanGetToSariaHouse"
+    "requirements": "CanGetToSarias"
   }, {
     "name": "saria_interior_chest_2",
     "coords": "-557 53 -613",
     "contents": "heart",
-    "requirements": "CanGetToSariaHouse"
+    "requirements": "CanGetToSarias"
   }, {
     "name": "saria_interior_chest_3",
     "coords": "-561 53 -609",
     "contents": "heart",
-    "requirements": "CanGetToSariaHouse"
+    "requirements": "CanGetToSarias"
   }, {
     "name": "saria_interior_chest_4",
     "coords": "-561 53 -613",
     "contents": "heart",
-    "requirements": "CanGetToSariaHouse"
+    "requirements": "CanGetToSarias"
   }, {
     "name": "sword_chest_grass",
     "coords": "-588 68 -583",
     "contents": "2 grupee",
-    "requirements": "IsChild AND CanGetToKokiriForest"
+    "requirements": "IsChild AND CanGetToKokiriHub"
   }, {
     "name": "after_boulder_by_sword_chest",
     "coords": "-590 69 -580",
     "contents": "blupee",
-    "requirements": "IsChild AND CanGetToKokiriForest"
+    "requirements": "IsChild AND CanGetToKokiriHub"
   }, {
     "name": "before_boulder_by_sword_chest",
     "coords": "-596 69 -586",
     "contents": "blupee",
-    "requirements": "IsChild AND CanGetToKokiriForest"
+    "requirements": "IsChild AND CanGetToKokiriHub"
   }, {
     "name": "sacred_forest_meadow_grass_3",
     "coords": "-567 74 -766",
     "contents": "grupee",
-    "requirements": "CanGetToSFM"
+    "requirements": "CanGetToSFMBack"
   }, {
     "name": "sacred_forest_meadow_wolfos_grass",
     "coords": "-580 74 -734",
     "contents": "blupee",
-    "requirements": "(IsChild AND CanGetToKokiriForest) OR CanGetToSFM"
+    "requirements": "CanGetToSFM"
   }, {
     "name": "kokiri_forest_bean_chest",
     "coords": "-545 69 -643",
     "contents": "6 grupee, 1 repee",
-    "requirements": "CanPlantBean AND CanGetToKokiriForest"
+    "requirements": "IsAHatInTime AND CanGetToKokiriHub AND HasBeans"
   }, {
     "name": "shop_chest",
     "coords": "-553 52 -643",
@@ -1000,37 +1000,37 @@
     "name": "ice_wolfos_cave_chest",
     "coords": "-596 39 -728",
     "contents": "pupee",
-    "requirements": "CanGetToIceWolfosSFMGrotto AND CanKill"
+    "requirements": "CanGetToSFMWolfosG AND CanKillEnemies"
   }, {
     "name": "secret",
     "coords": "-458 61 -653",
     "contents": "saria_head",
-    "requirements": "(ChildMidoCheck OR IsAdult) AND CanGetToKokiriForest"
+    "requirements": "CanGetToKokiriDekuTree"
   }, {
     "name": "lost_woods_grass_1",
     "coords": "-561 69 -654",
     "contents": "blupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWTwoSkull"
   }, {
     "name": "lost_woods_grass_2",
     "coords": "-571 69 -655",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWTwoSkull"
   }, {
     "name": "kokiri_forest_grass_1",
     "coords": "-589 64 -618",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToKokiriHub"
   }, {
     "name": "song_of_storms_grotto",
     "coords": "-576 41 -658",
     "contents": "repee",
-    "requirements": "CanGetToKFStormsGrotto"
+    "requirements": "CanGetToKokiriStormsG"
   }, {
     "name": "lost_woods_grass_3",
     "coords": "-563 69 -663",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWTwoSkull"
   }, {
     "name": "mido_inside_1",
     "coords": "-592 55 -635",
@@ -1055,74 +1055,74 @@
     "name": "sacred_forest_meadow_grass_4",
     "coords": "-578 74 -768",
     "contents": "blupee",
-    "requirements": "CanGetToSFM"
+    "requirements": "CanGetToSFMBack"
   }, {
     "name": "zora_exit_dispenser_1",
     "coords": "-545 67 -684",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWZora"
   }, {
     "name": "zora_exit_dispenser_2",
     "coords": "-546 67 -683",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWZora"
   }, {
     "name": "zora_exit_dispenser_3",
     "coords": "-546 67 -685",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWZora"
   }, {
     "name": "zora_exit_dispenser_4",
     "coords": "-547 67 -682",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWZora"
   }, {
     "name": "zora_exit_dispenser_5",
     "coords": "-547 67 -684",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWZora"
   }, {
     "name": "zora_exit_dispenser_6",
     "coords": "-547 67 -686",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWZora"
   }, {
     "name": "zora_exit_dispenser_7",
     "coords": "-548 67 -684",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWZora"
   }, {
     "name": "zora_exit_dispenser_8",
     "coords": "-549 67 -684",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToLWZora"
   }, {
     "name": "kokiri_forest_grass_2",
     "coords": "-578 64 -641",
     "contents": "grupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToKokiriHub"
   }, {
     "name": "behind_mido_house_chest",
     "coords": "-590 65 -642",
     "contents": "blupee",
-    "requirements": "CanGetToKokiriForest"
+    "requirements": "CanGetToHub"
   }],
   "Kakariko/Graveyard": [
     {
     "name": "hookshot_chest",
     "coords": "1638 42 2004",
     "contents": "hookshot",
-    "requirements": "IsAdult AND HasSongOfTime"
+    "requirements": ""
   }, {
     "name": "bomb_grotto",
     "coords": "1501 35 1917",
     "contents": "yupee",
-    "requirements": "CanKillEnemies AND CanOpenGroundGrottos"
+    "requirements": ""
   }, {
     "name": "windmill_top_chest",
     "coords": "1569 52 1921",
     "contents": "poh",
-    "requirements": "HasHookshot OR (IsAdult AND HasSongOfTime)"
+    "requirements": ""
   }, {
     "name": "windmill_barrel",
     "coords": "1562 48 1925",
@@ -1142,22 +1142,22 @@
     "name": "redead_grave_chest",
     "coords": "1590 34 1955",
     "contents": "poh",
-    "requirements": "CanKillEnemies AND HasSunSong"
+    "requirements": ""
   }, {
     "name": "secret",
     "coords": "1509 88 1904",
     "contents": "mutoh_head",
-    "requirements": "IsChild"
+    "requirements": ""
   }, {
     "name": "graveyard_hookshot_chest",
     "coords": "1608 79 1942",
     "contents": "poh",
-    "requirements": "CanPlantGraveyardBean"
+    "requirements": ""
   }, {
     "name": "sun_grave_lit_torch_chest",
     "coords": "1613 47 1950",
     "contents": "bomb",
-    "requirements": "HasDekuSticks OR HasDinsFire OR HasFireArrows"
+    "requirements": ""
   }, {
     "name": "exposed_grotto",
     "coords": "1547 51 1891",
@@ -1167,7 +1167,7 @@
     "name": "oob_letter_chest",
     "coords": "1518 78 1889",
     "contents": "47 zeldas_letter",
-    "requirements": "OutOfBounds"
+    "requirements": ""
   }],
   "Jabu_Jabu": [
     {
@@ -1253,7 +1253,7 @@
     "name": "rock_by_gate_grotto",
     "coords": "933 43 1914",
     "contents": "blupee",
-    "requirements": "CanBreakRocks"
+    "requirements": ""
   }, {
     "name": "gate_right_dispenser",
     "coords": "979 75 1908",
@@ -1263,12 +1263,12 @@
     "name": "diving_grotto",
     "coords": "853 28 1945",
     "contents": "poh",
-    "requirements": "CanOpenGroundGrottos"
+    "requirements": ""
   }, {
     "name": "rock_grotto_by_lake",
     "coords": "958 38 2178",
     "contents": "repee",
-    "requirements": "CanBreakRocks"
+    "requirements": ""
   }],
   "Ganon_Castle": [
     {
@@ -1703,37 +1703,37 @@
     "name": "third_floor_skulltula_chest",
     "coords": "1360 89 -668",
     "contents": "heart",
-    "requirements": "CanKillEnemies"
+    "requirements": ""
   }, {
     "name": "underwater_dispenser_1",
     "coords": "1371 9 -660",
     "contents": "heart",
-    "requirements": "HasSlingshot AND CanKillEnemies"
+    "requirements": ""
   }, {
     "name": "underwater_dispenser_2",
     "coords": "1368 9 -657",
     "contents": "heart",
-    "requirements": "HasSlingshot AND CanKillEnemies"
+    "requirements": ""
   }, {
     "name": "compass_chest",
     "coords": "1368 89 -679",
     "contents": "deku_tree_compass",
-    "requirements": "CanKillEnemies"
+    "requirements": ""
   }, {
     "name": "gohma_clear",
     "coords": "1427 4 -659",
     "contents": "heart_container",
-    "requirements": "CanKillGohma"
+    "requirements": ""
   }, {
     "name": "other_chest_in_slingshot_room",
     "coords": "1347 81 -687",
     "contents": "heart",
-    "requirements": "HasShield AND HasSlingshot AND CanKill"
+    "requirements": ""
   }, {
     "name": "slingshot_chest",
     "coords": "1358 77 -689",
     "contents": "slingshot",
-    "requirements": "HasShield AND HasSlingshot AND CanKill"
+    "requirements": ""
   }, {
     "name": "center_room_chest_by_vines",
     "coords": "1360 74 -627",
@@ -1753,49 +1753,49 @@
     "name": "underwater_dispenser_3",
     "coords": "1371 9 -643",
     "contents": "heart",
-    "requirements": "HasSlingshot AND CanKillEnemies"
+    "requirements": ""
   }],
   "Death_Mountain_Trail": [
     {
     "name": "song_of_storms_grotto",
     "coords": "2020 67 1436",
     "contents": "yupee",
-    "requirements": "HasSongOfStorms"
+    "requirements": ""
   }, {
     "name": "cow_grotto_dispenser_1",
     "coords": "2022 65 1476",
     "contents": "6 grupee, repee",
-    "requirements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
+    "requirements": ""
   }, {
     "name": "rock_chest_up_to_DMC_2",
     "coords": "2030 115 1469",
     "contents": "repee",
-    "requirements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
+    "requirements": ""
   }, {
     "name": "rock_chest_up_to_DMC_1",
     "coords": "2020 112 1469",
     "contents": "blupee",
-    "requirements": "CanBreakRocks"
+    "requirements": ""
   }, {
     "name": "chest_behind_rock_wall",
     "coords": "2029 111 1464",
     "contents": "pupee",
-    "requirements": "CanBreakRocks"
+    "requirements": ""
   }, {
     "name": "cow_grotto_dispenser_2",
     "coords": "2025 66 1468",
     "contents": "heart",
-    "requirements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
+    "requirements": ""
   }, {
     "name": "cow_grotto_dispenser_3",
     "coords": "2021 66 1465",
     "contents": "heart",
-    "requirements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
+    "requirements": ""
   }, {
     "name": "cow_grotto_dispenser_4",
     "coords": "2019 66 1468",
     "contents": "heart",
-    "requirements": "CanBreakRocks AND CanGetToTopOfDeathMountain"
+    "requirements": ""
   }, {
     "name": "poh_atop_cavern",
     "coords": "2010 101 1442",
@@ -1807,42 +1807,42 @@
     "name": "chest_by_fire_temple_entrance",
     "coords": "2668 37 1924",
     "contents": "repee",
-    "requirements": "IsChild AND CanGetToFireWarpPlatform"
+    "requirements": ""
   }, {
     "name": "adult_chest_by_fire_temple_entrance",
     "coords": "2668 33 1924",
     "contents": "repee",
-    "requirements": "IsAdult AND CanGetToFireWarpPlatform"
+    "requirements": ""
   }, {
     "name": "child_dispenser_by_fire_temple_entrance",
     "coords": "2679 35 1911",
     "contents": "6 blupee, repee",
-    "requirements": "IsChild AND CanGetToFireWarpPlatform"
+    "requirements": ""
   }, {
     "name": "adult_dispenser_by_fire_temple_entrance",
     "coords": "2679 33 1911",
     "contents": "6 blupee, repee",
-    "requirements": "IsAdult AND CanGetToFireWarpPlatform"
+    "requirements": ""
   }, {
     "name": "adult_pierre_dispenser",
     "coords": "2679 33 1911",
     "contents": "6 grupee, repee",
-    "requirements": "IsAdult AND CanGetToFireWarpPlatform AND ((HasHookShot AND HasScarecrowSong) OR (CanPlantCraterBean AND HasHoverBoots))"
+    "requirements": ""
   }, {
     "name": "rock_grotto_chest",
     "coords": "2729 19 1933",
     "contents": "bomb",
-    "requirements": "CanGetToTopHalfOfCrater AND CanBreakRocks"
+    "requirements": ""
   }, {
     "name": "bean_poh",
     "coords": "2692 55 1958",
     "contents": "poh",
-    "requirements": "CanPlantCraterBean"
+    "requirements": ""
   }, {
     "name": "ladder_chest",
     "coords": "2717 44 1940",
     "contents": "poh",
-    "requirements": "CanGetToTopHalfOfCrater"
+    "requirements": ""
   }],
   "Child_Lake": [
     {
@@ -1896,94 +1896,94 @@
     "name": "Lens_Chest",
     "coords": "30 52 1363",
     "contents": "LensOfTruth",
-    "requirements": "CanKillEnemies AND HasZeldasLullaby"
+    "requirements": ""
   }, {
     "name": "Underwater_Heart_Chest",
     "coords": "-53 52 1341",
     "contents": "Heart",
-    "requirements": "HasZeldasLullaby"
+    "requirements": ""
   }, {
     "name": "Pit_Trap_Dirt_Mound",
     "coords": "-44 59 1312",
     "contents": "Nut",
-    "requirements": "HasExplosives"
+    "requirements": ""
   }, {
     "name": "Huge_Rupee_Chest",
     "coords": "38 59 1363",
     "contents": "Yupee",
-    "requirements": "HasZeldasLullaby AND HasLens"
+    "requirements": ""
   }, {
     "name": "Center_Pit_Blupee_Dispenser_1",
     "coords": "-14 42 1333",
     "contents": "Blupee",
-    "requirements": "HasLens AND CanKillEnemies"
+    "requirements": ""
   }, {
     "name": "Center_Pit_Blupee_Dispenser_2",
     "coords": "-13 42 1330",
     "contents": "Blupee",
-    "requirements": "HasLens AND CanKillEnemies"
+    "requirements": ""
   }, {
     "name": "Center_Pit_Blupee_Dispenser_3",
     "coords": "-11 42 1333",
     "contents": "Blupee",
-    "requirements": "HasLens AND CanKillEnemies"
+    "requirements": ""
   }, {
     "name": "Center_Pit_Blupee_Dispenser_4",
     "coords": "-10 42 1337",
     "contents": "Blupee",
-    "requirements": "HasLens AND CanKillEnemies"
+    "requirements": ""
   }, {
     "name": "Center_Pit_Blupee_Dispenser_5",
     "coords": "-8 42 1334",
     "contents": "Blupee",
-    "requirements": "HasLens AND CanKillEnemies"
+    "requirements": ""
   }, {
     "name": "Compass_Chest",
     "coords": "-21 59 1344",
     "contents": "Compass",
-    "requirements": "HasLens"
+    "requirements": ""
   }, {
     "name": "Left_Hidden_Key_Chest",
     "coords": "-25 59 1349",
     "contents": "Small_Key",
-    "requirements": "HasLens"
+    "requirements": ""
   }, {
     "name": "Entrance_Dirt_Pile_Bombchu_Refill",
     "coords": "-15 53 1346",
     "contents": "Bombchu (10)",
-    "requirements": "HasExplosives"
+    "requirements": ""
   }, {
     "name": "Entrance_Underwater_Bomb_Chest",
     "coords": "-12 55 1356",
     "contents": "Bomb",
-    "requirements": "HasZeldasLullaby"
+    "requirements": ""
   }, {
     "name": "Hylian_Shield_Chest",
     "coords": "18 59 1334",
     "contents": "Hylian_Shield",
-    "requirements": "HasLens AND HasAllBOTWKeys"
+    "requirements": ""
   }, {
     "name": "Deku_Shield_Chest",
     "coords": "21 59 1330",
     "contents": "Deku_Shield",
-    "requirements": "HasLens AND HasAllBOTWKeys"
+    "requirements": ""
   }, {
     "name": "Right_Hidden_Key_Chest",
     "coords": "2 59 1349",
     "contents": "Small_Key",
-    "requirements": "HasLens"
+    "requirements": ""
   }, {
     "name": "Bottom_Cavern_Bomb_Refill",
     "coords": "11 36 1358",
     "contents": "Bomb",
-    "requirements": "CanKillEnemies"
+    "requirements": ""
   }],
   "Castle_Town/ToT/Sacred_Realm": [
     {
     "name": "Treasure_Box_Minigame_Secret",
     "coords": "858 50 1411",
     "contents": "Curious_Dog_Guy",
-    "requirements": "HasAllTreasureBoxKey OR NormalTreasureBox"
+    "requirements": ""
   }, {
     "name": "OoB_Mask_Shop",
     "coords": "893 53 1386",
@@ -2058,7 +2058,7 @@
     "name": "Chest_Minigame_Reward",
     "coords": "862 51 1502",
     "contents": "PoH",
-    "requirements": "HasAllTreasureBoxKey"
+    "requirements": ""
   }, {
     "name": "Fence_Secret_Chest",
     "coords": "927 70 1421",

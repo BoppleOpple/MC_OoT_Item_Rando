@@ -3,62 +3,159 @@
     "type": "Location",
     "key": "CanGetToKokiriDekuTree",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartDekuTree OR (PassChildMido AND (IsChild AND CanGetToKokiriHub)) OR (IsAdult AND CanGetToKokiriHub) OR KokiriDekuTreeExit"
+    "requirements": "StartDekuTree OR (PassChildMido AND (IsChild AND CanGetToKokiriHub)) OR (IsAdult AND CanGetToKokiriHub) OR ExitKokiriDekuTree|DekuTree"
   },
   {
     "type": "Location",
     "key": "CanGetToKokiriEntrancePath",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKokiriEntrancePath OR KokiriEntrancePathKokiriHubExit OR KokiriEntrancePathHyruleFieldExit"
+    "requirements": "StartKokiriEntrancePath OR ExitKokiriEntrancePath|KokiriHub OR ExitKokiriEntrancePath|HyruleField"
   },
   {
     "type": "Location",
     "key": "CanGetToKokiriHub",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKokiriHub OR KokiriHubLinksHouseExit OR KokiriHubKokiriEntrancePathExit OR (IsAdult AND CanGetToKokiriDekuTree) OR KokiriHubLWExit OR KokiriHubStormsExit OR KokiriHubKokiriShopExit OR KokiriHubMidoHouseExit OR KokiriHubSariasExit OR KokiriHubTwinsHouseExit"
+    "requirements": "StartKokiriHub OR ExitKokiriHub|LinksHouse OR ExitKokiriHub|KokiriEntrancePath OR (IsAdult AND ExitKokiriHub|KokiriDekuTree) OR ExitKokiriHub|LWStart OR ExitKokiriHub|KokiriStormsG OR ExitKokiriHub|KokiriShop OR ExitKokiriHub|MidoHouse OR ExitKokiriHub|Sarias OR ExitKokiriHub|TwinsHouse"
   },
   {
     "type": "Location",
     "key": "CanGetToKokiriShop",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKokiriShip OR KokiriShopKokiriHubExit"
+    "requirements": "StartKokiriShip OR ExitKokiriShop|KokiriHub"
   },
   {
     "type": "Location",
-    "key": "CanGetToKokiriStorms",
+    "key": "CanGetToKokiriStormsG",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKokiriStorms OR StormsKokiriHubExit"
+    "requirements": "StartKokiriStorms OR ExitKokiriStormsG|KokiriHub"
   },
   {
     "type": "Location",
     "key": "CanGetToMidoHouse",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartMidoHouse OR MidoHouseKokiriHubExit"
+    "requirements": "StartMidoHouse OR ExitMidoHouse|KokiriHub"
   },
   {
     "type": "Location",
     "key": "CanGetToKnowItAll",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKnowItAll OR KnowItAllKokiriHubExit"
+    "requirements": "StartKnowItAll OR ExitKnowItAll|KokiriHub"
   },
   {
     "type": "Location",
     "key": "CanGetToSarias",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartSarias OR SariasKokiriHubExit"
+    "requirements": "StartSarias OR ExitSarias|KokiriHub"
   },
   {
     "type": "Location",
     "key": "CanGetToTwinsHouse",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartTwinsHouse OR TwinsHouseKokiriHubExit"
+    "requirements": "StartTwinsHouse OR ExitTwinsHouse|KokiriHub"
   },
   {
     "type": "Location",
     "key": "CanGetToLinksHouse",
     "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":  "StartLinksHouse OR LinksHouseKokiriHubExit"
+    "requirements":  "StartLinksHouse OR ExitLinksHouse|KokiriHub"
   },
+  {
+    "type": "Location",
+    "key": "CanGetToLWStart",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":  "StartLWStart OR ExitLWStart*S|KokiriHub OR ExitLWStart*N|KokiriHub OR ExitLWStart|LWSkull OR ExitLWStart|LWTwoSkull"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLWSkull",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":  "StartLWSkull OR ExitLWSkull|LWStart OR ExitLWSkull|LWBridge"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLWBridge",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":"StartLWBridge OR ExitLWBridge|LWSkull"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLWTwoSkull",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":"StartLWTwoSkull OR ExitLWTwoSkull|LWStart OR ExitLWTwoSkull|KokiriHub OR ExitLWTwoSkull|LWGoron"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLWGoron",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":"StartLWGoron OR ExitLWGoron|LWTwoSkull OR ExitLWGoron|GCity OR ExitLWGoron|KokiriHub OR ExitLWGoron|LWZora"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLWZora",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":"StartLWZora OR ExitLWZora|LWGoron OR ExitLWZora|KokiriHub OR ExitLWZora|LWSplit OR ExitLWZora|ZoraRiver"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLWSplit",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":"StartLWSplit OR ExitLWSplit|LWZora OR ExitLWSplit|LWScrub OR ExitLWSplit|LWRock OR ExitLWSplit|KokiriHub"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLWScrub",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":"StartLWScrub OR ExitLWScrub|LWSplit OR ExitLWScrub|Theater"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToTheater",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements": "StartTheater OR ExitTheater|LWScrub"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLwRock",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":"StartLWRock OR ExitLWRock|LWSplit OR ExitLWRock|LWLast OR ExitLWRock*N|KokiriHub OR ExitLWRock*E|KokiriHub"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLWLast",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":"StartLWLast OR ExitLWLast*S|KokiriHub OR ExitLWLast*W|KokiriHub OR ExitLWLast|SFM OR ExitLWLast|LWRock OR ExitLWLast|LWScrubG"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToLWScrubG",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements": "StartLWScrubG OR ExitLWScrubG|SFM"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToSFM",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements":"StartSFM OR ExitSFM|LWLast*N OR CanGetToSFMBack OR ExitSFM|SFMWolfosG OR ExitSFM|SFMFF"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToSFMBack",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements": "StartSFMBack OR ExitSFM|WindWarp OR ExitSFM|FT OR (CanGetToSFM AND CanKillEnemies) OR ((IsAdult AND CanGetToSFM) AND SongScarecrow AND CanHookshot)"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToSFMFF",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements": "StartSFMFF OR ExitSFMFF|SFM"
+  },
+  {
+    "type": "Location",
+    "key": "CanGetToSFMWolfosG",
+    "location": "Kokiri_Forest/Lost_Woods",
+    "requirements": "StartSFMWolfosG OR ExitSFMWolfosG|SFM"
+  },
+
 
 
 
@@ -67,14 +164,14 @@
 
   {
     "type": "Entrance",
-    "key": "LinksHouseKokiriHubExit",
-    "destination": "KokiriHubLinksHouseExit",
+    "key": "ExitLinksHouse|KokiriHub",
+    "destination": "ExitKokiriHub|LinksHouse",
     "requirements": "CanGetToLinksHouse"
   },
   {
     "type": "Entrance",
-    "key": "KokiriHubLinksHouseExit",
-    "destination": "LinksHouseKokiriHubExit",
+    "key": "ExitKokiriHub|LinksHouse",
+    "destination": "ExitLinksHouse|KokiriHub",
     "requirements": "CanGetToKokiriHub"
   },
   
@@ -93,13 +190,88 @@
     "requirements": "CanTimeTravel OR StateAdult"
   },
   {
-    "type":"General",
+    "type": "General",
+    "key": "IsAHatInTime",
+    "requirements": "IsAdult AND IsChild"
+  },
+  {
+    "type": "General",
     "key": "CanTimeTravel",
     "requirements": "CanGetToTempleOfTime AND CanOpenDoorOfTime"
   },
   {
     "type": "General",
+    "key": "CanExplode",
+    "requirements": "(HasBombs AND CanRefillBombs) OR (HasBombchus AND SettingBombchusInLogic)"
+  },
+  {
+    "type": "General",
+    "key": "CanKillEnemies",
+    "requirements": "SettingKillWithoutWeapons OR (IsChild AND HasKokiriSword) OR CanUseDinsFire OR CanExplode OR (IsAdult AND (HasMegaton OR CanShootBow OR HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
+  },
+  {
+    "type": "General",
+    "key": "CanGetRupees",
+    "requirements": "CanKillEnemies OR CanGetToKokiriForest OR CanGetToHF OR CanCutGrass"
+  },
+  {
+    "type": "General",
+    "key": "CanShootBow",
+    "requirements": "IsAdult AND HasBow AND CanRefillArrows"
+  },
+  {
+    "type": "General",
+    "key": "CanRefillMagic",
+    "requirements": "(CanPlayZeldasLullaby AND CanGetToGreatFairy) OR CanCutGrass"
+  },
+  {
+    "type": "General",
+    "key": "CanPlayStorms",
+    "requirements": "SongStorms AND CanOcarina"
+  },
+  {
+    "type": "General",
+    "key": "CanRefillBombs",
+    "requirements": "(CanGetRupees AND AccessBombRefillShop) OR CanCutGrass"
+  },
+  {
+    "type": "General",
+    "key": "CanRefillArrows",
+    "requirements": "(CanGetRupees AND AccessArrowRefillShop) OR CanCutGrass"
+  },
+  {
+    "type": "General",
+    "key": "AccessBombRefillShop",
+    "requirements": "(IsChild AND CanGetToCT) OR (IsAdult AND CanGetToKakariko)"
+  },
+  {
+    "type": "General",
+    "key": "AccessArrowRefillShop",
+    "requirements": "(IsChild AND CanGetToCT) OR (IsAdult AND CanGetToKakariko)"
+  },
+  {
+    "type": "General",
+    "key": "CanCutGrass",
+    "requirements": "(IsChild AND (FindPots OR FindGrass) AND HasKokiriSword) OR (IsAdult AND (FindPots OR FindGrass) AND (HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
+  },
+  {
+    "type": "General",
+    "key": "FindPots",
+    "requirements": "CanGoToLon"
+  },
+  {
+    "type": "General",
+    "key": "FindGrass",
+    "requirements": "CanGoToHF"
+  },
+  {
+    "type": "General",
+    "key": "CanUseDinsFire",
+    "requirements": "HasDinsFire AND HasMagic AND CanRefillMagic"
+  },
+  {
+    "type": "General",
     "key": "CanScale",
-    "requirements": "HasSilverScale OR HasGoldenScale"
+    "requirements": "HasSS OR HasGS"
   }
 ]

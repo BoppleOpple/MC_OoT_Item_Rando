@@ -39,13 +39,97 @@
     CanGetTo(location identifier)
 
   - Entrance
-    (starting location identifier)(ending location identifier)
+    Exit(starting location identifier)(optional identifier)|(ending location identifier)(optional identifier)
 
   - General
     (unique identifier)
 
   - Base
-    Start(location identifier) OR Has(item identifier)
+    Start(location identifier) OR Has(item identifier) OR State(state identifier) OR Song(song name)
+
+    Start : The location the player starts at
+    Has : Items that the player starts with or picks up
+    State : Checks if player starts as child or adult
+    Song : Songs the player starts with or picks up
+    Setting : Any randomizer settings that are decided upon
+
+    location identifiers:
+
+    (Warps)
+    WindWarp : Where Farore's Wind drops the player off
+
+    (Kokiri)
+    KokiriHub : Central Area of Kokiri Forest; Denoted in KokiriHub.png
+    KokiriEntrancePath : Bridge between Hub and Field; Denoted in KokiriHub.png
+    KokiriDekuTree : Area past Mido and surrounding the Deku Tree; Denoted in KokiriHub.png
+    KokiriShop : Shop in Kokiri
+    MidoHouse : Mido's House with the 4 chests inside
+    LinksHouse : Original starting location of Links
+    Sarias : Saria's house with the hearts on top
+    KnowItAll : Know it all brother's house
+    KokiriStormsG : Song of Storms grotto by LW entrance
+
+    (Lost Woods)
+    LWBridge : LW area after skull kid with shop and bridge overhead; Denoted in LostWoods.png
+    LWSkull : Area to left of LW starting room; Denoted in LostWoods.png
+    LWStart : First Room in Lost Woods; Denoted in LostWoods.png
+    LWTwoSkull : Room with skull kid ocarina minigame; Denoted in LostWoods.png
+    LWGoron : Room with entrance to Goron City; Denoted in LostWoods.png
+    LWZora : Room with entrance to Zora's River; Denoted in LostWoods.png
+    LWSplit : Uninteresting intersection between LWZora, a room with a rock, and deku scrubs; Denoted in LostWoods.png
+    LWScrub : Room with scrubs and a skulltula; Denoted in LostWoods.png
+    LWRock : Room with a rock; Denoted in LostWoods.png
+    LWLast : Last LW room before SFM; Denoted in LostWoods.png
+    Theater : Deku Scrub Theater
+    LWScrubG : Grotto with two deku scrubs in the last LW room
+
+    (SFM)
+    SFM : Sacred Forest Meadow; Denoted in LostWoods.png
+    SFMBack : SFM past wolfos gate
+    SFMFF : SFM Fairy Fountain
+    SFMWolfosG : Ice wolfos grotto
+    FT : Forest Temple
+
+    (DM)
+    GCity : Goron City
+
+    (Zora)
+    ZR : Zora's River
+
+    (Hyrule Field)
+    HF : Hyrule Field
+
+    (Castle)
+    CT : Castle Town
+
+    (Kakariko)
+    Kak : Kakariko Village
+    
+    optional identifiers:
+    *N : Indicates the North exit of a room
+    *S : Indicates the South exit of a room
+    *W : Indicates the West exit of a room
+    *E : Indicates the East exit of a room
+
+    state identifiers:
+
+    Adult : Checks if player starts as adult; use 'NOT StateAdult' for checking if starting as child
+    
+    song identifiers:
+
+    Sarias : Sarias Song
+    Lullaby : Zelda'a Lullaby
+    Suns : Sun's Song
+    Storms : Song of Storms
+    Time : Song of Time
+    Epona : Epona's Song
+    Scarecrow : Scarecrow's Song
+
+    item identifiers
+    Beans : Magic Beans from Bean Salesman
+    Bombs : Bomb Bag
+    SS : Silver Scale
+    GS : Gold Scale
 
 *********************************************************************************************************************
 
@@ -63,4 +147,15 @@
 *********************************************************************************************************************
 
   requirements are what is needed to complete a given check. locations and entrances tend to require a certain
-  area to be accessible while general macros tend to require a specific item.
+  area to be accessible while general macros tend to require a specific item. Multiple requirements should be
+  denoted by using '(', ')', 'AND', 'OR', 'NOT' operators to impliment logic.
+
+  IsChild/IsAdult/IsAHatInTime is currently being implimented as: 
+    ((required state) AND (location/entrance/basic macro))
+
+  to ensure pathing as required state (child/adult) to required entrance/location is possible. The entrance/location
+  can be represented as either a location type macro (CanGetTo(location identifier)) or an entrance macros
+  (Exit(location identifier)|(location identifier)). In the case of an entrance macro, the initial location
+  identifier is what should be pathed to in order to test for functionality.
+
+*********************************************************************************************************************
