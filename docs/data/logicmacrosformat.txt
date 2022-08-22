@@ -45,7 +45,7 @@
     (unique identifier)
 
   - Base
-    Start(location identifier) OR Has(item identifier) OR State(state identifier) OR Song(song name)
+    Start(location identifier) OR Has(item identifier) OR State(state identifier) OR Song(song name) OR Setting(setting identifier)
 
     Start : The location the player starts at
     Has : Items that the player starts with or picks up
@@ -110,6 +110,7 @@
     *S : Indicates the South exit of a room
     *W : Indicates the West exit of a room
     *E : Indicates the East exit of a room
+    # : Indicates an optional setting
 
     state identifiers:
 
@@ -125,11 +126,20 @@
     Epona : Epona's Song
     Scarecrow : Scarecrow's Song
 
-    item identifiers
+    item identifiers:
+
     Beans : Magic Beans from Bean Salesman
     Bombs : Bomb Bag
+    Bombchu : Bombchus
+    Bow : Hero's Bow
     SS : Silver Scale
     GS : Gold Scale
+
+    setting identifiers:
+
+    PermaLitStick : Player glitches a stick to always be lit on fire
+    KillWithoutWeapons : Steve can punch and so can the player for every boss if they want :)
+    BombchusInLogic : Bombchus can be used in logic as explosives
 
 *********************************************************************************************************************
 

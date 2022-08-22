@@ -1,640 +1,724 @@
-[
-  {
-    "type": "Location",
-    "key": "CanGetToKokiriDekuTree",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartDekuTree OR (PassChildMido AND (IsChild AND CanGetToKokiriHub)) OR (IsAdult AND CanGetToKokiriHub) OR ExitKokiriDekuTree|DekuTree"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToKokiriEntrancePath",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKokiriEntrancePath OR ExitKokiriEntrancePath|KokiriHub OR ExitKokiriEntrancePath|HF"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToKokiriHub",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKokiriHub OR ExitKokiriHub|KnowItAll OR ExitKokiriHub|LinksHouse OR ExitKokiriHub|KokiriEntrancePath OR (IsAdult AND CanGetToKokiriDekuTree) OR ExitKokiriHub|LWStart OR ExitKokiriHub|KokiriStormsG OR ExitKokiriHub|KokiriShop OR ExitKokiriHub|MidoHouse OR ExitKokiriHub|Sarias OR ExitKokiriHub|TwinsHouse"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToKokiriShop",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKokiriShip OR ExitKokiriShop|KokiriHub"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToKokiriStormsG",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKokiriStorms OR ExitKokiriStormsG|KokiriHub"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToMidoHouse",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartMidoHouse OR ExitMidoHouse|KokiriHub"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToKnowItAll",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartKnowItAll OR ExitKnowItAll|KokiriHub"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToSarias",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartSarias OR ExitSarias|KokiriHub"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToTwinsHouse",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartTwinsHouse OR ExitTwinsHouse|KokiriHub"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLinksHouse",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":  "StartLinksHouse OR ExitLinksHouse|KokiriHub"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWStart",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":  "StartLWStart OR ExitLWStart|LWSkull OR ExitLWStart|LWTwoSkull OR ExitLWStart|KokiriHub"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWSkull",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":  "StartLWSkull OR ExitLWSkull|LWStart OR ExitLWSkull|LWBridge"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWBridge",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":"StartLWBridge OR ExitLWBridge|LWSkull"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWTwoSkull",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":"StartLWTwoSkull OR ExitLWTwoSkull|LWStart OR ExitLWTwoSkull|LWGoron"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWGoron",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":"StartLWGoron OR ExitLWGoron|LWTwoSkull OR ExitLWGoron|GCity OR ExitLWGoron|LWZora"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWZora",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":"StartLWZora OR ExitLWZora|LWGoron OR ExitLWZora|LWSplit OR ExitLWZora|ZR"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWSplit",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":"StartLWSplit OR ExitLWSplit|LWZora OR ExitLWSplit|LWScrub OR ExitLWSplit|LWRock"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWScrub",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":"StartLWScrub OR ExitLWScrub|LWSplit OR ExitLWScrub|Theater"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToTheater",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartTheater OR ExitTheater|LWScrub"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWRock",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":"StartLWRock OR ExitLWRock|LWSplit OR ExitLWRock|LWLast"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWLast",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":"StartLWLast OR ExitLWLast|SFM OR ExitLWLast|LWRock OR ExitLWLast|LWScrubG"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToLWScrubG",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartLWScrubG OR ExitLWScrubG|LWLast"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToSFMScrubG",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartSFMScrubG OR ExitSFMScrubG|SFM"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToSFM",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements":"StartSFM OR ExitSFM|LWLast OR CanGetToSFMBack OR ExitSFM|SFMWolfosG OR ExitSFM|SFMFF"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToSFMBack",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartSFMBack OR ExitSFM|Minuet OR ExitSFM|FT OR ExitSFM|SFMScrubG OR ExitSFM|SFMFairyG OR (CanGetToSFM AND CanKillEnemies) OR ((IsAdult AND CanGetToSFM) AND SongScarecrow AND CanHookshot)"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToSFMFF",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartSFMFF OR ExitSFMFF|SFM"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToSFMWolfosG",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartSFMWolfosG OR ExitSFMWolfosG|SFM"
-  },
-  {
-    "type": "Location",
-    "key": "CanGetToSFMFairyG",
-    "location": "Kokiri_Forest/Lost_Woods",
-    "requirements": "StartSFMFairyG OR ExitSFMFairyG|SFM"
-  },
+{
+  "Goron_City": [
+    {
+      "type": "Entrance",
+      "key": "ExitGCity|LWGoron",
+      "destination": "ExitLWGoron|GCity",
+      "requirements": "CanGetToGCity AND (CanExplode OR CanUseDinsFire OR PermaLitStick# OR (HasDekuStick AND CanPlayLullaby))"
+    }
+  ],
+  "Zora_River": [
+    {
+      "type": "Entrance",
+      "key": "ExitZR|LWZora",
+      "destination": "ExitLWZora|ZR",
+      "requirements": "CanGetToZR AND CanScale"
+    }
+  ],
+  "Hyrule_Field": [
+    {
+      "type": "Entrance",
+      "key": "ExitHF|KokiriEntrancePath",
+      "destination": "ExitKokiriEntrancePath|HF",
+      "requirements": "CanGetToHF"
+    }
+  ],
+  "Deku_Tree": [
+    {
+      "type": "Location",
+      "key": "CanGetToDekuTree",
+
+      "requirements": "StartDekuTree OR ExitDekuTree|KokiriDekuTree"
+    },
 
 
 
+    {
+      "type": "Entrance",
+      "key": "ExitDekuTree|KokiriDekuTree",
+      "destination": "ExitKokiriDekuTree|DekuTree",
+      "requirements": "CanGetToDekuTree"
+    }
+  ],
+  "Kokiri_Forest/Lost_Woods": [
+    {
+      "type": "Location",
+      "key": "CanGetToKokiriDekuTree",
+      "requirements": "StartKokiriDekuTree OR (PassChildMido AND (IsChild AND CanGetToKokiriHub)) OR (IsAdult AND CanGetToKokiriHub) OR ExitKokiriDekuTree|DekuTree"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToKokiriEntrancePath",
+      "requirements": "StartKokiriEntrancePath OR (ExitKokiriEntrancePath|KokiriHub AND BeatGohma) OR ExitKokiriEntrancePath|HF"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToKokiriHub",
+      "requirements": "StartKokiriHub OR ExitKokiriHub|KnowItAll OR ExitKokiriHub|LinksHouse OR ExitKokiriHub|KokiriEntrancePath OR (IsAdult AND CanGetToKokiriDekuTree) OR ExitKokiriHub|LWStart OR ExitKokiriHub|KokiriStormsG OR ExitKokiriHub|KokiriShop OR ExitKokiriHub|MidoHouse OR ExitKokiriHub|Sarias OR ExitKokiriHub|TwinsHouse"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToKokiriShop",
+      "requirements": "StartKokiriShip OR ExitKokiriShop|KokiriHub"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToKokiriStormsG",
+      "requirements": "StartKokiriStorms OR ExitKokiriStormsG|KokiriHub"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToMidoHouse",
+      "requirements": "StartMidoHouse OR ExitMidoHouse|KokiriHub"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToKnowItAll",
+      "requirements": "StartKnowItAll OR ExitKnowItAll|KokiriHub"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToSarias",
+      "requirements": "StartSarias OR ExitSarias|KokiriHub"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToTwinsHouse",
+      "requirements": "StartTwinsHouse OR ExitTwinsHouse|KokiriHub"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLinksHouse",
+      "requirements":  "StartLinksHouse OR ExitLinksHouse|KokiriHub"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWStart",
+      "requirements":  "StartLWStart OR ExitLWStart|LWSkull OR ExitLWStart|LWTwoSkull OR ExitLWStart|KokiriHub"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWSkull",
+      "requirements":  "StartLWSkull OR ExitLWSkull|LWStart OR ExitLWSkull|LWBridge"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWBridge",
+      "requirements":"StartLWBridge OR ExitLWBridge|LWSkull"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWTwoSkull",
+      "requirements":"StartLWTwoSkull OR ExitLWTwoSkull|LWStart OR ExitLWTwoSkull|LWGoron"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWGoron",
+      "requirements":"StartLWGoron OR ExitLWGoron|LWTwoSkull OR ExitLWGoron|GCity OR ExitLWGoron|LWZora"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWZora",
+      "requirements":"StartLWZora OR ExitLWZora|LWGoron OR ExitLWZora|LWSplit OR ExitLWZora|ZR"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWSplit",
+      "requirements":"StartLWSplit OR ExitLWSplit|LWZora OR ExitLWSplit|LWScrub OR ExitLWSplit|LWRock"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWScrub",
+      "requirements":"StartLWScrub OR ExitLWScrub|LWSplit OR ExitLWScrub|Theater"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToTheater",
+      "requirements": "StartTheater OR ExitTheater|LWScrub"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWRock",
+      "requirements":"StartLWRock OR ExitLWRock|LWSplit OR ExitLWRock|LWLast"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWLast",
+      "requirements":"StartLWLast OR ExitLWLast|SFM OR ExitLWLast|LWRock OR ExitLWLast|LWScrubG"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToLWScrubG",
+      "requirements": "StartLWScrubG OR ExitLWScrubG|LWLast"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToSFMScrubG",
+      "requirements": "StartSFMScrubG OR ExitSFMScrubG|SFM"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToSFM",
+      "requirements":"StartSFM OR ExitSFM|LWLast OR CanGetToSFMBack OR ExitSFM|SFMWolfosG OR ExitSFM|SFMFF"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToSFMBack",
+      "requirements": "StartSFMBack OR ExitSFM|Minuet OR ExitSFM|FT OR ExitSFM|SFMScrubG OR ExitSFM|SFMFairyG OR (CanGetToSFM AND CanKillEnemies) OR ((IsAdult AND CanGetToSFM) AND SongScarecrow AND CanHookshot)"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToSFMFF",
+      "requirements": "StartSFMFF OR ExitSFMFF|SFM"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToSFMWolfosG",
+      "requirements": "StartSFMWolfosG OR ExitSFMWolfosG|SFM"
+    },
+    {
+      "type": "Location",
+      "key": "CanGetToSFMFairyG",
+      "requirements": "StartSFMFairyG OR ExitSFMFairyG|SFM"
+    },
 
 
 
-  {
-    "type": "Entrance",
-    "key": "ExitLinksHouse|KokiriHub",
-    "destination": "ExitKokiriHub|LinksHouse",
-    "requirements": "CanGetToLinksHouse"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSFM|SFMFairyG",
-    "destination": "ExitSFMFairyG|SFM",
-    "requirements": "CanGetToSFMBack"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWFairyG|SFM",
-    "destination": "ExitSFM|SFMFairyG",
-    "requirements": "CanGetToSFMFairyG"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriHub|LinksHouse",
-    "destination": "ExitLinksHouse|KokiriHub",
-    "requirements": "CanGetToKokiriHub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriHub|LWStart",
-    "destination": "ExitLWStart|KokiriHub",
-    "requirements": "CanGetToKokiriHub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWStart|KokiriHub",
-    "destination": "ExitKokiriHub|LWStart",
-    "requirements": "CanGetToLWStart"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWSplit|LWZora",
-    "destination": "ExitLWZora|LWSplit",
-    "requirements": "CanGetToLWSplit"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWZora|LWSplit",
-    "destination": "ExitLWSplit|LWZora",
-    "requirements": "CanGetToLWZora"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriHub|KokiriShop",
-    "destination": "ExitKokiriShop|KokiriHub",
-    "requirements": "CanGetToKokiriHub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriShop|KokiriHub",
-    "destination": "ExitKokiriHub|KokiriShop",
-    "requirements": "CanGetToKokiriShop"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWSkull|LWStart",
-    "destination": "ExitLWStart|LWSkull",
-    "requirements": "CanGetToLWSkull"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWStart|LWSkull",
-    "destination": "ExitLWSkull|LWStart",
-    "requirements": "CanGetToLWStart"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSFM|SFMFF",
-    "destination": "ExitSFMFF|SFM",
-    "requirements": "CanGetToSFMBack"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSFMFF|SFM",
-    "destination": "ExitSFM|SFMFF",
-    "requirements": "CanGetToSFMFF"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWLast|LWRock",
-    "destination": "ExitLWRock|LWLast",
-    "requirements": "CanGetToLWLast"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWRock|LWLast",
-    "destination": "ExitLWLast|LWRock",
-    "requirements": "CanGetToLWRock"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSarias|KokiriHub",
-    "destination": "ExitKokiriHub|Sarias",
-    "requirements": "CanGetToSarias"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriHub|Sarias",
-    "destination": "ExitSarias|KokiriHub",
-    "requirements": "CanGetToKokiriHub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriHub|KokiriStormsG",
-    "destination": "ExitKokiriStormsG|KokiriHub",
-    "requirements": "CanGetToKokiriHub AND CanPlayStorms"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriStormsG|KokiriHub",
-    "destination": "ExitKokiriHub|KokiriStormsG",
-    "requirements": "CanGetToKokiriStormsG"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWGoron|GCity",
-    "destination": "ExitGCity|LWGoron",
-    "requirements": "CanGetToLWGoron AND CanExplode"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitGCity|LWGoron",
-    "destination": "ExitLWGoron|GCity",
-    "requirements": "CanGetToGCity AND CanExplode"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriHub|KnowItAll",
-    "destination": "ExitKnowItAll|KokiriHub",
-    "requirements": "CanGetToKokiriHub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKnowItAll|KokiriHub",
-    "destination": "ExitKokiriHub|KnowItAll",
-    "requirements": "CanGetToKnowItAll"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriHub|TwinsHouse",
-    "destination": "ExitTwinsHouse|KokiriHub",
-    "requirements": "CanGetToKokiriHub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitTwinsHouse|KokiriHub",
-    "destination": "ExitKokiriHub|TwinsHouse",
-    "requirements": "CanGetToTwinsHouse"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWGoron|LWTwoSkull",
-    "destination": "ExitLWTwoSkull|LWGoron",
-    "requirements": "CanGetToLWGoron"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWTwoSkull|LWGoron",
-    "destination": "ExitLWGoron|LWTwoSkull",
-    "requirements": "CanGetToLWGoron"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriHub|KokiriEntrancePath",
-    "destination": "ExitKokiriEntrancePath|KokiriHub",
-    "requirements": "CanGetToKokiriHub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriEntrancePath|KokiriHub",
-    "destination": "ExitKokiriHub|KokiriEntrancePath",
-    "requirements": "CanGetToKokiriEntrancePath"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWStart|LWTwoSkull",
-    "destination": "ExitLWTwoSkull|LWStart",
-    "requirements": "CanGetToLWStart"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWTwoSkull|LWStart",
-    "destination": "ExitLWStart|LWTwoSkull",
-    "requirements": "CanGetToLWTwoSkull"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSFMScrubG|SFM",
-    "destination": "ExitSFM|SFMScrubG",
-    "requirements": "CanGetToSFMScrubG"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSFM|SFMScrubG",
-    "destination": "ExitSFMScrubG|SFM",
-    "requirements": "CanGetToSFMBack AND CanPlayStorms"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWScrub|Theater",
-    "destination": "ExitTheater|LWScrub",
-    "requirements": "CanGetToLWScrub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitTheater|LWScrub",
-    "destination": "ExitLWScrub|Theater",
-    "requirements": "CanGetToTheater"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSFM|SFMWolfosG",
-    "destination": "ExitSFMWolfosG|SFM",
-    "requirements": "CanGetToSFM AND CanExplode"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSFMWolfosG|SFM",
-    "destination": "ExitSFM|SFMWolfosG",
-    "requirements": "CanGetToSFMWolfosG"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWRock|LWSplit",
-    "destination": "ExitLWSplit|LWRock",
-    "requirements": "CanGetToLWRock"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWSplit|LWRock",
-    "destination": "ExitLWRock|LWSplit",
-    "requirements": "CanGetToLWSplit"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWLast|LWScrubG",
-    "destination": "ExitLWScrubG|LWLast",
-    "requirements": "CanGetToLWLast AND CanExplode"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWScrubG|LWLast",
-    "destination": "ExitLWLast|LWScrubG",
-    "requirements": "CanGetToLWScrubG"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitMinuet|SFM",
-    "destination": "ExitSFM|Minuet",
-    "requirements": "CanPlayMinuet"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWZora|LWGoron",
-    "destination": "ExitLWGoron|LWZora",
-    "requirements": "CanGetToLWZora"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWGoron|LWZora",
-    "destination": "ExitLWZora|LWGoron",
-    "requirements": "CanGetToLWGoron"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriDekuTree|DekuTree",
-    "destination": "ExitDekuTree|KokiriDekuTree",
-    "requirements": "CanGetToKokiriDekuTree"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitDekuTree|KokiriDekuTree",
-    "destination": "ExitKokiriDekuTree|DekuTree",
-    "requirements": "CanGetToDekuTree"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWScrub|LWSplit",
-    "destination": "ExitLWSplit|LWScrub",
-    "requirements": "CanGetToLWScrub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWSplit|LWScrub",
-    "destination": "ExitLWScrub|LWSplit",
-    "requirements": "CanGetToLWSplit"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSFM|FT",
-    "destination": "ExitFT|SFM",
-    "requirements": "CanGetSFMBack AND CanHookshot"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitFT|SFM",
-    "destination": "ExitSFM|FT",
-    "requirements": "CanGetToFT"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWZora|ZR",
-    "destination": "ExitZR|LWZora",
-    "requirements": "CanGetToLWZora AND CanScale"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitZR|LWZora",
-    "destination": "ExitLWZora|ZR",
-    "requirements": "CanGetToZR AND CanScale"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriHub|MidoHouse",
-    "destination": "ExitMidoHouse|KokiriHub",
-    "requirements": "CanGetToKokiriHub"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitMidoHouse|KokiriHub",
-    "destination": "ExitKokiriHub|MidoHouse",
-    "requirements": "CanGetToMidoHouse"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitKokiriEntrancePath|HF",
-    "destination": "ExitHF|KokiriEntrancePath",
-    "requirements": "CanGetToKokiriEntrancePath"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitHF|KokiriEntrancePath",
-    "destination": "ExitKokiriEntrancePath|HF",
-    "requirements": "CanGetToHF"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWBridge|LWSkull",
-    "destination": "ExitLWSkull|LWBridge",
-    "requirements": "CanGetToLWBridge"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWSkull|LWBridge",
-    "destination": "ExitLWBridge|LWSkull",
-    "requirements": "CanGetToLWSkull"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitLWLast|SFM",
-    "destination": "ExitSFM|LWLast",
-    "requirements": "CanGetToLWLast"
-  },
-  {
-    "type": "Entrance",
-    "key": "ExitSFM|LWLast",
-    "destination": "ExitLWLast|SFM",
-    "requirements": "CanGetToSFM"
-  },
-
-
-
-  {
-    "type": "General",
-    "key": "IsChild",
-    "requirements": "CanTimeTravel OR (NOT StateAdult)"
-  },
-  {
-    "type": "General",
-    "key": "IsAdult",
-    "requirements": "CanTimeTravel OR StateAdult"
-  },
-  {
-    "type": "General",
-    "key": "IsAHatInTime",
-    "requirements": "IsAdult AND IsChild"
-  },
-  {
-    "type": "General",
-    "key": "CanTimeTravel",
-    "requirements": "CanGetToTempleOfTime AND CanOpenDoorOfTime"
-  },
-  {
-    "type": "General",
-    "key": "CanExplode",
-    "requirements": "(HasBombs AND CanRefillBombs) OR (HasBombchus AND SettingBombchusInLogic)"
-  },
-  {
-    "type": "General",
-    "key": "CanKillEnemies",
-    "requirements": "SettingKillWithoutWeapons OR (IsChild AND HasKokiriSword) OR CanUseDinsFire OR CanExplode OR (IsAdult AND (HasMegaton OR CanShootBow OR HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
-  },
-  {
-    "type": "General",
-    "key": "CanGetRupees",
-    "requirements": "CanKillEnemies OR CanGetToKokiriForest OR CanGetToHF OR CanCutGrass"
-  },
-  {
-    "type": "General",
-    "key": "CanShootBow",
-    "requirements": "IsAdult AND HasBow AND CanRefillArrows"
-  },
-  {
-    "type": "General",
-    "key": "CanRefillMagic",
-    "requirements": "(CanPlayZeldasLullaby AND CanGetToGreatFairy) OR CanCutGrass"
-  },
-  {
-    "type": "General",
-    "key": "CanPlayStorms",
-    "requirements": "SongStorms AND CanOcarina"
-  },
-  {
-    "type": "General",
-    "key": "CanRefillBombs",
-    "requirements": "(CanGetRupees AND AccessBombRefillShop) OR CanCutGrass"
-  },
-  {
-    "type": "General",
-    "key": "CanRefillArrows",
-    "requirements": "(CanGetRupees AND AccessArrowRefillShop) OR CanCutGrass"
-  },
-  {
-    "type": "General",
-    "key": "AccessBombRefillShop",
-    "requirements": "(IsChild AND CanGetToCT) OR (IsAdult AND CanGetToKakariko)"
-  },
-  {
-    "type": "General",
-    "key": "AccessArrowRefillShop",
-    "requirements": "(IsChild AND CanGetToCT) OR (IsAdult AND CanGetToKakariko)"
-  },
-  {
-    "type": "General",
-    "key": "CanCutGrass",
-    "requirements": "(IsChild AND (FindPots OR FindGrass) AND HasKokiriSword) OR (IsAdult AND (FindPots OR FindGrass) AND (HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
-  },
-  {
-    "type": "General",
-    "key": "FindPots",
-    "requirements": "CanGoToLon"
-  },
-  {
-    "type": "General",
-    "key": "FindGrass",
-    "requirements": "CanGoToHF"
-  },
-  {
-    "type": "General",
-    "key": "CanUseDinsFire",
-    "requirements": "HasDinsFire AND HasMagic AND CanRefillMagic"
-  },
-  {
-    "type": "General",
-    "key": "CanScale",
-    "requirements": "HasSS OR HasGS"
-  }
-]
+    {
+      "type": "Entrance",
+      "key": "ExitLWStart*N|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWStart"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWTwoSkull|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWTwoSkull"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWGoron|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWGoron"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriDekuTree|DekuTree",
+      "destination": "ExitDekuTree|KokiriDekuTree",
+      "requirements": "CanGetToKokiriDekuTree"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWZora|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWZora"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWSplit|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWSplit"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWRock*E|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWRock"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWRock*N|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWRock"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWLast*S|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWLast"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWLast*W|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWLast"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLinksHouse|KokiriHub",
+      "destination": "ExitKokiriHub|LinksHouse",
+      "requirements": "CanGetToLinksHouse"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSFM|SFMFairyG",
+      "destination": "ExitSFMFairyG|SFM",
+      "requirements": "CanGetToSFMBack"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWFairyG|SFM",
+      "destination": "ExitSFM|SFMFairyG",
+      "requirements": "CanGetToSFMFairyG"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriHub|LinksHouse",
+      "destination": "ExitLinksHouse|KokiriHub",
+      "requirements": "CanGetToKokiriHub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriHub|LWStart",
+      "destination": "ExitLWStart|KokiriHub",
+      "requirements": "CanGetToKokiriHub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWStart*S|KokiriHub",
+      "destination": "ExitKokiriHub|LWStart",
+      "requirements": "CanGetToLWStart"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWSplit|LWZora",
+      "destination": "ExitLWZora|LWSplit",
+      "requirements": "CanGetToLWSplit"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWZora|LWSplit",
+      "destination": "ExitLWSplit|LWZora",
+      "requirements": "CanGetToLWZora"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriHub|KokiriShop",
+      "destination": "ExitKokiriShop|KokiriHub",
+      "requirements": "CanGetToKokiriHub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriShop|KokiriHub",
+      "destination": "ExitKokiriHub|KokiriShop",
+      "requirements": "CanGetToKokiriShop"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWSkull|LWStart",
+      "destination": "ExitLWStart|LWSkull",
+      "requirements": "CanGetToLWSkull"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWStart|LWSkull",
+      "destination": "ExitLWSkull|LWStart",
+      "requirements": "CanGetToLWStart"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSFM|SFMFF",
+      "destination": "ExitSFMFF|SFM",
+      "requirements": "CanGetToSFMBack"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSFMFF|SFM",
+      "destination": "ExitSFM|SFMFF",
+      "requirements": "CanGetToSFMFF"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWLast|LWRock",
+      "destination": "ExitLWRock|LWLast",
+      "requirements": "CanGetToLWLast"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWRock|LWLast",
+      "destination": "ExitLWLast|LWRock",
+      "requirements": "CanGetToLWRock"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSarias|KokiriHub",
+      "destination": "ExitKokiriHub|Sarias",
+      "requirements": "CanGetToSarias"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriHub|Sarias",
+      "destination": "ExitSarias|KokiriHub",
+      "requirements": "CanGetToKokiriHub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriHub|KokiriStormsG",
+      "destination": "ExitKokiriStormsG|KokiriHub",
+      "requirements": "CanGetToKokiriHub AND CanPlayStorms"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriStormsG|KokiriHub",
+      "destination": "ExitKokiriHub|KokiriStormsG",
+      "requirements": "CanGetToKokiriStormsG"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWGoron|GCity",
+      "destination": "ExitGCity|LWGoron",
+      "requirements": "CanGetToLWGoron AND CanExplode"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriHub|KnowItAll",
+      "destination": "ExitKnowItAll|KokiriHub",
+      "requirements": "CanGetToKokiriHub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKnowItAll|KokiriHub",
+      "destination": "ExitKokiriHub|KnowItAll",
+      "requirements": "CanGetToKnowItAll"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriHub|TwinsHouse",
+      "destination": "ExitTwinsHouse|KokiriHub",
+      "requirements": "CanGetToKokiriHub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitTwinsHouse|KokiriHub",
+      "destination": "ExitKokiriHub|TwinsHouse",
+      "requirements": "CanGetToTwinsHouse"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWGoron|LWTwoSkull",
+      "destination": "ExitLWTwoSkull|LWGoron",
+      "requirements": "CanGetToLWGoron"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWTwoSkull|LWGoron",
+      "destination": "ExitLWGoron|LWTwoSkull",
+      "requirements": "CanGetToLWGoron"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriHub|KokiriEntrancePath",
+      "destination": "ExitKokiriEntrancePath|KokiriHub",
+      "requirements": "CanGetToKokiriHub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriEntrancePath|KokiriHub",
+      "destination": "ExitKokiriHub|KokiriEntrancePath",
+      "requirements": "CanGetToKokiriEntrancePath"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWStart|LWTwoSkull",
+      "destination": "ExitLWTwoSkull|LWStart",
+      "requirements": "CanGetToLWStart"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWTwoSkull|LWStart",
+      "destination": "ExitLWStart|LWTwoSkull",
+      "requirements": "CanGetToLWTwoSkull"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSFMScrubG|SFM",
+      "destination": "ExitSFM|SFMScrubG",
+      "requirements": "CanGetToSFMScrubG"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSFM|SFMScrubG",
+      "destination": "ExitSFMScrubG|SFM",
+      "requirements": "CanGetToSFMBack AND CanPlayStorms"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWScrub|Theater",
+      "destination": "ExitTheater|LWScrub",
+      "requirements": "CanGetToLWScrub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitTheater|LWScrub",
+      "destination": "ExitLWScrub|Theater",
+      "requirements": "CanGetToTheater"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSFM|SFMWolfosG",
+      "destination": "ExitSFMWolfosG|SFM",
+      "requirements": "CanGetToSFM AND CanExplode"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSFMWolfosG|SFM",
+      "destination": "ExitSFM|SFMWolfosG",
+      "requirements": "CanGetToSFMWolfosG"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWRock|LWSplit",
+      "destination": "ExitLWSplit|LWRock",
+      "requirements": "CanGetToLWRock"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWSplit|LWRock",
+      "destination": "ExitLWRock|LWSplit",
+      "requirements": "CanGetToLWSplit"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWLast|LWScrubG",
+      "destination": "ExitLWScrubG|LWLast",
+      "requirements": "CanGetToLWLast AND CanExplode"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWScrubG|LWLast",
+      "destination": "ExitLWLast|LWScrubG",
+      "requirements": "CanGetToLWScrubG"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitMinuet|SFM",
+      "destination": "ExitSFM|Minuet",
+      "requirements": "CanPlayMinuet"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWZora|LWGoron",
+      "destination": "ExitLWGoron|LWZora",
+      "requirements": "CanGetToLWZora"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWGoron|LWZora",
+      "destination": "ExitLWZora|LWGoron",
+      "requirements": "CanGetToLWGoron"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriDekuTree|DekuTree",
+      "destination": "ExitDekuTree|KokiriDekuTree",
+      "requirements": "CanGetToKokiriDekuTree"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitDekuTree|KokiriDekuTree",
+      "destination": "ExitKokiriDekuTree|DekuTree",
+      "requirements": "CanGetToDekuTree"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWScrub|LWSplit",
+      "destination": "ExitLWSplit|LWScrub",
+      "requirements": "CanGetToLWScrub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWSplit|LWScrub",
+      "destination": "ExitLWScrub|LWSplit",
+      "requirements": "CanGetToLWSplit"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSFM|FT",
+      "destination": "ExitFT|SFM",
+      "requirements": "CanGetSFMBack AND CanHookshot"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitFT|SFM",
+      "destination": "ExitSFM|FT",
+      "requirements": "CanGetToFT"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWZora|ZR",
+      "destination": "ExitZR|LWZora",
+      "requirements": "CanGetToLWZora AND CanScale"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriHub|MidoHouse",
+      "destination": "ExitMidoHouse|KokiriHub",
+      "requirements": "CanGetToKokiriHub"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitMidoHouse|KokiriHub",
+      "destination": "ExitKokiriHub|MidoHouse",
+      "requirements": "CanGetToMidoHouse"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitKokiriEntrancePath|HF",
+      "destination": "ExitHF|KokiriEntrancePath",
+      "requirements": "CanGetToKokiriEntrancePath"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWBridge|LWSkull",
+      "destination": "ExitLWSkull|LWBridge",
+      "requirements": "CanGetToLWBridge"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWSkull|LWBridge",
+      "destination": "ExitLWBridge|LWSkull",
+      "requirements": "CanGetToLWSkull"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitLWLast|SFM",
+      "destination": "ExitSFM|LWLast",
+      "requirements": "CanGetToLWLast"
+    },
+    {
+      "type": "Entrance",
+      "key": "ExitSFM|LWLast",
+      "destination": "ExitLWLast|SFM",
+      "requirements": "CanGetToSFM"
+    }
+  ],
+  "Global_Macros": [
+    {
+      "type": "General",
+      "key": "IsChild",
+      "requirements": "CanTimeTravel OR (NOT StateAdult)"
+    },
+    {
+      "type": "General",
+      "key": "IsAdult",
+      "requirements": "CanTimeTravel OR StateAdult"
+    },
+    {
+      "type": "General",
+      "key": "BeatGohma",
+      "requirements": ""
+    },
+    {
+      "type": "General",
+      "key": "IsAHatInTime",
+      "requirements": "IsAdult AND IsChild"
+    },
+    {
+      "type": "General",
+      "key": "CanTimeTravel",
+      "requirements": "CanGetToTempleOfTime AND CanOpenDoorOfTime"
+    },
+    {
+      "type": "General",
+      "key": "CanExplode",
+      "requirements": "(HasBombs AND CanRefillBombs) OR Bombchuz#"
+    },
+    {
+      "type": "General",
+      "key": "CanKillEnemies",
+      "requirements": "KWW# OR (IsChild AND HasKokiriSword) OR CanUseDinsFire OR CanExplode OR (IsAdult AND (HasMegaton OR CanShootBow OR HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
+    },
+    {
+      "type": "General",
+      "key": "CanShootBow",
+      "requirements": "IsAdult AND HasBow AND CanRefillArrows"
+    },
+    {
+      "type": "General",
+      "key": "CanUseDinsFire",
+      "requirements": "HasDinsFire AND HasMagic AND CanRefillMagic"
+    },
+    {
+      "type": "General",
+      "key": "CanScale",
+      "requirements": "HasSS OR HasGS"
+    }
+  ],
+  "Refill_Macros": [
+    {
+      "type": "General",
+      "key": "CanGetRupees",
+      "requirements": "CanKillEnemies OR CanGetToKokiriForest OR CanGetToHF OR CanCutGrass"
+    },
+    {
+      "type": "General",
+      "key": "CanRefillMagic",
+      "requirements": "(CanPlayZeldasLullaby AND CanGetToGreatFairy) OR CanCutGrass"
+    },
+    {
+      "type": "General",
+      "key": "CanRefillBombs",
+      "requirements": "(CanGetRupees AND AccessBombRefillShop) OR CanCutGrass"
+    },
+    {
+      "type": "General",
+      "key": "CanRefillArrows",
+      "requirements": "(CanGetRupees AND AccessArrowRefillShop) OR CanCutGrass"
+    },
+    {
+      "type": "General",
+      "key": "AccessBombRefillShop",
+      "requirements": "(IsChild AND CanGetToCT) OR (IsAdult AND CanGetToKakariko)"
+    },
+    {
+      "type": "General",
+      "key": "AccessArrowRefillShop",
+      "requirements": "(IsChild AND CanGetToCT) OR (IsAdult AND CanGetToKakariko)"
+    },
+    {
+      "type": "General",
+      "key": "FindPots",
+      "requirements": "CanGoToLon"
+    },
+    {
+      "type": "General",
+      "key": "FindGrass",
+      "requirements": "CanGoToHF"
+    },
+    {
+      "type": "General",
+      "key": "CanCutGrass",
+      "requirements": "(IsChild AND (FindPots OR FindGrass) AND HasKokiriSword) OR (IsAdult AND (FindPots OR FindGrass) AND (HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
+    }
+  ],
+  "Song_Macros": [
+    {
+      "type": "General",
+      "key": "CanPlayStorms",
+      "requirements": "SongStorms AND CanOcarina"
+    },
+    {
+      "type": "General",
+      "key": "CanPlayLullaby",
+      "requirements": "SongLullaby AND CanOcarina"
+    }
+  ],
+  "Optional_Logic": [
+    {
+      "type": "General",
+      "key": "PermaLitStick",
+      "requirements": "SettingPermaLitStick AND HasStick"
+    },
+    {
+      "type": "General",
+      "key": "Bombchuz",
+      "requirements": "SettingBombchuInLogic AND HasBombchu"
+    },
+    {
+      "type": "General",
+      "key": "KWW",
+      "requirements": "SettingKillWithoutWeapons"
+    }
+  ]
+}
