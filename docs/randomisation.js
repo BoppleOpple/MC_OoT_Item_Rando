@@ -102,44 +102,49 @@ export function randomise(settings, logicSheet, logicMacros){
   console.log(placedItems);
 }
 
-function expandCondition(condition, logicMacros){
-  let result = ""
-  mainLoop : for (let term of condition.split(' ')){
-    if (condition.split(' ').length == 1){
-      switch (term) {
-        case "AND":
-          result += "&&";
-          break mainLoop;
-        case "OR":
-          result += "||";
-          break mainLoop;
-        case "NOT":
-          result += "!";
-          break mainLoop;
-        default:
-          let operatorlessTerm = term;
-          operatorlessTerm.replace('(', '');
-          operatorlessTerm.replace(')', '');
-          
-          
-          for (let keyWord of KEYWORDS){
-            if (operatorlessTerm.startsWith(keyWord)){
-              operatorlessTerm = "this." + keyWord.lower() + '("' +  operatorlessTerm.slice(keyWord.length, operatorlessTerm.length) + '")';
-            }
-          }
+export function expandCondition(condition, logicMacros, checkedTerms = []){
+  console.log(condition, checkedTerms)
+  condition = condition.replace(/\s/g, '');
+  condition = condition.replace(/AND/g, " && ");
+  condition = condition.replace(/OR/g, " || ");
+  condition = condition.replace(/NOT/g, " ! ");
+  condition = condition.replace(/[^this\.]\(/g, " ( ");
+  condition = condition.replace(/\)/g, " ) ");
 
-          for (let macro in logicMacros){
-            if (operatorlessTerm == (macro.type != "Entrance") ? macro.key : macro.destination){
-              result += term.replace(operatorlessTerm, '(' + expandCondition(macro.requirements) + ')');
-            }
-          }
-          result += term;
+  
+  let result = [];
+  mainLoop : for (let term of condition.split(' ')){
+    for (let keyWord of KEYWORDS){
+      if (term.startsWith(keyWord)){
+        console.log(term)
+        result.push("this." + keyWord.toLowerCase() + '("' + term.slice(keyWord.length, term.length) + '")');
+        continue mainLoop
       }
-    }else{
-      result += expandCondition(term)
     }
+
+    for (let macro of logicMacros){
+      if (term == macro.key){
+        if (!checkedTerms.includes(term)){
+          let expanded = expandCondition(macro.requirements, logicMacros, [...checkedTerms, term])
+          result.push('(' + expanded + ')');
+          continue mainLoop
+        }else{
+          result.push("false");
+          continue mainLoop
+        }
+      }
+    }
+    result.push(term);
   }
-  return result
+  
+  // console.log(condition , result);
+  result = result.join(' ');
+  result = result.replace(/\(\s*\)/g, '');
+  result = result.replace(/(?<=\()\s*((&&)|(\|\|))/g, '');
+  result = result.replace(/((&&)|(\|\|))\s*(?=\))/g, '');
+  result = result.replace(/(&&)\s*(&&)/g, "&&");
+  result = result.replace(/(\|\|)\s*(\|\|)/g, "||");
+  return result;
 }
 
 function clone(object){
@@ -175,3 +180,26 @@ function clone(object){
 
 //   return spoiler;
 // }
+
+
+export function simplifyBool(expression = 'false'){
+  console.log(expression)
+  let simple = expression
+
+  simple = simple.replace(/(!\s*false)/g, "true")
+
+  simple = simple.replace(/(\|\|\s*false)|(false\s*\|\|)/g, '')
+  simple = simple.replace(/(?<=^|\(|\s)((\w+\s*&&\s*false)|(false\s*&&\s*\w+))(?=\s|\)|$)/g, 'false')
+
+  simple = simple.replace(/(&&\s*true)|(true\s*&&)/g, '')
+  simple = simple.replace(/(?<=^|\(|\s)((\w+\s*\|\|\s*true)|(true\s*\|\|\s*\w+))(?=\s|\)|$)/g, 'true')
+
+
+  simple = simple.replace(/(\((?=\s*\w*\s*\)))|((?<=\(\s*\w*\s*)\))/g, '')
+
+  simple = simple.replace(/(?<=^|\()\s*((&&)|(\|\|))/g, '');
+  simple = simple.replace(/((&&)|(\|\|))\s*(?=\)|$)/g, '');
+  simple = simple.replace(/(&&)\s*(&&)/g, "&&");
+  simple = simple.replace(/(\|\|)\s*(\|\|)/g, "||");
+  return (expression == simple) ? simple : simplifyBool(simple)
+}

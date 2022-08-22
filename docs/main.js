@@ -1,5 +1,5 @@
 import { saveDatapack } from "./spoiler_log_to_datapack.js"
-import {  randomise   } from "./randomisation.js"
+import {  randomise, expandCondition, simplifyBool  } from "./randomisation.js"
 
 let ReferenceSpoiler, datapack;
 async function loaded () {
@@ -67,6 +67,35 @@ async function loaded () {
     cutsceneNode.appendChild(cutsceneCheckbox);
     document.getElementById("Cutscenes").appendChild(cutsceneNode);
   }
+
+  let result = expandCondition("CanGetToKokiriDekuTree", await loadJSON("data/logicmacros.json"))
+  result = simplifyBool(result)
+  result = result.replace(/\(/g, ' ( ')
+  result = result.replace(/\)/g, ' ) ')
+  result = result.replace(/&&/g, ' && ')
+  result = result.replace(/\|\|/g, ' || ')
+  result = result.replace(/!\s*/g, ' !')
+  result = result.replace(/\s+/g, ' ')
+  result = result.replace(/(^ )|( $)/g, '')
+  console.log(result)
+  // console.log(expandCondition("CanGetToKokiriDekuTree", await loadJSON("data/logicmacros.json")))
+  // console.log(expandCondition("A AND B", [
+  //   {
+  //     type: "Location",
+  //     key: "A",
+  //     requirements: "B"
+  //   },
+  //   {
+  //     type: "Location",
+  //     key: "B",
+  //     requirements: "C OR HasX"
+  //   },
+  //   {
+  //     type: "Location",
+  //     key: "C",
+  //     requirements: "A OR HasY"
+  //   }
+  // ]))
 }
 
 async function download(){
