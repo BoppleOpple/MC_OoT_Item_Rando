@@ -15,9 +15,10 @@ class Player {
         check.requirements = expandCondition(check.requirements, logicMacros);
       }
     }
+    this.settings = {...settings};
   }
   test(condition){
-    let states  = condition.split("state");
+    let states = condition.split("state");
     states = states.slice(1, states.length);
 
     for (i in states){
@@ -32,6 +33,7 @@ class Player {
       for (j in states){
         this.currentStates[states[j]] = !!boolStr[j];
       }
+      console.log(condition)
       result = eval(condition);
       if (result){
         break;
@@ -55,7 +57,7 @@ class Player {
 
 export function randomise(settings, logicSheet, logicMacros){
   let player = new Player();
-  let pool = clone(logicSheet);
+  let pool = {...logicSheet};
 
   player.init(settings, pool, logicMacros);
   /*
@@ -71,14 +73,13 @@ export function randomise(settings, logicSheet, logicMacros){
   - repeat the process with that item
 
   */
-  placedItems = [];
-  itemLoop : while (inventory.length > 0){
-    pool.sort(_ => Math.random() - 0.5);
+  let placedItems = [];
+  itemLoop : while (player.inventory.length > 0){
     for (let region in pool){
-      pool[region].sort(() => Math.random() - 0.5);
+      pool[region].sort(_ => Math.random() - 0.5);
     }
 
-    let testItem = inventory.pop();
+    let testItem = player.inventory.pop();
 
     for (let region in pool){
       for (let check of pool[region]){
@@ -95,8 +96,8 @@ export function randomise(settings, logicSheet, logicMacros){
     }
     // If the above loop does not break
 
-    inventory.push(testItem);
-    inventory.unshift(placedItems.shift());
+    player.inventory.push(testItem);
+    player.inventory.unshift(placedItems.shift());
   }
 
   console.log(placedItems);
@@ -147,14 +148,6 @@ export function expandCondition(condition, logicMacros, checkedTerms = []){
   return result;
 }
 
-function clone(object){
-  let copy = (typeof object == Object) ? {} : ((typeof object == Array) ? [] : null);
-  for (let key in object){
-    copy[key] = object[key];
-  }
-  return copy;
-}
-
 // export async function randomise(settings, default_spoiler){
 //   let spoiler = {}
 //   let possibleCheckCoords = [];
@@ -186,7 +179,9 @@ export function simplifyBool(expression = 'false'){
   console.log(expression)
   let simple = expression
 
+  simple = simple.replace(/!\s*!/g, "!");
   simple = simple.replace(/(!\s*false)/g, "true")
+  simple = simple.replace(/(!\s*true)/g, "false")
 
   simple = simple.replace(/(\|\|\s*false)|(false\s*\|\|)/g, '')
   simple = simple.replace(/(?<=^|\(|\s)((\w+\s*&&\s*false)|(false\s*&&\s*\w+))(?=\s|\)|$)/g, 'false')

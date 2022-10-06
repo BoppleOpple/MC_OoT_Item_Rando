@@ -72,9 +72,9 @@ async function loaded () {
   result = simplifyBool(result)
   result = result.replace(/\(/g, ' ( ')
   result = result.replace(/\)/g, ' ) ')
-  result = result.replace(/&&/g, ' && ')
-  result = result.replace(/\|\|/g, ' || ')
-  result = result.replace(/!\s*/g, ' !')
+  result = result.replace(/&&/g, ' AND ')
+  result = result.replace(/\|\|/g, ' OR ')
+  result = result.replace(/!\s*/g, ' NOT ')
   result = result.replace(/\s+/g, ' ')
   result = result.replace(/(^ )|( $)/g, '')
   console.log(result)
@@ -101,8 +101,8 @@ async function loaded () {
 async function download(){
   let settings = {}; // Read Inputs
   let spoiler = await randomise(settings, await loadJSON("data/logicsheet.json"), await loadJSON("data/logicmacros.json")); // generate spoiler JSON
-
-  await saveDatapack(await loadJSON("data/OoT_data.json"), await loadJSON("data/blockentitiespruned.json"), spoiler);
+  console.log(spoiler)
+  //await saveDatapack(await loadJSON("data/OoT_data.json"), await loadJSON("data/blockentitiespruned.json"), spoiler);
 }
 
 async function loadJSON(path) {
