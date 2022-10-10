@@ -53,15 +53,16 @@ else:
   if (macroPath != "" and macroPath != "x"):
     with open(macroPath, 'r') as logicMacros:
       logicSheet = json.load(logicMacros)
-      for macro in logicSheet:
-        conditions.update(set(macro["requirements"].replace('(', ' ').replace(')', ' ').split(' ')))
+      for region in logicSheet.values():
+          for macro in region:
+            conditions.update(set(macro["requirements"].replace('(', ' ').replace(')', ' ').split(' ')))
       
       conditions.difference_update(OPERATIONS)
 
       references = set()
-
-      for macro in logicSheet:
-        references.add(macro["key" if not macro["type"] == "Entrance" else "destination"])
+      for region in logicSheet.values():
+        for macro in region:
+          references.add(macro["key" if not macro["type"] == "Entrance" else "destination"])
 
       # references = filterSet(references, lambda ref: not (ref.startswith("Setting") or ref.startswith("Has") or ref.startswith("State")))
       conditions = filterSet(conditions, lambda ref: not (ref.startswith("Setting") or ref.startswith("Has") or ref.startswith("State")))
