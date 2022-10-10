@@ -110,7 +110,7 @@
     *S : Indicates the South exit of a room
     *W : Indicates the West exit of a room
     *E : Indicates the East exit of a room
-    # : Indicates an optional setting
+    *O : Indicates an optional setting
 
     state identifiers:
 

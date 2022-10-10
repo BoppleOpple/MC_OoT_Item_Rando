@@ -4,7 +4,7 @@
       "type": "Entrance",
       "key": "ExitGCity|LWGoron",
       "destination": "ExitLWGoron|GCity",
-      "requirements": "CanGetToGCity AND (CanExplode OR CanUseDinsFire OR PermaLitStick# OR (HasDekuStick AND CanPlayLullaby))"
+      "requirements": "CanGetToGCity AND (CanExplode OR CanUseDinsFire OR PermaLitStick*O OR (HasDekuStick AND CanPlayLullaby))"
     }
   ],
   "Zora_River": [
@@ -27,7 +27,6 @@
     {
       "type": "Location",
       "key": "CanGetToDekuTree",
-
       "requirements": "StartDekuTree OR ExitDekuTree|KokiriDekuTree"
     },
 
@@ -622,12 +621,12 @@
     {
       "type": "General",
       "key": "CanExplode",
-      "requirements": "(HasBombs AND CanRefillBombs) OR Bombchuz#"
+      "requirements": "(HasBombs AND CanRefillBombs) OR Bombchuz*O"
     },
     {
       "type": "General",
       "key": "CanKillEnemies",
-      "requirements": "KWW# OR (IsChild AND HasKokiriSword) OR CanUseDinsFire OR CanExplode OR (IsAdult AND (HasMegaton OR CanShootBow OR HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
+      "requirements": "KWW*O OR (IsChild AND HasKokiriSword) OR CanUseDinsFire OR CanExplode OR (IsAdult AND (HasMegaton OR CanShootBow OR HasMasterSword OR HasBiggoronSword OR HasGiantsKnife))"
     },
     {
       "type": "General",
