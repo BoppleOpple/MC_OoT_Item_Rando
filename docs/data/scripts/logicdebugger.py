@@ -2,6 +2,7 @@ import json
 from sys import argv
 
 OPERATIONS = {"", "AND", "OR", "NOT"}
+KEYWORDS = {"Setting", "Has", "State", "Start"}
 
 def filterSet(inpSet, fn = lambda n: n == None):
   result = set()
@@ -9,6 +10,12 @@ def filterSet(inpSet, fn = lambda n: n == None):
     if fn(element):
       result.add(element)
   return result
+
+def stringStartsWith(inputString, beginnings):
+  for beginning in beginnings:
+    if inputString.startswith(beginning): return True
+  return False
+
 
 path = "" if len(argv) <= 1 else str(argv[1])
 macroPath = "" if len(argv) <= 2 else str(argv[2])
@@ -65,7 +72,7 @@ else:
           references.add(macro["key" if not macro["type"] == "Entrance" else "destination"])
 
       # references = filterSet(references, lambda ref: not (ref.startswith("Setting") or ref.startswith("Has") or ref.startswith("State")))
-      conditions = filterSet(conditions, lambda ref: not (ref.startswith("Setting") or ref.startswith("Has") or ref.startswith("State")))
+      conditions = filterSet(conditions, lambda ref: not (stringStartsWith(ref, KEYWORDS)))
 
       print("Missing:", conditions.difference(references), '\n')
       print("Unused:", references.difference(conditions), '\n')
