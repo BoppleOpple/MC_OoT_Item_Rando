@@ -68,16 +68,9 @@ async function loaded () {
     document.getElementById("Cutscenes").appendChild(cutsceneNode);
   }
 
-  let result = expandCondition("CanGetToKokiriDekuTree", await loadJSON("data/logicmacros.json"))
-  result = simplifyBool(result)
-  result = result.replace(/\(/g, ' ( ')
-  result = result.replace(/\)/g, ' ) ')
-  result = result.replace(/&&/g, ' AND ')
-  result = result.replace(/\|\|/g, ' OR ')
-  result = result.replace(/!\s*/g, ' NOT ')
-  result = result.replace(/\s+/g, ' ')
-  result = result.replace(/(^ )|( $)/g, '')
-  console.log(result)
+  // let result = expandCondition("CanGetToSFM", await loadJSON("data/logicmacros.json"))
+  // console.log(result)
+  // console.log(simplifyBool(result))
   // console.log(expandCondition("CanGetToKokiriDekuTree", await loadJSON("data/logicmacros.json")))
   // console.log(expandCondition("A AND B", [
   //   {
