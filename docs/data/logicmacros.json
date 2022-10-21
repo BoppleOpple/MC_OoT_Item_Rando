@@ -4,11 +4,7 @@
       "type": "Entrance",
       "key": "ExitGCity|LWGoron",
       "destination": "ExitLWGoron|GCity",
-<<<<<<< HEAD
       "requirements": "CanGetToGCity AND (CanExplode OR CanUseDinsFire OR PermaLitStick*O OR (HasDekuStick AND CanPlayLullaby))"
-=======
-      "requirements": "CanGetToGCity AND (CanExplode OR CanUseDinsFire OR PermaLitStick OR (HasDekuStick AND CanPlayLullaby))"
->>>>>>> e9794cd (Logicless rando works again, refactored for later logic implementation)
     }
   ],
   "Zora_River": [
@@ -625,11 +621,7 @@
     {
       "type": "General",
       "key": "CanExplode",
-<<<<<<< HEAD
       "requirements": "(HasBombs AND CanRefillBombs) OR Bombchuz*O"
-=======
-      "requirements": "(HasBombs AND CanRefillBombs) OR Bombchuz"
->>>>>>> e9794cd (Logicless rando works again, refactored for later logic implementation)
     },
     {
       "type": "General",
